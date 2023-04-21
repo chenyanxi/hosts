@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T06:59:07.225Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="7EVaZHilgLBge2DoAgNa" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-21T07:00:51.519Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="UwHB6DABxBocisdyADxU" version="21.2.1" type="github">
   <diagram name="Page-1" id="c7488fd3-1785-93aa-aadb-54a6760d102a">
     <mxGraphModel dx="875" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -377,6 +377,9 @@
         </mxCell>
         <mxCell id="jEixtRFuUvfLuJaJq4XK-1" value="控制层" style="swimlane;html=1;startSize=40;horizontal=0;" vertex="1" parent="2b4e8129b02d487f-1">
           <mxGeometry y="410" width="700" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jEixtRFuUvfLuJaJq4XK-101" value="PLC、PC、RFID、手持PDA、智能电子称、标签打印机、其它终端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jEixtRFuUvfLuJaJq4XK-1">
+          <mxGeometry x="50" y="10" width="640" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
