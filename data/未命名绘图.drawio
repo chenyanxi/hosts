@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T07:30:09.959Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="EMIYLgobPOr4l41quWC4" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-21T07:31:12.812Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="WPFzDujAdDo1DMvTXRcv" version="21.2.1" type="github">
   <diagram name="Page-1" id="c7488fd3-1785-93aa-aadb-54a6760d102a">
-    <mxGraphModel dx="500" dy="239" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="724" dy="346" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -371,8 +371,8 @@
         </mxCell>
         <mxCell id="jEixtRFuUvfLuJaJq4XK-109" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="2b4e8129b02d487f-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="530" y="230" as="sourcePoint" />
-            <mxPoint x="530" y="200" as="targetPoint" />
+            <mxPoint x="610" y="230" as="sourcePoint" />
+            <mxPoint x="610" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jEixtRFuUvfLuJaJq4XK-114" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=-0.017;exitY=0.475;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="2b4e8129b02d487f-3" source="jEixtRFuUvfLuJaJq4XK-102">
@@ -381,32 +381,20 @@
             <mxPoint x="690.24" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="jEixtRFuUvfLuJaJq4XK-108" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="2b4e8129b02d487f-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="230" as="sourcePoint" />
+            <mxPoint x="240" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="2b4e8129b02d487f-4" value="数据采集层" style="swimlane;html=1;startSize=40;horizontal=0;" parent="2b4e8129b02d487f-1" vertex="1">
           <mxGeometry y="330" width="820" height="80" as="geometry" />
         </mxCell>
         <mxCell id="jEixtRFuUvfLuJaJq4XK-99" value="产线SCADA" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2b4e8129b02d487f-4">
-          <mxGeometry x="50" y="10" width="310" height="60" as="geometry" />
+          <mxGeometry x="50" y="10" width="370" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jEixtRFuUvfLuJaJq4XK-100" value="设备SCADA" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2b4e8129b02d487f-4">
-          <mxGeometry x="380" y="10" width="310" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="jEixtRFuUvfLuJaJq4XK-108" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="2b4e8129b02d487f-4">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="10" as="sourcePoint" />
-            <mxPoint x="200" y="-20" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jEixtRFuUvfLuJaJq4XK-110" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.242;exitY=0.009;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="2b4e8129b02d487f-4" source="jEixtRFuUvfLuJaJq4XK-101">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="204.76" y="90" as="sourcePoint" />
-            <mxPoint x="205" y="70" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jEixtRFuUvfLuJaJq4XK-113" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="2b4e8129b02d487f-4" source="jEixtRFuUvfLuJaJq4XK-101">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="529.83" y="90" as="sourcePoint" />
-            <mxPoint x="530.07" y="70" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="440" y="10" width="370" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jEixtRFuUvfLuJaJq4XK-104" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="2b4e8129b02d487f-1" source="jEixtRFuUvfLuJaJq4XK-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -421,7 +409,19 @@
           <mxGeometry y="410" width="820" height="80" as="geometry" />
         </mxCell>
         <mxCell id="jEixtRFuUvfLuJaJq4XK-101" value="PLC、PC、RFID、手持PDA、智能电子称、标签打印机、其它终端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jEixtRFuUvfLuJaJq4XK-1">
-          <mxGeometry x="50" y="16" width="640" height="50" as="geometry" />
+          <mxGeometry x="50" y="16" width="760" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jEixtRFuUvfLuJaJq4XK-113" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.485;entryY=1.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="2b4e8129b02d487f-1" source="jEixtRFuUvfLuJaJq4XK-101" target="jEixtRFuUvfLuJaJq4XK-100">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="529.83" y="420" as="sourcePoint" />
+            <mxPoint x="530.07" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jEixtRFuUvfLuJaJq4XK-110" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.244;exitY=0.015;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="2b4e8129b02d487f-1" source="jEixtRFuUvfLuJaJq4XK-101" target="jEixtRFuUvfLuJaJq4XK-99">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="235" y="420" as="sourcePoint" />
+            <mxPoint x="205" y="400" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
