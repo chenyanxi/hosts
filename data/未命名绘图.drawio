@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T06:51:38.827Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="V5e7_PR2MuVAUKhGfdl5" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-21T06:53:00.523Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="M3Pv3rEelsfq9NRrcy2w" version="21.2.1" type="github">
   <diagram name="Page-1" id="c7488fd3-1785-93aa-aadb-54a6760d102a">
     <mxGraphModel dx="875" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -45,7 +45,7 @@
             <mxRectangle width="81" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jEixtRFuUvfLuJaJq4XK-17" value="Value 2" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="jEixtRFuUvfLuJaJq4XK-15">
+        <mxCell id="jEixtRFuUvfLuJaJq4XK-17" value="&lt;b&gt;生产管理&lt;/b&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="jEixtRFuUvfLuJaJq4XK-15">
           <mxGeometry x="320" width="80" height="20" as="geometry">
             <mxRectangle width="80" height="20" as="alternateBounds" />
           </mxGeometry>
@@ -78,7 +78,7 @@
             <mxRectangle width="81" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jEixtRFuUvfLuJaJq4XK-21" value="Value 5" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="jEixtRFuUvfLuJaJq4XK-19">
+        <mxCell id="jEixtRFuUvfLuJaJq4XK-21" value="生产工单" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="jEixtRFuUvfLuJaJq4XK-19">
           <mxGeometry x="320" width="80" height="20" as="geometry">
             <mxRectangle width="80" height="20" as="alternateBounds" />
           </mxGeometry>
@@ -111,7 +111,7 @@
             <mxRectangle width="81" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jEixtRFuUvfLuJaJq4XK-38" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="jEixtRFuUvfLuJaJq4XK-33">
+        <mxCell id="jEixtRFuUvfLuJaJq4XK-38" value="工序设置" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="jEixtRFuUvfLuJaJq4XK-33">
           <mxGeometry x="320" width="80" height="20" as="geometry">
             <mxRectangle width="80" height="20" as="alternateBounds" />
           </mxGeometry>
@@ -144,7 +144,7 @@
             <mxRectangle width="81" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jEixtRFuUvfLuJaJq4XK-45" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="jEixtRFuUvfLuJaJq4XK-40">
+        <mxCell id="jEixtRFuUvfLuJaJq4XK-45" value="工艺流程" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="jEixtRFuUvfLuJaJq4XK-40">
           <mxGeometry x="320" width="80" height="20" as="geometry">
             <mxRectangle width="80" height="20" as="alternateBounds" />
           </mxGeometry>
@@ -177,7 +177,7 @@
             <mxRectangle width="81" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jEixtRFuUvfLuJaJq4XK-59" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="jEixtRFuUvfLuJaJq4XK-54">
+        <mxCell id="jEixtRFuUvfLuJaJq4XK-59" value="生产排产" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="jEixtRFuUvfLuJaJq4XK-54">
           <mxGeometry x="320" width="80" height="20" as="geometry">
             <mxRectangle width="80" height="20" as="alternateBounds" />
           </mxGeometry>
@@ -210,7 +210,7 @@
             <mxRectangle width="81" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jEixtRFuUvfLuJaJq4XK-52" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="jEixtRFuUvfLuJaJq4XK-47">
+        <mxCell id="jEixtRFuUvfLuJaJq4XK-52" value="生产报工" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="jEixtRFuUvfLuJaJq4XK-47">
           <mxGeometry x="320" width="80" height="20" as="geometry">
             <mxRectangle width="80" height="20" as="alternateBounds" />
           </mxGeometry>
