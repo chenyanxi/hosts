@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T09:40:48.856Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="0nyN-RvV9sCqnK9qT2TG" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-21T09:42:08.122Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="LRAs_isglE6i5IoZhYxL" version="21.2.1" type="github">
   <diagram name="Page-1" id="aaaa8250-4180-3840-79b5-4cada1eebb92">
     <mxGraphModel dx="2100" dy="1116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -164,7 +164,7 @@
           <mxGeometry x="560" y="584.14" width="96" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Xn1nOap0f8KNIqlWzovx-42" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;1号箱&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="365.4000000000001" y="910" width="90" height="30" as="geometry" />
+          <mxGeometry x="380.0000000000001" y="905" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Xn1nOap0f8KNIqlWzovx-43" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;2号箱&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520.0000000000001" y="670" width="90" height="30" as="geometry" />
@@ -186,6 +186,12 @@
         </mxCell>
         <mxCell id="Xn1nOap0f8KNIqlWzovx-50" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;dashed=0;shape=mxgraph.aws3d.snapshot;fillColor=#4286c5;strokeColor=#57A2D8;aspect=fixed;rounded=1;shadow=0;comic=0;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
           <mxGeometry x="533.65" y="736.3" width="92" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xn1nOap0f8KNIqlWzovx-51" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="1626" y="734" width="62.400000000000006" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="Xn1nOap0f8KNIqlWzovx-52" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;MES服务器&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1598.75" y="800" width="104.25" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
