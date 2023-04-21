@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T09:46:17.737Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="I9ej5H9DoyBNzd6MxUQs" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-21T09:49:13.941Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Y-rPlI3zHfEOTBIXKN4c" version="21.2.1" type="github">
   <diagram name="Page-1" id="aaaa8250-4180-3840-79b5-4cada1eebb92">
     <mxGraphModel dx="2100" dy="1116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -118,7 +118,7 @@
         <mxCell id="Xn1nOap0f8KNIqlWzovx-25" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;分装好的铁粉&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="924.94" y="1700" width="121.56" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Xn1nOap0f8KNIqlWzovx-26" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;作业员&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Xn1nOap0f8KNIqlWzovx-26" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;作业员A&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1318.44" y="1687" width="121.56" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Xn1nOap0f8KNIqlWzovx-27" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;追溯读码器&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -240,6 +240,18 @@
             <mxPoint x="1420" y="1650" as="sourcePoint" />
             <mxPoint x="1650" y="1430" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Xn1nOap0f8KNIqlWzovx-65" value="" style="image;html=1;image=img/lib/clip_art/people/Construction_Worker_Man_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="231.56" y="599" width="101" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="Xn1nOap0f8KNIqlWzovx-66" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;作业员B&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230.00000000000006" y="704" width="121.56" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xn1nOap0f8KNIqlWzovx-68" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/POS_Printer.svg;" vertex="1" parent="1">
+          <mxGeometry x="342.8" y="650" width="37.2" height="32.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="Xn1nOap0f8KNIqlWzovx-69" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;标签打印机&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310.00000000000006" y="685" width="121.56" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
