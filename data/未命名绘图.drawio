@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T03:05:41.006Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="D7goLZwBywSsp8SAQWq6" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-24T03:06:36.153Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="JtJdGez7VkgUCFf6FNaf" version="21.2.1" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1050" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -186,6 +186,9 @@
         </mxCell>
         <mxCell id="JaPHCp0h_JNGcSFfh670-1842" value="原料：0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="790" y="797" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JaPHCp0h_JNGcSFfh670-1843" value="原料：0.5袋" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="800" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
