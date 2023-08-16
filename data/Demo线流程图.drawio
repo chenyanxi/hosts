@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T10:27:42.500Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="frpy-UXUO74cOqJ6LzsA" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-16T10:28:21.416Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="IMgZeOJX1QKO9OyMTI9F" version="21.6.8" type="github">
   <diagram id="07fea595-8f29-1299-0266-81d95cde20df" name="Page-1">
     <mxGraphModel dx="819" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -108,11 +108,20 @@
             <mxRectangle x="20" y="20" width="80" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="mZaB1QgDiazVb8Kxfvdb-267" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="196" source="198" target="199">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="198" value="记录工单生产数量" style="whiteSpace=wrap;strokeColor=none;fillColor=#2f5b7c;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;verticalAlign=middle;" parent="196" vertex="1">
           <mxGeometry x="20" y="61.5" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="mZaB1QgDiazVb8Kxfvdb-268" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="196" source="199" target="mZaB1QgDiazVb8Kxfvdb-220">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="199" value="记录下料抓取时间" style="whiteSpace=wrap;strokeColor=none;fillColor=#2f5b7c;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;verticalAlign=middle;" parent="196" vertex="1">
           <mxGeometry x="20" y="151.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mZaB1QgDiazVb8Kxfvdb-220" value="发送码垛信号" style="whiteSpace=wrap;strokeColor=none;fillColor=#2f5b7c;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;verticalAlign=middle;" vertex="1" parent="196">
+          <mxGeometry x="20" y="241.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mZaB1QgDiazVb8Kxfvdb-217" value="&lt;font color=&quot;#23497d&quot;&gt;RCS系统&lt;/font&gt;" style="swimlane;whiteSpace=wrap;fillColor=none;swimlaneFillColor=#BAC8D3;fontColor=#2F5B7C;fontFamily=Tahoma;html=1;strokeColor=none;opacity=25;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="1144.5" y="89" width="160" height="650" as="geometry">
@@ -124,9 +133,6 @@
         </mxCell>
         <mxCell id="mZaB1QgDiazVb8Kxfvdb-219" value="Bills" style="shape=document;whiteSpace=wrap;verticalAlign=middle;strokeColor=none;fillColor=#12aab5;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;spacingBottom=22;" vertex="1" parent="mZaB1QgDiazVb8Kxfvdb-217">
           <mxGeometry x="20" y="530" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="mZaB1QgDiazVb8Kxfvdb-220" value="Cost Allocation" style="whiteSpace=wrap;strokeColor=none;fillColor=#2f5b7c;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;verticalAlign=middle;" vertex="1" parent="mZaB1QgDiazVb8Kxfvdb-217">
-          <mxGeometry x="20" y="305" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mZaB1QgDiazVb8Kxfvdb-221" value="AGV小车" style="swimlane;whiteSpace=wrap;fillColor=none;swimlaneFillColor=#BAC8D3;fontColor=#2F5B7C;fontFamily=Tahoma;html=1;strokeColor=none;opacity=50;" vertex="1" parent="1">
           <mxGeometry x="1304.5" y="89" width="160" height="650" as="geometry">
@@ -233,6 +239,9 @@
               <mxPoint x="510" y="180" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="mZaB1QgDiazVb8Kxfvdb-266" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="179" target="198">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
