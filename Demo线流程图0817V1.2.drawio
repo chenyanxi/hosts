@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T02:32:11.091Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="_WBf6DWUfEavfjFPFK7p" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-17T03:08:22.787Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="e-lNq5lc6x4qDJzUSOSn" version="21.6.8" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1434" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -49,6 +49,12 @@
             <mxPoint x="200" y="20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-95" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-2" source="6C03qrmBVSKvkhP6-HAM-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="480" as="sourcePoint" />
+            <mxPoint x="170" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="77e6c97f196da883-3" value="上位机" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="160" y="20" width="160" height="730" as="geometry" />
         </mxCell>
@@ -61,8 +67,8 @@
         <mxCell id="6C03qrmBVSKvkhP6-HAM-59" value="(TCP)收到叫料完成，下发指令给上料工位" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="30" y="250" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-66" value="(TCP)收到上料机器人抓料完成，下发指令给上料工位" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-3">
-          <mxGeometry x="30" y="340" width="100" height="60" as="geometry" />
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-66" value="(TCP)收到上料机器人抓料完成&lt;br&gt;记录工单已上料数量&lt;br&gt;下发箱子流水号&lt;br&gt;下发指令给上料工位" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="20" y="340" width="110" height="90" as="geometry" />
         </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-70" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-3" target="6C03qrmBVSKvkhP6-HAM-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -106,6 +112,24 @@
             <mxPoint x="150" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-96" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="470" as="sourcePoint" />
+            <mxPoint x="10" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-104" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-3" target="6C03qrmBVSKvkhP6-HAM-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="280" as="sourcePoint" />
+            <mxPoint x="60" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-107" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-3" target="6C03qrmBVSKvkhP6-HAM-66">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="440" as="sourcePoint" />
+            <mxPoint x="130" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="77e6c97f196da883-4" value="上料工位" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="320" y="20" width="160" height="730" as="geometry" />
         </mxCell>
@@ -115,8 +139,8 @@
         <mxCell id="6C03qrmBVSKvkhP6-HAM-29" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;已上料数&amp;lt;工单数量&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
           <mxGeometry x="10" y="140" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-31" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="100" y="140" width="60" height="30" as="geometry" />
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-31" value="False&lt;br&gt;不执行任何操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="110" y="160" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-33" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="77e6c97f196da883-4">
           <mxGeometry x="50" y="210" width="60" height="30" as="geometry" />
@@ -154,6 +178,66 @@
             <mxPoint x="139" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-78" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-4" target="6C03qrmBVSKvkhP6-HAM-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="100" as="sourcePoint" />
+            <mxPoint x="110" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-79" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.15;entryY=1.233;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="77e6c97f196da883-4" target="6C03qrmBVSKvkhP6-HAM-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="210" as="sourcePoint" />
+            <mxPoint x="110" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-81" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-4" target="6C03qrmBVSKvkhP6-HAM-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="420" as="sourcePoint" />
+            <mxPoint x="110" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-82" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-4" target="6C03qrmBVSKvkhP6-HAM-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="530" as="sourcePoint" />
+            <mxPoint x="110" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-83" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="280" as="sourcePoint" />
+            <mxPoint x="150" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-84" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="330" as="sourcePoint" />
+            <mxPoint x="150" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-85" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="330" as="sourcePoint" />
+            <mxPoint x="330" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-91" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="340" as="sourcePoint" />
+            <mxPoint x="62" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-98" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="690" as="sourcePoint" />
+            <mxPoint x="60" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-99" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="710" as="sourcePoint" />
+            <mxPoint x="170" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="77e6c97f196da883-5" value="上料机器人" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="480" y="20" width="160" height="730" as="geometry" />
         </mxCell>
@@ -166,6 +250,42 @@
         <mxCell id="6C03qrmBVSKvkhP6-HAM-65" value="抓料放料完成，上报上位机已完成" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-5">
           <mxGeometry x="30" y="220" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-100" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="710" as="sourcePoint" />
+            <mxPoint x="10" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-101" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-5" target="6C03qrmBVSKvkhP6-HAM-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="70" as="sourcePoint" />
+            <mxPoint x="60" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-102" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-5" target="6C03qrmBVSKvkhP6-HAM-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="100" as="sourcePoint" />
+            <mxPoint x="130" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-103" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-5" target="6C03qrmBVSKvkhP6-HAM-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="190" as="sourcePoint" />
+            <mxPoint x="130" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-105" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="440" as="sourcePoint" />
+            <mxPoint x="80" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-106" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-240" y="440" as="sourcePoint" />
+            <mxPoint x="80" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="77e6c97f196da883-6" value="3D视觉控制器" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="640" y="20" width="160" height="730" as="geometry" />
         </mxCell>
@@ -175,10 +295,43 @@
         <mxCell id="6C03qrmBVSKvkhP6-HAM-38" value="执行拍照，有料返回坐标，无料返回NG" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-6">
           <mxGeometry x="30" y="145" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-86" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="330" as="sourcePoint" />
+            <mxPoint x="10" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-87" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-6" target="6C03qrmBVSKvkhP6-HAM-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="70" as="sourcePoint" />
+            <mxPoint x="60" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-88" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-6" target="6C03qrmBVSKvkhP6-HAM-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="100" as="sourcePoint" />
+            <mxPoint x="130" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-89" value="" style="endArrow=none;html=1;rounded=0;entryX=0.58;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="77e6c97f196da883-6" target="6C03qrmBVSKvkhP6-HAM-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="340" as="sourcePoint" />
+            <mxPoint x="90" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-90" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-260" y="340" as="sourcePoint" />
+            <mxPoint x="90" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="77e6c97f196da883-7" value="称重工位" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="800" y="20" width="160" height="730" as="geometry">
             <mxRectangle x="800" y="20" width="730" height="730" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-110" value="收到称重信号" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-7">
+          <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-9" value="扫码工位" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
           <mxGeometry x="960" y="20" width="160" height="730" as="geometry">
