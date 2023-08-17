@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T02:11:28.172Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="QIL1YEdAEL5yE6HExi2_" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-17T02:16:55.749Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="mBMVawTbOeL-nJ2Yc_4y" version="21.6.8" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1434" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -76,11 +76,32 @@
         <mxCell id="6C03qrmBVSKvkhP6-HAM-58" value="上料工位停止运行，等待叫料搬运完成" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
           <mxGeometry x="10" y="550" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-60" value="记录3D拍照结果，下发指令给上料机器人" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="10" y="630" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-61" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.667;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="77e6c97f196da883-4" source="6C03qrmBVSKvkhP6-HAM-41" target="6C03qrmBVSKvkhP6-HAM-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="390" as="sourcePoint" />
+            <mxPoint x="150" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-62" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="660" as="sourcePoint" />
+            <mxPoint x="139" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="77e6c97f196da883-5" value="上料机器人" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="480" y="20" width="160" height="730" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-34" value="收到" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-5">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-34" value="收到抓料指令" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-5">
           <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-64" value="开始抓料" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-5">
+          <mxGeometry x="30" y="130" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-65" value="抓料放料完成，上报上位机已完成" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-5">
+          <mxGeometry x="30" y="220" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-6" value="3D视觉控制器" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="640" y="20" width="160" height="730" as="geometry" />
@@ -175,6 +196,12 @@
         <mxCell id="6C03qrmBVSKvkhP6-HAM-17" value="WCS" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
           <mxGeometry x="2240" y="20" width="160" height="730" as="geometry">
             <mxRectangle x="800" y="20" width="730" height="730" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-63" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="6C03qrmBVSKvkhP6-HAM-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="720" as="sourcePoint" />
+            <mxPoint x="420" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
