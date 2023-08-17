@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T03:15:57.406Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="-HnUvuDrIejog7BmPadI" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-17T03:16:44.121Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ncMjCm6onQA5pCY0GcC_" version="21.6.8" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1434" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -345,7 +345,7 @@
         <mxCell id="6C03qrmBVSKvkhP6-HAM-112" value="记录称重数据" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-7">
           <mxGeometry x="30" y="220" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-113" value="发送称重完成指令到PLC" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-7">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-113" value="发送数据记录完成指令到PLC" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-7">
           <mxGeometry x="30" y="305" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-116" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-7" target="6C03qrmBVSKvkhP6-HAM-113">
@@ -359,17 +359,32 @@
             <mxRectangle x="800" y="20" width="730" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-9" source="6C03qrmBVSKvkhP6-HAM-117" target="6C03qrmBVSKvkhP6-HAM-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-117" value="收到扫码信号" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-9">
           <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-9" source="6C03qrmBVSKvkhP6-HAM-118" target="6C03qrmBVSKvkhP6-HAM-119">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-118" value="发送扫码指令给PLC" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-9">
           <mxGeometry x="30" y="130" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-124" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-9" source="6C03qrmBVSKvkhP6-HAM-119" target="6C03qrmBVSKvkhP6-HAM-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-119" value="收到PLC扫码内容信号" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-9">
           <mxGeometry x="30" y="220" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-9" source="6C03qrmBVSKvkhP6-HAM-121" target="6C03qrmBVSKvkhP6-HAM-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-121" value="扫码内容和流水号绑定" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-9">
           <mxGeometry x="30" y="310" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-125" value="发送数据记录完成指令到PLC" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-9">
+          <mxGeometry x="30" y="410" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-10" value="旋转工位" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
           <mxGeometry x="1120" y="20" width="160" height="730" as="geometry">
