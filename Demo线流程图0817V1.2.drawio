@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T03:10:21.233Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="LJYJD0z996N2v8LxFJNx" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-17T03:10:50.537Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="f-TD35xCMGIgkExKZ3ZQ" version="21.6.8" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1434" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -330,8 +330,14 @@
             <mxRectangle x="800" y="20" width="730" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-7" source="6C03qrmBVSKvkhP6-HAM-110" target="6C03qrmBVSKvkhP6-HAM-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-110" value="收到称重信号" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-7">
           <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-7" source="6C03qrmBVSKvkhP6-HAM-111" target="6C03qrmBVSKvkhP6-HAM-112">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-111" value="获取工单和流水号" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-7">
           <mxGeometry x="30" y="130" width="100" height="60" as="geometry" />
@@ -341,6 +347,12 @@
         </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-113" value="发送称重完成指令到PLC" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-7">
           <mxGeometry x="30" y="305" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-116" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-7" target="6C03qrmBVSKvkhP6-HAM-113">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="280" as="sourcePoint" />
+            <mxPoint x="130" y="230" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-9" value="扫码工位" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
           <mxGeometry x="960" y="20" width="160" height="730" as="geometry">
