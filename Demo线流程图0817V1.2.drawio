@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T09:15:43.475Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="afkX2mltNa6SGlv_I4LV" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-17T09:15:55.348Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="He4WcU3vUkatf0BsRb2T" version="21.6.8" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1434" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -556,6 +556,12 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="120" y="400" as="sourcePoint" />
             <mxPoint x="180" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-216" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-11" target="6C03qrmBVSKvkhP6-HAM-202">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="790" as="sourcePoint" />
+            <mxPoint x="120" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-12" value="下料机器人" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
