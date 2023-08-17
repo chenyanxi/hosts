@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T08:57:34.079Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="kuYCzqj0hKRmKeYL_7zY" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-17T09:15:43.475Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="afkX2mltNa6SGlv_I4LV" version="21.6.8" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1434" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="77e6c97f196da883-1" value="Pool" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
-          <mxGeometry x="70" y="40" width="2530" height="750" as="geometry" />
+          <mxGeometry x="70" y="40" width="2530" height="980" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-2" value="MES" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry y="20" width="160" height="730" as="geometry" />
+          <mxGeometry y="20" width="160" height="960" as="geometry" />
         </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-2" source="6C03qrmBVSKvkhP6-HAM-18" target="6C03qrmBVSKvkhP6-HAM-19">
           <mxGeometry relative="1" as="geometry" />
@@ -101,7 +101,7 @@
           <mxGeometry x="30" y="315" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-3" value="上位机" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="160" y="20" width="160" height="730" as="geometry" />
+          <mxGeometry x="160" y="20" width="160" height="960" as="geometry" />
         </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-25" value="收到工单信息" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
@@ -175,8 +175,11 @@
             <mxPoint x="130" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-198" value="收到空货架到位信号，继续执行下料流程" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="20" y="730" width="100" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="77e6c97f196da883-4" value="上料工位" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="320" y="20" width="160" height="730" as="geometry" />
+          <mxGeometry x="320" y="20" width="160" height="960" as="geometry" />
         </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-27" value="收到上料\叫料完成\抓料完成指令" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
           <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
@@ -290,7 +293,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="77e6c97f196da883-5" value="上料机器人" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="480" y="20" width="160" height="730" as="geometry" />
+          <mxGeometry x="480" y="20" width="160" height="960" as="geometry" />
         </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-34" value="收到抓料指令" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-5">
           <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
@@ -350,7 +353,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="77e6c97f196da883-6" value="3D视觉控制器" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="640" y="20" width="160" height="730" as="geometry" />
+          <mxGeometry x="640" y="20" width="160" height="960" as="geometry" />
         </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-36" value="收到拍照指令" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-6">
           <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
@@ -389,7 +392,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="77e6c97f196da883-7" value="称重工位" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="800" y="20" width="160" height="730" as="geometry">
+          <mxGeometry x="800" y="20" width="160" height="960" as="geometry">
             <mxRectangle x="800" y="20" width="730" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -418,7 +421,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-9" value="扫码工位" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
-          <mxGeometry x="960" y="20" width="160" height="730" as="geometry">
+          <mxGeometry x="960" y="20" width="160" height="960" as="geometry">
             <mxRectangle x="800" y="20" width="730" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -450,7 +453,7 @@
           <mxGeometry x="30" y="410" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-10" value="旋转工位" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
-          <mxGeometry x="1120" y="20" width="160" height="730" as="geometry">
+          <mxGeometry x="1120" y="20" width="160" height="960" as="geometry">
             <mxRectangle x="800" y="20" width="730" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -470,7 +473,7 @@
           <mxGeometry x="30" y="220" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-11" value="下料工位" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
-          <mxGeometry x="1280" y="20" width="170" height="730" as="geometry">
+          <mxGeometry x="1280" y="20" width="170" height="960" as="geometry">
             <mxRectangle x="800" y="20" width="730" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -501,19 +504,112 @@
         <mxCell id="6C03qrmBVSKvkhP6-HAM-180" value="可以码垛" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-11">
           <mxGeometry x="110" y="365" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-183" value="下发入库请求到RCS" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-11">
-          <mxGeometry x="15" y="570" width="100" height="60" as="geometry" />
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-183" value="下发入库请求和空货架呼叫到RCS，并停止执行下料流程" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-11">
+          <mxGeometry x="15" y="560" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-184" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;TODO：是去卡板区还是立库区待定&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-11">
           <mxGeometry x="15" y="450" width="100" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-187" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-11" target="6C03qrmBVSKvkhP6-HAM-170">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="100" as="sourcePoint" />
+            <mxPoint x="110" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-188" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="210" as="sourcePoint" />
+            <mxPoint x="60" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-189" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="290" as="sourcePoint" />
+            <mxPoint x="340" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-194" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-11" target="6C03qrmBVSKvkhP6-HAM-177">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="340" as="sourcePoint" />
+            <mxPoint x="120" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-195" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.43;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-11" target="6C03qrmBVSKvkhP6-HAM-184">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="440" as="sourcePoint" />
+            <mxPoint x="110" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-196" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-11" target="6C03qrmBVSKvkhP6-HAM-183">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="550" as="sourcePoint" />
+            <mxPoint x="110" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-201" value="收到码垛完成信号" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-11">
+          <mxGeometry x="20" y="730" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-202" value="记录工单已完成数量，继续执行下料流程" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-11">
+          <mxGeometry x="20" y="800" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-213" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="400" as="sourcePoint" />
+            <mxPoint x="180" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-12" value="下料机器人" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
-          <mxGeometry x="1450" y="20" width="160" height="730" as="geometry">
+          <mxGeometry x="1450" y="20" width="160" height="960" as="geometry">
             <mxRectangle x="800" y="20" width="730" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-197" value="收到码垛指令" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-12">
+          <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-199" value="开始码垛" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-12">
+          <mxGeometry x="30" y="130" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-200" value="码垛完成，上报上位机完成信号" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-12">
+          <mxGeometry x="30" y="210" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-203" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="270" as="sourcePoint" />
+            <mxPoint x="80" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-205" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.04;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-12" target="6C03qrmBVSKvkhP6-HAM-201">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="770" as="sourcePoint" />
+            <mxPoint x="130" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-210" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-12" target="6C03qrmBVSKvkhP6-HAM-199">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="100" as="sourcePoint" />
+            <mxPoint x="130" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-211" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-12" target="6C03qrmBVSKvkhP6-HAM-200">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="190" as="sourcePoint" />
+            <mxPoint x="130" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-214" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="400" as="sourcePoint" />
+            <mxPoint x="10" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-215" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-12" target="6C03qrmBVSKvkhP6-HAM-197">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="70" as="sourcePoint" />
+            <mxPoint x="60" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-13" value="3D视觉控制器" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
-          <mxGeometry x="1610" y="20" width="160" height="730" as="geometry">
+          <mxGeometry x="1610" y="20" width="160" height="960" as="geometry">
             <mxRectangle x="800" y="20" width="730" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -525,7 +621,7 @@
         </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-148" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1590" y="700" as="sourcePoint" />
+            <mxPoint x="-1600" y="700" as="sourcePoint" />
             <mxPoint x="150" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -537,7 +633,7 @@
         </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-166" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1580" y="690" as="sourcePoint" />
+            <mxPoint x="-1590" y="690" as="sourcePoint" />
             <mxPoint x="140" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -550,8 +646,32 @@
         <mxCell id="6C03qrmBVSKvkhP6-HAM-175" value="执行拍照，可以码垛返回坐标，码垛已满返回NG" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-13">
           <mxGeometry x="30" y="140" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-190" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="290" as="sourcePoint" />
+            <mxPoint x="10" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-191" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.01;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-13" target="6C03qrmBVSKvkhP6-HAM-174">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="80" as="sourcePoint" />
+            <mxPoint x="60" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-192" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="200" as="sourcePoint" />
+            <mxPoint x="80" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-193" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-260" y="340" as="sourcePoint" />
+            <mxPoint x="80" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-14" value="RCS-2000系统" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
-          <mxGeometry x="1770" y="20" width="160" height="730" as="geometry">
+          <mxGeometry x="1770" y="20" width="160" height="960" as="geometry">
             <mxRectangle x="800" y="20" width="730" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -575,7 +695,7 @@
         <mxCell id="6C03qrmBVSKvkhP6-HAM-52" value="下发叫料搬运任务给AGV小车" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-14">
           <mxGeometry x="30" y="380" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-53" value="收到小车任务完成，发送消息给MES" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-14">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-53" value="收到小车任务完成，发送消息给上位机" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-14">
           <mxGeometry x="30" y="460" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-136" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-14">
@@ -669,7 +789,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-15" value="AGV小车" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
-          <mxGeometry x="1930" y="20" width="160" height="730" as="geometry">
+          <mxGeometry x="1930" y="20" width="160" height="960" as="geometry">
             <mxRectangle x="800" y="20" width="730" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -724,12 +844,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-16" value="WMS" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
-          <mxGeometry x="2090" y="20" width="160" height="730" as="geometry">
+          <mxGeometry x="2090" y="20" width="160" height="960" as="geometry">
             <mxRectangle x="800" y="20" width="730" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6C03qrmBVSKvkhP6-HAM-17" value="WCS" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
-          <mxGeometry x="2250" y="20" width="160" height="730" as="geometry">
+          <mxGeometry x="2250" y="20" width="160" height="960" as="geometry">
             <mxRectangle x="800" y="20" width="730" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
