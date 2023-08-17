@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T09:23:28.855Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Dyg6-j2FJ0SNH_cPLk3y" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-17T11:32:03.777Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="_J1dnCl8rrfPQBRQN-0f" version="21.6.8" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1434" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -10,283 +10,283 @@
         <mxCell id="77e6c97f196da883-2" value="MES" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry y="20" width="160" height="960" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-2" source="6C03qrmBVSKvkhP6-HAM-18" target="6C03qrmBVSKvkhP6-HAM-19">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="77e6c97f196da883-2" source="6C03qrmBVSKvkhP6-HAM-18" target="6C03qrmBVSKvkhP6-HAM-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-18" value="工艺配置" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-18" value="工艺配置" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-2" vertex="1">
           <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-2" source="6C03qrmBVSKvkhP6-HAM-19" target="6C03qrmBVSKvkhP6-HAM-21">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="77e6c97f196da883-2" source="6C03qrmBVSKvkhP6-HAM-19" target="6C03qrmBVSKvkhP6-HAM-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-19" value="工艺流程配置" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-19" value="工艺流程配置" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-2" vertex="1">
           <mxGeometry x="30" y="140" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-21" value="创建工单并下发" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-21" value="创建工单并下发" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-2" vertex="1">
           <mxGeometry x="30" y="240" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-50" value="收到RGV搬运空货架完成，下发叫料指令到RCS" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-50" value="收到RGV搬运空货架完成，下发叫料指令到RCS" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-2" vertex="1">
           <mxGeometry x="30" y="355" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-57" value="收到RGV叫料搬运完成，下发指令到上位机" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-57" value="收到RGV叫料搬运完成，下发指令到上位机" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-2" vertex="1">
           <mxGeometry x="30" y="440" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-67" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-2">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-67" value="" style="endArrow=none;html=1;rounded=0;" parent="77e6c97f196da883-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="130" y="270" as="sourcePoint" />
             <mxPoint x="150" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-68" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-2">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-68" value="" style="endArrow=none;html=1;rounded=0;" parent="77e6c97f196da883-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="270" as="sourcePoint" />
             <mxPoint x="150" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-69" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-2" target="6C03qrmBVSKvkhP6-HAM-25">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-69" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="77e6c97f196da883-2" target="6C03qrmBVSKvkhP6-HAM-25" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="70" as="sourcePoint" />
             <mxPoint x="200" y="20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-95" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-2" source="6C03qrmBVSKvkhP6-HAM-57">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-95" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="77e6c97f196da883-2" source="6C03qrmBVSKvkhP6-HAM-57" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="130" y="480" as="sourcePoint" />
             <mxPoint x="170" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-149" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-2">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-149" value="" style="endArrow=none;html=1;rounded=0;" parent="77e6c97f196da883-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="10" y="700" as="sourcePoint" />
             <mxPoint x="10" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-150" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.01;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="77e6c97f196da883-2" target="6C03qrmBVSKvkhP6-HAM-50">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-150" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.01;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" parent="77e6c97f196da883-2" target="6C03qrmBVSKvkhP6-HAM-50" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="10" y="380" as="sourcePoint" />
             <mxPoint x="60" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-151" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-2">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-151" value="" style="endArrow=none;html=1;rounded=0;" parent="77e6c97f196da883-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="130" y="390" as="sourcePoint" />
             <mxPoint x="150" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-152" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-2">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-152" value="" style="endArrow=none;html=1;rounded=0;" parent="77e6c97f196da883-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="390" as="sourcePoint" />
             <mxPoint x="150" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-153" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-2">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-153" value="" style="endArrow=none;html=1;rounded=0;" parent="77e6c97f196da883-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="720" as="sourcePoint" />
             <mxPoint x="1790" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-167" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-2">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-167" value="" style="endArrow=none;html=1;rounded=0;" parent="77e6c97f196da883-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="20" y="690" as="sourcePoint" />
             <mxPoint x="20" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-168" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-2" target="6C03qrmBVSKvkhP6-HAM-57">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-168" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="77e6c97f196da883-2" target="6C03qrmBVSKvkhP6-HAM-57" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="20" y="470" as="sourcePoint" />
             <mxPoint x="70" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-181" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;TODO：叫料目标点待定&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="77e6c97f196da883-2">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-181" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;TODO：叫料目标点待定&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="77e6c97f196da883-2" vertex="1">
           <mxGeometry x="30" y="315" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-3" value="上位机" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="160" y="20" width="160" height="960" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-25" value="收到工单信息" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-3">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-25" value="收到工单信息" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
           <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-26" value="下发上料指令" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-3">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-26" value="下发上料指令" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
           <mxGeometry x="30" y="150" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-59" value="(TCP)收到叫料完成，下发指令给上料工位" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-3">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-59" value="(TCP)收到叫料完成，下发指令给上料工位" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
           <mxGeometry x="30" y="250" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-66" value="(TCP)收到上料机器人抓料完成&lt;br&gt;记录工单已上料数量&lt;br&gt;下发箱子流水号&lt;br&gt;下发指令给上料工位" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-3">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-66" value="(TCP)收到上料机器人抓料完成&lt;br&gt;记录工单已上料数量&lt;br&gt;下发箱子流水号&lt;br&gt;下发指令给上料工位" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
           <mxGeometry x="20" y="340" width="110" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-70" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-3" target="6C03qrmBVSKvkhP6-HAM-26">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-70" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="77e6c97f196da883-3" target="6C03qrmBVSKvkhP6-HAM-26" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="100" as="sourcePoint" />
             <mxPoint x="130" y="50" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-72" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-3">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-72" value="" style="endArrow=none;html=1;rounded=0;" parent="77e6c97f196da883-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="130" y="180" as="sourcePoint" />
             <mxPoint x="150" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-73" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-3">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-73" value="" style="endArrow=none;html=1;rounded=0;" parent="77e6c97f196da883-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="180" as="sourcePoint" />
             <mxPoint x="150" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-74" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-3" target="6C03qrmBVSKvkhP6-HAM-27">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-74" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="77e6c97f196da883-3" target="6C03qrmBVSKvkhP6-HAM-27" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="70" as="sourcePoint" />
             <mxPoint x="200" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-75" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-3">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-75" value="" style="endArrow=none;html=1;rounded=0;" parent="77e6c97f196da883-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="130" y="280" as="sourcePoint" />
             <mxPoint x="150" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-76" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-3">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-76" value="" style="endArrow=none;html=1;rounded=0;" parent="77e6c97f196da883-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="130" y="370" as="sourcePoint" />
             <mxPoint x="150" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-77" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-3">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-77" value="" style="endArrow=none;html=1;rounded=0;" parent="77e6c97f196da883-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="370" as="sourcePoint" />
             <mxPoint x="150" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-96" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-3">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-96" value="" style="endArrow=none;html=1;rounded=0;" parent="77e6c97f196da883-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="10" y="470" as="sourcePoint" />
             <mxPoint x="10" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-104" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-3" target="6C03qrmBVSKvkhP6-HAM-59">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-104" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="77e6c97f196da883-3" target="6C03qrmBVSKvkhP6-HAM-59" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="10" y="280" as="sourcePoint" />
             <mxPoint x="60" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-107" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-3" target="6C03qrmBVSKvkhP6-HAM-66">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-107" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="77e6c97f196da883-3" target="6C03qrmBVSKvkhP6-HAM-66" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="440" as="sourcePoint" />
             <mxPoint x="130" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-198" value="收到空货架到位信号，继续执行下料流程" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-3">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-198" value="收到空货架到位信号，继续执行下料流程" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
           <mxGeometry x="20" y="730" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-4" value="上料工位" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="320" y="20" width="160" height="960" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-27" value="收到上料\叫料完成\抓料完成指令" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-27" value="收到上料\叫料完成\抓料完成指令" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-29" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;已上料数&amp;lt;工单数量&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-29" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;已上料数&amp;lt;工单数量&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="10" y="140" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-31" value="False&lt;br&gt;不执行任何操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="77e6c97f196da883-4">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-31" value="False&lt;br&gt;不执行任何操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="110" y="160" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-33" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="77e6c97f196da883-4">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-33" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="50" y="210" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-35" value="下发3D拍照指令" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-35" value="下发3D拍照指令" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="30" y="250" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-40" value="收到3D拍照结果" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-40" value="收到3D拍照结果" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="10" y="350" width="90" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-41" value="有料" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="77e6c97f196da883-4">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-41" value="有料" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="100" y="360" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-42" value="无料" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="77e6c97f196da883-4">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-42" value="无料" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="50" y="430" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-43" value="下发搬运空货架指令到RCS" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-43" value="下发搬运空货架指令到RCS" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="10" y="470" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-58" value="上料工位停止运行，等待叫料搬运完成" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-58" value="上料工位停止运行，等待叫料搬运完成" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="10" y="550" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-60" value="记录3D拍照结果，下发指令给上料机器人" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-60" value="记录3D拍照结果，下发指令给上料机器人" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="10" y="630" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-61" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.667;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="77e6c97f196da883-4" source="6C03qrmBVSKvkhP6-HAM-41" target="6C03qrmBVSKvkhP6-HAM-41">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-61" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.667;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" parent="77e6c97f196da883-4" source="6C03qrmBVSKvkhP6-HAM-41" target="6C03qrmBVSKvkhP6-HAM-41" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="100" y="390" as="sourcePoint" />
             <mxPoint x="150" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-62" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-4">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-62" value="" style="endArrow=none;html=1;rounded=0;" parent="77e6c97f196da883-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="140" y="660" as="sourcePoint" />
             <mxPoint x="139" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-78" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-4" target="6C03qrmBVSKvkhP6-HAM-29">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-78" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="77e6c97f196da883-4" target="6C03qrmBVSKvkhP6-HAM-29" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="60" y="100" as="sourcePoint" />
             <mxPoint x="110" y="50" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-79" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.15;entryY=1.233;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="77e6c97f196da883-4" target="6C03qrmBVSKvkhP6-HAM-33">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-79" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.15;entryY=1.233;entryDx=0;entryDy=0;entryPerimeter=0;" parent="77e6c97f196da883-4" target="6C03qrmBVSKvkhP6-HAM-33" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="60" y="210" as="sourcePoint" />
             <mxPoint x="110" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-81" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-4" target="6C03qrmBVSKvkhP6-HAM-43">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-81" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="77e6c97f196da883-4" target="6C03qrmBVSKvkhP6-HAM-43" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="60" y="420" as="sourcePoint" />
             <mxPoint x="110" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-82" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-4" target="6C03qrmBVSKvkhP6-HAM-58">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-82" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="77e6c97f196da883-4" target="6C03qrmBVSKvkhP6-HAM-58" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="60" y="530" as="sourcePoint" />
             <mxPoint x="110" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-83" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-4">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-83" value="" style="endArrow=none;html=1;rounded=0;" parent="77e6c97f196da883-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="130" y="280" as="sourcePoint" />
             <mxPoint x="150" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-84" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-4">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-84" value="" style="endArrow=none;html=1;rounded=0;" parent="77e6c97f196da883-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="330" as="sourcePoint" />
             <mxPoint x="150" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-85" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-4">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-85" value="" style="endArrow=none;html=1;rounded=0;" parent="77e6c97f196da883-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="330" as="sourcePoint" />
             <mxPoint x="330" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-91" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-4">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-91" value="" style="endArrow=classic;html=1;rounded=0;" parent="77e6c97f196da883-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="60" y="340" as="sourcePoint" />
             <mxPoint x="62" y="355" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-98" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-4">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-98" value="" style="endArrow=none;html=1;rounded=0;" parent="77e6c97f196da883-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="60" y="690" as="sourcePoint" />
             <mxPoint x="60" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-99" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-4">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-99" value="" style="endArrow=none;html=1;rounded=0;" parent="77e6c97f196da883-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="60" y="710" as="sourcePoint" />
             <mxPoint x="170" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-133" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-4">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-133" value="" style="endArrow=none;html=1;rounded=0;" parent="77e6c97f196da883-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="110" y="500" as="sourcePoint" />
             <mxPoint x="190" y="500" as="targetPoint" />
@@ -295,58 +295,58 @@
         <mxCell id="77e6c97f196da883-5" value="上料机器人" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="480" y="20" width="160" height="960" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-34" value="收到抓料指令" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-5">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-34" value="收到抓料指令" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-5" vertex="1">
           <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-64" value="开始抓料" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-5">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-64" value="开始抓料" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-5" vertex="1">
           <mxGeometry x="30" y="130" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-65" value="抓料放料完成，上报上位机已完成" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-5">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-65" value="抓料放料完成，上报上位机已完成" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-5" vertex="1">
           <mxGeometry x="30" y="220" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-100" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-5">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-100" value="" style="endArrow=none;html=1;rounded=0;" parent="77e6c97f196da883-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="10" y="710" as="sourcePoint" />
             <mxPoint x="10" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-101" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-5" target="6C03qrmBVSKvkhP6-HAM-34">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-101" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="77e6c97f196da883-5" target="6C03qrmBVSKvkhP6-HAM-34" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="10" y="70" as="sourcePoint" />
             <mxPoint x="60" y="20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-102" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-5" target="6C03qrmBVSKvkhP6-HAM-64">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-102" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="77e6c97f196da883-5" target="6C03qrmBVSKvkhP6-HAM-64" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="100" as="sourcePoint" />
             <mxPoint x="130" y="50" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-103" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-5" target="6C03qrmBVSKvkhP6-HAM-65">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-103" value="" style="endArrow=classic;html=1;rounded=0;" parent="77e6c97f196da883-5" target="6C03qrmBVSKvkhP6-HAM-65" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="190" as="sourcePoint" />
             <mxPoint x="130" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-105" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-5">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-105" value="" style="endArrow=none;html=1;rounded=0;" parent="77e6c97f196da883-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="440" as="sourcePoint" />
             <mxPoint x="80" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-106" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-5">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-106" value="" style="endArrow=none;html=1;rounded=0;" parent="77e6c97f196da883-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-240" y="440" as="sourcePoint" />
             <mxPoint x="80" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-134" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-5">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-134" value="" style="endArrow=none;html=1;rounded=0;" parent="77e6c97f196da883-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="30" y="500" as="sourcePoint" />
             <mxPoint x="30" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-135" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-5">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-135" value="" style="endArrow=none;html=1;rounded=0;" parent="77e6c97f196da883-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="30" y="710" as="sourcePoint" />
             <mxPoint x="1300" y="710" as="targetPoint" />
@@ -355,37 +355,37 @@
         <mxCell id="77e6c97f196da883-6" value="3D视觉控制器" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="640" y="20" width="160" height="960" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-36" value="收到拍照指令" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-6">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-36" value="收到拍照指令" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-6" vertex="1">
           <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-38" value="执行拍照，有料返回坐标，无料返回NG" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-6">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-38" value="执行拍照，有料返回坐标，无料返回NG" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-6" vertex="1">
           <mxGeometry x="30" y="145" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-86" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-6">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-86" value="" style="endArrow=none;html=1;rounded=0;" parent="77e6c97f196da883-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="10" y="330" as="sourcePoint" />
             <mxPoint x="10" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-87" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-6" target="6C03qrmBVSKvkhP6-HAM-36">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-87" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="77e6c97f196da883-6" target="6C03qrmBVSKvkhP6-HAM-36" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="10" y="70" as="sourcePoint" />
             <mxPoint x="60" y="20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-88" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-6" target="6C03qrmBVSKvkhP6-HAM-38">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-88" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="77e6c97f196da883-6" target="6C03qrmBVSKvkhP6-HAM-38" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="100" as="sourcePoint" />
             <mxPoint x="130" y="50" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-89" value="" style="endArrow=none;html=1;rounded=0;entryX=0.58;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="77e6c97f196da883-6" target="6C03qrmBVSKvkhP6-HAM-38">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-89" value="" style="endArrow=none;html=1;rounded=0;entryX=0.58;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" parent="77e6c97f196da883-6" target="6C03qrmBVSKvkhP6-HAM-38" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="90" y="340" as="sourcePoint" />
             <mxPoint x="90" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-90" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-6">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-90" value="" style="endArrow=none;html=1;rounded=0;" parent="77e6c97f196da883-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-260" y="340" as="sourcePoint" />
             <mxPoint x="90" y="340" as="targetPoint" />
@@ -396,479 +396,479 @@
             <mxRectangle x="800" y="20" width="730" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-7" source="6C03qrmBVSKvkhP6-HAM-110" target="6C03qrmBVSKvkhP6-HAM-111">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="77e6c97f196da883-7" source="6C03qrmBVSKvkhP6-HAM-110" target="6C03qrmBVSKvkhP6-HAM-111" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-110" value="收到称重到位信号" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-7">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-110" value="收到称重到位信号" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-7" vertex="1">
           <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-7" source="6C03qrmBVSKvkhP6-HAM-111" target="6C03qrmBVSKvkhP6-HAM-112">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="77e6c97f196da883-7" source="6C03qrmBVSKvkhP6-HAM-111" target="6C03qrmBVSKvkhP6-HAM-112" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-111" value="获取工单和流水号" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-7">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-111" value="获取工单和流水号" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-7" vertex="1">
           <mxGeometry x="30" y="130" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-112" value="记录称重数据" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-7">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-112" value="记录称重数据" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-7" vertex="1">
           <mxGeometry x="30" y="220" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-113" value="发送数据记录完成指令到PLC" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-7">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-113" value="发送数据记录完成指令到PLC" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-7" vertex="1">
           <mxGeometry x="30" y="305" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-116" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-7" target="6C03qrmBVSKvkhP6-HAM-113">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-116" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="77e6c97f196da883-7" target="6C03qrmBVSKvkhP6-HAM-113" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="280" as="sourcePoint" />
             <mxPoint x="130" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-9" value="扫码工位" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-9" value="扫码工位" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="960" y="20" width="160" height="960" as="geometry">
             <mxRectangle x="800" y="20" width="730" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-9" source="6C03qrmBVSKvkhP6-HAM-117" target="6C03qrmBVSKvkhP6-HAM-118">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="6C03qrmBVSKvkhP6-HAM-9" source="6C03qrmBVSKvkhP6-HAM-117" target="6C03qrmBVSKvkhP6-HAM-118" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-117" value="收到扫码到位信号" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-9">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-117" value="收到扫码到位信号" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-9" vertex="1">
           <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-9" source="6C03qrmBVSKvkhP6-HAM-118" target="6C03qrmBVSKvkhP6-HAM-119">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="6C03qrmBVSKvkhP6-HAM-9" source="6C03qrmBVSKvkhP6-HAM-118" target="6C03qrmBVSKvkhP6-HAM-119" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-118" value="发送开始扫码指令给PLC" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-9">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-118" value="发送开始扫码指令给PLC" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-9" vertex="1">
           <mxGeometry x="30" y="130" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-124" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-9" source="6C03qrmBVSKvkhP6-HAM-119" target="6C03qrmBVSKvkhP6-HAM-121">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-124" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="6C03qrmBVSKvkhP6-HAM-9" source="6C03qrmBVSKvkhP6-HAM-119" target="6C03qrmBVSKvkhP6-HAM-121" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-119" value="收到PLC扫码内容信号" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-9">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-119" value="收到PLC扫码内容信号" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-9" vertex="1">
           <mxGeometry x="30" y="220" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-9" source="6C03qrmBVSKvkhP6-HAM-121" target="6C03qrmBVSKvkhP6-HAM-125">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="6C03qrmBVSKvkhP6-HAM-9" source="6C03qrmBVSKvkhP6-HAM-121" target="6C03qrmBVSKvkhP6-HAM-125" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-121" value="扫码内容和流水号绑定" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-9">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-121" value="扫码内容和流水号绑定" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-9" vertex="1">
           <mxGeometry x="30" y="310" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-125" value="发送数据记录完成指令到PLC" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-9">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-125" value="发送数据记录完成指令到PLC" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-9" vertex="1">
           <mxGeometry x="30" y="410" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-10" value="旋转工位" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-10" value="旋转工位" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="1120" y="20" width="160" height="960" as="geometry">
             <mxRectangle x="800" y="20" width="730" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-130" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-10" source="6C03qrmBVSKvkhP6-HAM-127" target="6C03qrmBVSKvkhP6-HAM-128">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-130" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="6C03qrmBVSKvkhP6-HAM-10" source="6C03qrmBVSKvkhP6-HAM-127" target="6C03qrmBVSKvkhP6-HAM-128" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-127" value="收到旋转到位信号" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-10">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-127" value="收到旋转到位信号" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-10" vertex="1">
           <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-10" source="6C03qrmBVSKvkhP6-HAM-128" target="6C03qrmBVSKvkhP6-HAM-129">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="6C03qrmBVSKvkhP6-HAM-10" source="6C03qrmBVSKvkhP6-HAM-128" target="6C03qrmBVSKvkhP6-HAM-129" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-128" value="记录旋转时间" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-10">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-128" value="记录旋转时间" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-10" vertex="1">
           <mxGeometry x="30" y="130" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-129" value="记录数据记录完成指令到PLC" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-10">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-129" value="记录数据记录完成指令到PLC" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-10" vertex="1">
           <mxGeometry x="30" y="220" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-11" value="下料工位" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-11" value="下料工位" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="1280" y="20" width="170" height="960" as="geometry">
             <mxRectangle x="800" y="20" width="730" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-132" value="收到下料到位信号" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-11">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-132" value="收到下料到位信号" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-11" vertex="1">
           <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-170" value="已完成数量&amp;lt;工单数量" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-11">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-170" value="已完成数量&amp;lt;工单数量" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-11" vertex="1">
           <mxGeometry x="10" y="130" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-171" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-11">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-171" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-11" vertex="1">
           <mxGeometry x="60" y="220" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-172" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-11">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-172" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-11" vertex="1">
           <mxGeometry x="110" y="130" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-173" value="下发指令给3D拍照" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-11">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-173" value="下发指令给3D拍照" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-11" vertex="1">
           <mxGeometry x="20" y="255" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-177" value="收到3D拍照指令" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-11">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-177" value="收到3D拍照指令" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-11" vertex="1">
           <mxGeometry x="10" y="360" width="110" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-178" value="请求WMS获取空库位信息" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-11">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-178" value="请求WMS获取空库位信息" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-11" vertex="1">
           <mxGeometry x="15" y="490" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-179" value="码垛已满" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-11">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-179" value="码垛已满" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-11" vertex="1">
           <mxGeometry x="60" y="440" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-180" value="可以码垛" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-11">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-180" value="可以码垛" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-11" vertex="1">
           <mxGeometry x="110" y="365" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-183" value="下发入库请求和空货架呼叫到RCS，并停止执行下料流程" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-11">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-183" value="下发入库请求和空货架呼叫到RCS，并停止执行下料流程" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-11" vertex="1">
           <mxGeometry x="15" y="560" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-184" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;TODO：是去卡板区还是立库区待定&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-11">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-184" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;TODO：是去卡板区还是立库区待定&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="6C03qrmBVSKvkhP6-HAM-11" vertex="1">
           <mxGeometry x="15" y="450" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-187" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-11" target="6C03qrmBVSKvkhP6-HAM-170">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-187" value="" style="endArrow=classic;html=1;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-11" target="6C03qrmBVSKvkhP6-HAM-170" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="60" y="100" as="sourcePoint" />
             <mxPoint x="110" y="50" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-188" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-11">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-188" value="" style="endArrow=classic;html=1;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="60" y="210" as="sourcePoint" />
             <mxPoint x="60" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-189" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-11">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-189" value="" style="endArrow=none;html=1;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="120" y="290" as="sourcePoint" />
             <mxPoint x="340" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-194" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-11" target="6C03qrmBVSKvkhP6-HAM-177">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-194" value="" style="endArrow=classic;html=1;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-11" target="6C03qrmBVSKvkhP6-HAM-177" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="70" y="340" as="sourcePoint" />
             <mxPoint x="120" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-195" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.43;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-11" target="6C03qrmBVSKvkhP6-HAM-184">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-195" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.43;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" parent="6C03qrmBVSKvkhP6-HAM-11" target="6C03qrmBVSKvkhP6-HAM-184" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="60" y="440" as="sourcePoint" />
             <mxPoint x="110" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-196" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-11" target="6C03qrmBVSKvkhP6-HAM-183">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-196" value="" style="endArrow=classic;html=1;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-11" target="6C03qrmBVSKvkhP6-HAM-183" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="60" y="550" as="sourcePoint" />
             <mxPoint x="110" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-201" value="收到码垛完成信号" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-11">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-201" value="收到码垛完成信号" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-11" vertex="1">
           <mxGeometry x="20" y="730" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-202" value="记录工单已完成数量，继续执行下料流程" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-11">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-202" value="记录工单已完成数量，继续执行下料流程" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-11" vertex="1">
           <mxGeometry x="20" y="800" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-213" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-11">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-213" value="" style="endArrow=none;html=1;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="120" y="400" as="sourcePoint" />
             <mxPoint x="180" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-216" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-11" target="6C03qrmBVSKvkhP6-HAM-202">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-216" value="" style="endArrow=classic;html=1;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-11" target="6C03qrmBVSKvkhP6-HAM-202" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="70" y="790" as="sourcePoint" />
             <mxPoint x="120" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-12" value="下料机器人" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-12" value="下料机器人" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="1450" y="20" width="160" height="960" as="geometry">
             <mxRectangle x="800" y="20" width="730" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-197" value="收到码垛指令" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-12">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-197" value="收到码垛指令" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-12" vertex="1">
           <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-199" value="开始码垛" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-12">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-199" value="开始码垛" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-12" vertex="1">
           <mxGeometry x="30" y="130" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-200" value="码垛完成，上报上位机完成信号" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-12">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-200" value="码垛完成，上报上位机完成信号" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-12" vertex="1">
           <mxGeometry x="30" y="210" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-203" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-12">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-203" value="" style="endArrow=none;html=1;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="270" as="sourcePoint" />
             <mxPoint x="80" y="770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-205" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.04;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-12" target="6C03qrmBVSKvkhP6-HAM-201">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-205" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.04;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" parent="6C03qrmBVSKvkhP6-HAM-12" target="6C03qrmBVSKvkhP6-HAM-201" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="770" as="sourcePoint" />
             <mxPoint x="130" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-210" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-12" target="6C03qrmBVSKvkhP6-HAM-199">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-210" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="6C03qrmBVSKvkhP6-HAM-12" target="6C03qrmBVSKvkhP6-HAM-199" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="100" as="sourcePoint" />
             <mxPoint x="130" y="50" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-211" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-12" target="6C03qrmBVSKvkhP6-HAM-200">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-211" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="6C03qrmBVSKvkhP6-HAM-12" target="6C03qrmBVSKvkhP6-HAM-200" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="190" as="sourcePoint" />
             <mxPoint x="130" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-214" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-12">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-214" value="" style="endArrow=none;html=1;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="10" y="400" as="sourcePoint" />
             <mxPoint x="10" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-215" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-12" target="6C03qrmBVSKvkhP6-HAM-197">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-215" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="6C03qrmBVSKvkhP6-HAM-12" target="6C03qrmBVSKvkhP6-HAM-197" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="10" y="70" as="sourcePoint" />
             <mxPoint x="60" y="20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-13" value="3D视觉控制器" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-13" value="3D视觉控制器" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="1610" y="20" width="160" height="960" as="geometry">
             <mxRectangle x="800" y="20" width="730" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-147" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-13">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-147" value="" style="endArrow=none;html=1;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="700" as="sourcePoint" />
             <mxPoint x="150" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-148" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-13">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-148" value="" style="endArrow=none;html=1;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1600" y="700" as="sourcePoint" />
             <mxPoint x="150" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-165" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-13">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-165" value="" style="endArrow=none;html=1;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="140" y="690" as="sourcePoint" />
             <mxPoint x="140" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-166" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-13">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-166" value="" style="endArrow=none;html=1;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1590" y="690" as="sourcePoint" />
             <mxPoint x="140" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-182" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-13" source="6C03qrmBVSKvkhP6-HAM-174" target="6C03qrmBVSKvkhP6-HAM-175">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-182" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="6C03qrmBVSKvkhP6-HAM-13" source="6C03qrmBVSKvkhP6-HAM-174" target="6C03qrmBVSKvkhP6-HAM-175" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-174" value="收到拍照指令" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-13">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-174" value="收到拍照指令" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-13" vertex="1">
           <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-175" value="执行拍照，可以码垛返回坐标，码垛已满返回NG" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-13">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-175" value="执行拍照，可以码垛返回坐标，码垛已满返回NG" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-13" vertex="1">
           <mxGeometry x="30" y="140" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-190" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-13">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-190" value="" style="endArrow=none;html=1;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="10" y="290" as="sourcePoint" />
             <mxPoint x="10" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-191" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.01;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-13" target="6C03qrmBVSKvkhP6-HAM-174">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-191" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.01;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" parent="6C03qrmBVSKvkhP6-HAM-13" target="6C03qrmBVSKvkhP6-HAM-174" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="10" y="80" as="sourcePoint" />
             <mxPoint x="60" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-192" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-13">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-192" value="" style="endArrow=none;html=1;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="200" as="sourcePoint" />
             <mxPoint x="80" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-193" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-13">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-193" value="" style="endArrow=none;html=1;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-260" y="340" as="sourcePoint" />
             <mxPoint x="80" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-14" value="RCS-2000系统" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-14" value="RCS-2000系统" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="1770" y="20" width="160" height="960" as="geometry">
             <mxRectangle x="800" y="20" width="730" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-138" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-14" source="6C03qrmBVSKvkhP6-HAM-44">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-138" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="6C03qrmBVSKvkhP6-HAM-14" source="6C03qrmBVSKvkhP6-HAM-44" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="80" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-44" value="收到搬运空货架指令" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-14">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-44" value="收到搬运空货架指令" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-14" vertex="1">
           <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-45" value="下发搬运空货架给AGV小车" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-14">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-45" value="下发搬运空货架给AGV小车" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-14" vertex="1">
           <mxGeometry x="30" y="125" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-49" value="收到小车任务完成，发送消息给MES" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-14">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-49" value="收到小车任务完成，发送消息给MES" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-14" vertex="1">
           <mxGeometry x="30" y="210" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-51" value="收到叫料指令" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-14">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-51" value="收到叫料指令" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-14" vertex="1">
           <mxGeometry x="30" y="305" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-52" value="下发叫料搬运任务给AGV小车" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-14">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-52" value="下发叫料搬运任务给AGV小车" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-14" vertex="1">
           <mxGeometry x="30" y="380" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-53" value="收到小车任务完成，发送消息给上位机" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-14">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-53" value="收到小车任务完成，发送消息给上位机" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-14" vertex="1">
           <mxGeometry x="30" y="460" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-136" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-14">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-136" value="" style="endArrow=none;html=1;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="10" y="710" as="sourcePoint" />
             <mxPoint x="10" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-137" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-14" target="6C03qrmBVSKvkhP6-HAM-44">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-137" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="6C03qrmBVSKvkhP6-HAM-14" target="6C03qrmBVSKvkhP6-HAM-44" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="10" y="70" as="sourcePoint" />
             <mxPoint x="60" y="20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-139" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-14" source="6C03qrmBVSKvkhP6-HAM-45">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-139" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="6C03qrmBVSKvkhP6-HAM-14" source="6C03qrmBVSKvkhP6-HAM-45" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="120" y="160" as="sourcePoint" />
             <mxPoint x="150" y="155" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-140" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-14">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-140" value="" style="endArrow=none;html=1;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="160" as="sourcePoint" />
             <mxPoint x="150" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-141" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-14" target="6C03qrmBVSKvkhP6-HAM-46">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-141" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="6C03qrmBVSKvkhP6-HAM-14" target="6C03qrmBVSKvkhP6-HAM-46" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="70" as="sourcePoint" />
             <mxPoint x="200" y="20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-145" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-14">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-145" value="" style="endArrow=none;html=1;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="290" as="sourcePoint" />
             <mxPoint x="80" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-146" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-14">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-146" value="" style="endArrow=none;html=1;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-10" y="290" as="sourcePoint" />
             <mxPoint x="80" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-154" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-14">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-154" value="" style="endArrow=none;html=1;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="20" y="720" as="sourcePoint" />
             <mxPoint x="20" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-155" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-14" target="6C03qrmBVSKvkhP6-HAM-51">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-155" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" parent="6C03qrmBVSKvkhP6-HAM-14" target="6C03qrmBVSKvkhP6-HAM-51" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="20" y="340" as="sourcePoint" />
             <mxPoint x="70" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-156" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-14" target="6C03qrmBVSKvkhP6-HAM-52">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-156" value="" style="endArrow=classic;html=1;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-14" target="6C03qrmBVSKvkhP6-HAM-52" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="360" as="sourcePoint" />
             <mxPoint x="130" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-157" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-14">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-157" value="" style="endArrow=none;html=1;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="130" y="410" as="sourcePoint" />
             <mxPoint x="150" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-158" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-14">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-158" value="" style="endArrow=none;html=1;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="410" as="sourcePoint" />
             <mxPoint x="150" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-159" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.01;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-14" target="6C03qrmBVSKvkhP6-HAM-54">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-159" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.01;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" parent="6C03qrmBVSKvkhP6-HAM-14" target="6C03qrmBVSKvkhP6-HAM-54" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="340" as="sourcePoint" />
             <mxPoint x="200" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-163" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-14">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-163" value="" style="endArrow=none;html=1;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="90" y="540" as="sourcePoint" />
             <mxPoint x="90" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-164" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-14">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-164" value="" style="endArrow=none;html=1;rounded=0;" parent="6C03qrmBVSKvkhP6-HAM-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-20" y="540" as="sourcePoint" />
             <mxPoint x="90" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-15" value="AGV小车" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-15" value="AGV小车" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="1930" y="20" width="160" height="960" as="geometry">
             <mxRectangle x="800" y="20" width="730" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-142" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-15" source="6C03qrmBVSKvkhP6-HAM-46" target="6C03qrmBVSKvkhP6-HAM-47">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-142" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="6C03qrmBVSKvkhP6-HAM-15" source="6C03qrmBVSKvkhP6-HAM-46" target="6C03qrmBVSKvkhP6-HAM-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-46" value="收到搬运空货架指令" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-15">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-46" value="收到搬运空货架指令" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-15" vertex="1">
           <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-47" value="开始搬运空货架" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-15">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-47" value="开始搬运空货架" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-15" vertex="1">
           <mxGeometry x="30" y="130" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-48" value="搬运完成，上报RCS任务完成" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-15">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-48" value="搬运完成，上报RCS任务完成" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-15" vertex="1">
           <mxGeometry x="30" y="210" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-160" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-15" source="6C03qrmBVSKvkhP6-HAM-54" target="6C03qrmBVSKvkhP6-HAM-55">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-160" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="6C03qrmBVSKvkhP6-HAM-15" source="6C03qrmBVSKvkhP6-HAM-54" target="6C03qrmBVSKvkhP6-HAM-55" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="80" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-54" value="收到叫料搬运指令" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-15">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-54" value="收到叫料搬运指令" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-15" vertex="1">
           <mxGeometry x="30" y="300" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-55" value="开始叫料搬运" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-15">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-55" value="开始叫料搬运" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-15" vertex="1">
           <mxGeometry x="30" y="390" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-56" value="搬运完成，上报RCS任务完成" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-15">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-56" value="搬运完成，上报RCS任务完成" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-15" vertex="1">
           <mxGeometry x="30" y="470" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-143" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-15" target="6C03qrmBVSKvkhP6-HAM-48">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-143" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="6C03qrmBVSKvkhP6-HAM-15" target="6C03qrmBVSKvkhP6-HAM-48" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="190" as="sourcePoint" />
             <mxPoint x="130" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-144" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-15" target="6C03qrmBVSKvkhP6-HAM-49">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-144" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="6C03qrmBVSKvkhP6-HAM-15" target="6C03qrmBVSKvkhP6-HAM-49" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="30" y="240" as="sourcePoint" />
             <mxPoint x="80" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-161" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-15" target="6C03qrmBVSKvkhP6-HAM-56">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-161" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="6C03qrmBVSKvkhP6-HAM-15" target="6C03qrmBVSKvkhP6-HAM-56" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="450" as="sourcePoint" />
             <mxPoint x="130" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-162" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.05;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="6C03qrmBVSKvkhP6-HAM-15" target="6C03qrmBVSKvkhP6-HAM-53">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-162" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.05;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" parent="6C03qrmBVSKvkhP6-HAM-15" target="6C03qrmBVSKvkhP6-HAM-53" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="30" y="500" as="sourcePoint" />
             <mxPoint x="80" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-16" value="WMS" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-16" value="WMS" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="2090" y="20" width="160" height="960" as="geometry">
             <mxRectangle x="800" y="20" width="730" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-217" value="出库、入库接口" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-16">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-217" value="出库、入库接口" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-16" vertex="1">
           <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-218" value="库位和RCS库位坐标绑定" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-16">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-218" value="库位和RCS库位坐标绑定" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-16" vertex="1">
           <mxGeometry x="30" y="130" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-17" value="WCS" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-17" value="WCS" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="2250" y="20" width="160" height="960" as="geometry">
             <mxRectangle x="800" y="20" width="730" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-185" value="MES、WMS、RCS、AGV状态" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="6C03qrmBVSKvkhP6-HAM-17">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-185" value="MES、WMS、RCS、AGV状态" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6C03qrmBVSKvkhP6-HAM-17" vertex="1">
           <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6C03qrmBVSKvkhP6-HAM-63" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="6C03qrmBVSKvkhP6-HAM-60">
+        <mxCell id="6C03qrmBVSKvkhP6-HAM-63" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="6C03qrmBVSKvkhP6-HAM-60" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="530" y="720" as="sourcePoint" />
             <mxPoint x="420" y="410" as="targetPoint" />
