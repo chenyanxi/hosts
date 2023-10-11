@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T03:23:24.391Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="5lNwJttbFsrXUnQJVutd" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T03:25:18.914Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="V_Oekj61CMaVdnw4aoLI" version="21.7.4" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="890" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="77e6c97f196da883-1" value="Pool" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
-          <mxGeometry x="70" y="40" width="1210" height="930" as="geometry" />
+          <mxGeometry x="70" y="40" width="1210" height="1050" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-2" value="提升机*2" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry y="20" width="160" height="910" as="geometry" />
+          <mxGeometry y="20" width="160" height="1030" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-8" value="提升机在二层：人工放入货架，按下去1层按钮" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-2" vertex="1">
           <mxGeometry x="20" y="30" width="100" height="60" as="geometry" />
@@ -20,7 +20,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-3" value="提升机控制盒*2" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="160" y="20" width="170" height="910" as="geometry" />
+          <mxGeometry x="160" y="20" width="170" height="1030" as="geometry" />
         </mxCell>
         <mxCell id="sjh6YoRqS8CRLfCROH4P-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-3" source="77e6c97f196da883-11" target="sjh6YoRqS8CRLfCROH4P-1">
           <mxGeometry relative="1" as="geometry" />
@@ -35,7 +35,7 @@
           <mxGeometry x="10" y="585" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-4" value="TCS(任务控制系统)" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="330" y="20" width="340" height="910" as="geometry" />
+          <mxGeometry x="330" y="20" width="340" height="1030" as="geometry" />
         </mxCell>
         <mxCell id="sjh6YoRqS8CRLfCROH4P-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-4" source="sjh6YoRqS8CRLfCROH4P-10" target="sjh6YoRqS8CRLfCROH4P-13">
           <mxGeometry relative="1" as="geometry" />
@@ -77,7 +77,7 @@
           <mxGeometry x="90" y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-5" value="RCS-2000" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="670" y="20" width="160" height="910" as="geometry" />
+          <mxGeometry x="670" y="20" width="160" height="1030" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-15" value="下发W1任务(L1&amp;amp;L2-Q1)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-5" vertex="1">
           <mxGeometry x="30" y="30" width="100" height="60" as="geometry" />
@@ -92,7 +92,7 @@
           <mxGeometry x="20" y="435" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-6" value="AGV" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="830" y="20" width="220" height="910" as="geometry" />
+          <mxGeometry x="830" y="20" width="220" height="1030" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-18" value="离开储位：上报leave到TCS(第三方/tcsWebApi_2)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-6" vertex="1">
           <mxGeometry x="25" y="260" width="105" height="60" as="geometry" />
@@ -107,10 +107,25 @@
           <mxGeometry x="15" y="435" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-7" value="月台控制盒" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="1050" y="20" width="160" height="910" as="geometry" />
+          <mxGeometry x="1050" y="20" width="160" height="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="sjh6YoRqS8CRLfCROH4P-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-7" source="sjh6YoRqS8CRLfCROH4P-47" target="sjh6YoRqS8CRLfCROH4P-52">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sjh6YoRqS8CRLfCROH4P-47" value="解锁按钮1(空托搬运)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-7">
           <mxGeometry x="20" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sjh6YoRqS8CRLfCROH4P-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-7" source="sjh6YoRqS8CRLfCROH4P-52" target="sjh6YoRqS8CRLfCROH4P-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sjh6YoRqS8CRLfCROH4P-52" value="output:信号灯闪烁&lt;br&gt;input:人工按下触发" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="77e6c97f196da883-7">
+          <mxGeometry x="20" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sjh6YoRqS8CRLfCROH4P-54" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="77e6c97f196da883-7">
+          <mxGeometry x="20" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sjh6YoRqS8CRLfCROH4P-56" value="人工触发" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="77e6c97f196da883-7">
+          <mxGeometry x="80" y="830" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sjh6YoRqS8CRLfCROH4P-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-1" source="77e6c97f196da883-15" target="sjh6YoRqS8CRLfCROH4P-8">
           <mxGeometry relative="1" as="geometry" />
