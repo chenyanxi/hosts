@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T09:23:26.915Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="nzkDwR9g6ByyQ7j38dVQ" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-18T10:44:37.369Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="b4uCY4t0mUyzp0nozZVK" version="22.0.4" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="890" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -73,7 +73,7 @@
         <mxCell id="sjh6YoRqS8CRLfCROH4P-36" value="生成任务：货架搬运(L1&amp;amp;L2)-Q1，记录提升机编号，执行回梯任务时需要用到" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#CCFF99;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="25" y="97.5" width="115" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="sjh6YoRqS8CRLfCROH4P-44" value="下发指令到控制盒，解锁按钮盒任务触发按钮" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" parent="77e6c97f196da883-4" vertex="1">
+        <mxCell id="sjh6YoRqS8CRLfCROH4P-44" value="下发指令到控制盒，解锁按钮盒任务触发按钮" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#FFFFFF;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="90" y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sjh6YoRqS8CRLfCROH4P-57" value="生成任务：空托搬运(C2-Q2)" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" parent="77e6c97f196da883-4" vertex="1">
@@ -85,10 +85,10 @@
         <mxCell id="sjh6YoRqS8CRLfCROH4P-70" value="下发指令到控制盒，解锁电梯" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#CCFF99;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="25" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sjh6YoRqS8CRLfCROH4P-80" value="禁用C1,下发指令到控制盒，解锁解绑按钮" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" parent="77e6c97f196da883-4" vertex="1">
+        <mxCell id="sjh6YoRqS8CRLfCROH4P-80" value="禁用C1,下发指令到控制盒，解锁解绑按钮" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#CCFF99;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="25" y="1140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sjh6YoRqS8CRLfCROH4P-91" value="解锁C1位置，W2是否被请求过，请求过就重新下发W2任务" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" parent="77e6c97f196da883-4" vertex="1">
+        <mxCell id="sjh6YoRqS8CRLfCROH4P-91" value="解锁C1位置，W2是否被请求过，请求过就重新下发W2任务" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#CCFF99;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="22.5" y="1300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="upgrX9dinSbHW9fOHhlJ-1" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;C1是否禁用&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#CCFF99;" vertex="1" parent="77e6c97f196da883-4">
@@ -369,6 +369,19 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="620" y="260" as="targetPoint" />
             <mxPoint x="730" y="360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upgrX9dinSbHW9fOHhlJ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sjh6YoRqS8CRLfCROH4P-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="1200" as="sourcePoint" />
+            <mxPoint x="870" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="1390" />
+              <mxPoint x="410" y="840" />
+              <mxPoint x="760" y="840" />
+              <mxPoint x="760" y="410" />
+              <mxPoint x="870" y="410" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
