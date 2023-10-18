@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T09:23:12.115Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="RvlGnhz1_-oz7ld5Uzb7" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-18T09:23:26.915Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="nzkDwR9g6ByyQ7j38dVQ" version="22.0.4" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="890" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -160,19 +160,19 @@
         <mxCell id="sjh6YoRqS8CRLfCROH4P-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="77e6c97f196da883-7" source="sjh6YoRqS8CRLfCROH4P-47" target="sjh6YoRqS8CRLfCROH4P-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sjh6YoRqS8CRLfCROH4P-47" value="解锁按钮1(空托搬运)" style="rounded=1;whiteSpace=wrap;html=1;" parent="77e6c97f196da883-7" vertex="1">
+        <mxCell id="sjh6YoRqS8CRLfCROH4P-47" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;解锁按钮1(空托搬运)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="77e6c97f196da883-7" vertex="1">
           <mxGeometry x="20" y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sjh6YoRqS8CRLfCROH4P-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="77e6c97f196da883-7" source="sjh6YoRqS8CRLfCROH4P-52" target="sjh6YoRqS8CRLfCROH4P-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sjh6YoRqS8CRLfCROH4P-52" value="output:信号灯闪烁&lt;br&gt;input:人工按下触发" style="whiteSpace=wrap;html=1;rounded=1;" parent="77e6c97f196da883-7" vertex="1">
+        <mxCell id="sjh6YoRqS8CRLfCROH4P-52" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;output:信号灯闪烁&lt;br&gt;input:人工按下触发&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="77e6c97f196da883-7" vertex="1">
           <mxGeometry x="20" y="770" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sjh6YoRqS8CRLfCROH4P-54" value="上报TCS生成任务：C2-Q2，锁定按钮1" style="whiteSpace=wrap;html=1;rounded=1;" parent="77e6c97f196da883-7" vertex="1">
+        <mxCell id="sjh6YoRqS8CRLfCROH4P-54" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;上报TCS生成任务：C2-Q2，锁定按钮1&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="77e6c97f196da883-7" vertex="1">
           <mxGeometry x="20" y="870" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sjh6YoRqS8CRLfCROH4P-56" value="人工触发" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="77e6c97f196da883-7" vertex="1">
+        <mxCell id="sjh6YoRqS8CRLfCROH4P-56" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;人工触发&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="77e6c97f196da883-7" vertex="1">
           <mxGeometry x="80" y="830" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sjh6YoRqS8CRLfCROH4P-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="77e6c97f196da883-7" source="sjh6YoRqS8CRLfCROH4P-84" target="sjh6YoRqS8CRLfCROH4P-86" edge="1">
