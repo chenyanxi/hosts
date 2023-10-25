@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-25T09:26:56.099Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Ws39ODoDI1ehw6C9yVUo" version="22.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-25T09:27:30.795Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="T4qlvHMuVM1ia-3-WWl0" version="22.0.7" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="737" dy="316" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -51,7 +51,7 @@
         <mxCell id="7OfbRRR_8dRWuwGR9oJ1-13" value="生成任务：叉车搬运任务Q-C" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;fillColor=#FFFFFF;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="77e6c97f196da883-4">
           <mxGeometry x="45" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7OfbRRR_8dRWuwGR9oJ1-15" value="1.读取状态为未占用状态的C区&lt;br&gt;2.如果C区都是占用状态，就触发轮询" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;fillColor=#FFFFFF;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="77e6c97f196da883-4">
+        <mxCell id="7OfbRRR_8dRWuwGR9oJ1-15" value="1.读取状态为未占用状态的C区&lt;br&gt;2.如果C区都是占用状态，就触发轮询&lt;br&gt;3.记录Q区占用状态" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;fillColor=#FFFFFF;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="77e6c97f196da883-4">
           <mxGeometry x="45" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-5" value="RCS-2000" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
