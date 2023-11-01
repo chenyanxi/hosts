@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-01T07:15:22.305Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="seEg7YQpJlAZQkcwVT9y" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-01T07:18:13.202Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="SNsgP8geyd5d-oUFMwGQ" version="22.0.8" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="989" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -207,15 +207,6 @@
             <mxPoint x="200" y="1280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7OfbRRR_8dRWuwGR9oJ1-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="77e6c97f196da883-1" target="7OfbRRR_8dRWuwGR9oJ1-23" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="800" y="370" />
-              <mxPoint x="800" y="465" />
-            </Array>
-            <mxPoint x="750" y="370" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="7OfbRRR_8dRWuwGR9oJ1-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="77e6c97f196da883-1" source="7OfbRRR_8dRWuwGR9oJ1-17" target="7OfbRRR_8dRWuwGR9oJ1-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -233,9 +224,6 @@
         </mxCell>
         <mxCell id="7OfbRRR_8dRWuwGR9oJ1-20" value="任务完成：上报w2_arrived" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;fillColor=#FFFFFF;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" parent="77e6c97f196da883-6" vertex="1">
           <mxGeometry x="45" y="340" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7OfbRRR_8dRWuwGR9oJ1-23" value="离开储位：上报w2_leave" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;fillColor=#FFFFFF;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" parent="77e6c97f196da883-6" vertex="1">
-          <mxGeometry x="45" y="415" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JO6AkFmK0KtckrHVpwDT-5" value="走出提升机，走出储位：上报w1_leave" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="77e6c97f196da883-6">
           <mxGeometry x="30" y="150" width="115" height="60" as="geometry" />
@@ -446,7 +434,7 @@
             <mxPoint x="930" y="1330" as="targetPoint" />
             <Array as="points">
               <mxPoint x="885" y="1390" />
-              <mxPoint x="800" y="1390" />
+              <mxPoint x="885" y="1440" />
               <mxPoint x="800" y="1440" />
             </Array>
           </mxGeometry>
