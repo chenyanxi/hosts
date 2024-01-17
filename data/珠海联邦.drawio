@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T09:12:00.062Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="2H_lksDp4HNn5UgtA7fp" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T09:12:41.957Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="1aEF6qMNl1ORZ9780Fu5" version="22.1.18" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1154" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1884,10 +1884,10 @@
           <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GmcG6ujihVQZnx2HNYRI-217" value="AGV继续执行任务" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GmcG6ujihVQZnx2HNYRI-215">
-          <mxGeometry x="30" y="224" width="100" height="60" as="geometry" />
+          <mxGeometry x="30" y="266" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GmcG6ujihVQZnx2HNYRI-218" value="AGV放完满垛托盘，并退出进料口，请求放料完成信号" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GmcG6ujihVQZnx2HNYRI-215">
-          <mxGeometry x="30" y="324" width="100" height="60" as="geometry" />
+          <mxGeometry x="30" y="380" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GmcG6ujihVQZnx2HNYRI-219" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="GmcG6ujihVQZnx2HNYRI-215" source="GmcG6ujihVQZnx2HNYRI-217" target="GmcG6ujihVQZnx2HNYRI-218">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1896,7 +1896,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GmcG6ujihVQZnx2HNYRI-220" value="任务结束" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GmcG6ujihVQZnx2HNYRI-215">
-          <mxGeometry x="30" y="424" width="100" height="60" as="geometry" />
+          <mxGeometry x="30" y="480" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GmcG6ujihVQZnx2HNYRI-221" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="GmcG6ujihVQZnx2HNYRI-215" source="GmcG6ujihVQZnx2HNYRI-218" target="GmcG6ujihVQZnx2HNYRI-220">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1945,17 +1945,6 @@
         </mxCell>
         <mxCell id="GmcG6ujihVQZnx2HNYRI-235" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;闭合成功&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GmcG6ujihVQZnx2HNYRI-234">
           <mxGeometry x="-0.2306" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GmcG6ujihVQZnx2HNYRI-237" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.001;exitY=0.581;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="GmcG6ujihVQZnx2HNYRI-185" source="GmcG6ujihVQZnx2HNYRI-218" target="GmcG6ujihVQZnx2HNYRI-212">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="760" y="270" as="sourcePoint" />
-            <mxPoint x="810" y="220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GmcG6ujihVQZnx2HNYRI-238" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;请求放料完成&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GmcG6ujihVQZnx2HNYRI-237">
-          <mxGeometry x="-0.1482" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -2022,6 +2011,17 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="210" y="320" as="sourcePoint" />
             <mxPoint x="260" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GmcG6ujihVQZnx2HNYRI-258" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="GmcG6ujihVQZnx2HNYRI-185" source="GmcG6ujihVQZnx2HNYRI-212" target="GmcG6ujihVQZnx2HNYRI-217">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="330" as="sourcePoint" />
+            <mxPoint x="760" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GmcG6ujihVQZnx2HNYRI-259" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;继续执行任务&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GmcG6ujihVQZnx2HNYRI-258">
+          <mxGeometry x="-0.0585" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
