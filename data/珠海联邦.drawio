@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T00:26:50.157Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="EKSzZQkpeJ-XWxKTeBlr" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T00:32:50.082Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="UOeYbAbT183T9NWMHlm8" version="22.1.18" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1395" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -753,9 +753,6 @@
         <mxCell id="wt-lyz0hFmrLNddraWR2-172" value="请求放空托盘A" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="wt-lyz0hFmrLNddraWR2-171" vertex="1">
           <mxGeometry x="50" y="62.5" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wt-lyz0hFmrLNddraWR2-173" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;输入IO信号&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wt-lyz0hFmrLNddraWR2-171" vertex="1">
-          <mxGeometry x="160" y="70" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="wt-lyz0hFmrLNddraWR2-183" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" parent="wt-lyz0hFmrLNddraWR2-170" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="840" y="690" as="targetPoint" />
@@ -812,12 +809,6 @@
         <mxCell id="wt-lyz0hFmrLNddraWR2-191" value="&lt;b&gt;&lt;font color=&quot;#97d077&quot;&gt;DI-4&lt;/font&gt;&lt;/b&gt;寄存器" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="wt-lyz0hFmrLNddraWR2-190" vertex="1">
           <mxGeometry x="30" y="60" width="100" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="wt-lyz0hFmrLNddraWR2-192" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;轮询读取&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wt-lyz0hFmrLNddraWR2-190" vertex="1">
-          <mxGeometry x="160" y="60" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="wt-lyz0hFmrLNddraWR2-193" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;返回状态值&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wt-lyz0hFmrLNddraWR2-190" vertex="1">
-          <mxGeometry x="160" y="100" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="wt-lyz0hFmrLNddraWR2-205" value="WCS" style="swimlane;html=1;startSize=20;" parent="wt-lyz0hFmrLNddraWR2-170" vertex="1">
           <mxGeometry x="470" y="20" width="180" height="730" as="geometry" />
         </mxCell>
@@ -829,6 +820,9 @@
             <mxPoint x="140" y="100" as="sourcePoint" />
             <mxPoint x="190" y="50" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="GmcG6ujihVQZnx2HNYRI-18" value="1.通过TCP连接，轮询发送11 05 00 00 FF 00 8E AA(后两位为校验位)控制继电器闭合&lt;br&gt;2.如果闭合成功会返回11 05 00 00 FF 00 8E AA(后两位为校验位)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="wt-lyz0hFmrLNddraWR2-205">
+          <mxGeometry x="40" y="164" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wt-lyz0hFmrLNddraWR2-212" value="RCS" style="swimlane;html=1;startSize=20;" parent="wt-lyz0hFmrLNddraWR2-170" vertex="1">
           <mxGeometry x="650" y="20" width="160" height="730" as="geometry" />
@@ -853,10 +847,18 @@
         <mxCell id="wt-lyz0hFmrLNddraWR2-220" value="AGV移动" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="wt-lyz0hFmrLNddraWR2-218" vertex="1">
           <mxGeometry x="30" y="70" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="GmcG6ujihVQZnx2HNYRI-16" value="AGV移动到光栅外的A点，请求通过光栅" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="wt-lyz0hFmrLNddraWR2-218">
+          <mxGeometry x="30" y="176" width="100" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="wt-lyz0hFmrLNddraWR2-223" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" parent="wt-lyz0hFmrLNddraWR2-170" source="wt-lyz0hFmrLNddraWR2-206" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="90" as="sourcePoint" />
             <mxPoint x="370" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GmcG6ujihVQZnx2HNYRI-22" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;轮询读取&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wt-lyz0hFmrLNddraWR2-223">
+          <mxGeometry x="0.1908" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wt-lyz0hFmrLNddraWR2-224" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.645;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryPerimeter=0;" parent="wt-lyz0hFmrLNddraWR2-170" source="wt-lyz0hFmrLNddraWR2-191" target="wt-lyz0hFmrLNddraWR2-206" edge="1">
@@ -865,10 +867,31 @@
             <mxPoint x="400" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="GmcG6ujihVQZnx2HNYRI-21" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;返回状态值&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wt-lyz0hFmrLNddraWR2-224">
+          <mxGeometry x="-0.1548" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="wt-lyz0hFmrLNddraWR2-225" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="wt-lyz0hFmrLNddraWR2-170" source="wt-lyz0hFmrLNddraWR2-172" target="wt-lyz0hFmrLNddraWR2-191" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="120" as="sourcePoint" />
             <mxPoint x="200" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GmcG6ujihVQZnx2HNYRI-23" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;输入IO信号&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wt-lyz0hFmrLNddraWR2-225">
+          <mxGeometry x="-0.1944" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GmcG6ujihVQZnx2HNYRI-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wt-lyz0hFmrLNddraWR2-170" source="GmcG6ujihVQZnx2HNYRI-16" target="GmcG6ujihVQZnx2HNYRI-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="230" as="sourcePoint" />
+            <mxPoint x="780" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GmcG6ujihVQZnx2HNYRI-20" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;请求通过光栅&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GmcG6ujihVQZnx2HNYRI-19">
+          <mxGeometry x="-0.0871" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wt-lyz0hFmrLNddraWR2-241" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;拆垛机工作站，取空垛托盘流程图&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
@@ -1141,6 +1164,17 @@
               <mxPoint x="1970" y="200" />
               <mxPoint x="2040" y="200" />
               <mxPoint x="2040" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GmcG6ujihVQZnx2HNYRI-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GmcG6ujihVQZnx2HNYRI-13" target="GmcG6ujihVQZnx2HNYRI-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2020" y="1330" as="sourcePoint" />
+            <mxPoint x="2100" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1970" y="1290" />
+              <mxPoint x="2030" y="1290" />
+              <mxPoint x="2030" y="266" />
             </Array>
           </mxGeometry>
         </mxCell>
