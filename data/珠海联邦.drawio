@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T00:32:50.082Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="UOeYbAbT183T9NWMHlm8" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T00:37:30.577Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="pRhjCxSl2wSoeYcwSiL9" version="22.1.18" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1395" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -753,6 +753,9 @@
         <mxCell id="wt-lyz0hFmrLNddraWR2-172" value="请求放空托盘A" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="wt-lyz0hFmrLNddraWR2-171" vertex="1">
           <mxGeometry x="50" y="62.5" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="GmcG6ujihVQZnx2HNYRI-29" value="请求放空托盘A" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="wt-lyz0hFmrLNddraWR2-171">
+          <mxGeometry x="50" y="171.5" width="100" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="wt-lyz0hFmrLNddraWR2-183" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" parent="wt-lyz0hFmrLNddraWR2-170" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="840" y="690" as="targetPoint" />
@@ -809,6 +812,9 @@
         <mxCell id="wt-lyz0hFmrLNddraWR2-191" value="&lt;b&gt;&lt;font color=&quot;#97d077&quot;&gt;DI-4&lt;/font&gt;&lt;/b&gt;寄存器" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="wt-lyz0hFmrLNddraWR2-190" vertex="1">
           <mxGeometry x="30" y="60" width="100" height="65" as="geometry" />
         </mxCell>
+        <mxCell id="GmcG6ujihVQZnx2HNYRI-24" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;DO-1&lt;/font&gt;&lt;/b&gt;寄存器" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="wt-lyz0hFmrLNddraWR2-190">
+          <mxGeometry x="30" y="169" width="100" height="65" as="geometry" />
+        </mxCell>
         <mxCell id="wt-lyz0hFmrLNddraWR2-205" value="WCS" style="swimlane;html=1;startSize=20;" parent="wt-lyz0hFmrLNddraWR2-170" vertex="1">
           <mxGeometry x="470" y="20" width="180" height="730" as="geometry" />
         </mxCell>
@@ -822,7 +828,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GmcG6ujihVQZnx2HNYRI-18" value="1.通过TCP连接，轮询发送11 05 00 00 FF 00 8E AA(后两位为校验位)控制继电器闭合&lt;br&gt;2.如果闭合成功会返回11 05 00 00 FF 00 8E AA(后两位为校验位)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="wt-lyz0hFmrLNddraWR2-205">
-          <mxGeometry x="40" y="164" width="100" height="80" as="geometry" />
+          <mxGeometry x="40" y="165" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wt-lyz0hFmrLNddraWR2-212" value="RCS" style="swimlane;html=1;startSize=20;" parent="wt-lyz0hFmrLNddraWR2-170" vertex="1">
           <mxGeometry x="650" y="20" width="160" height="730" as="geometry" />
@@ -891,6 +897,39 @@
         </mxCell>
         <mxCell id="GmcG6ujihVQZnx2HNYRI-20" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;请求通过光栅&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GmcG6ujihVQZnx2HNYRI-19">
           <mxGeometry x="-0.0871" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GmcG6ujihVQZnx2HNYRI-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="wt-lyz0hFmrLNddraWR2-170" source="GmcG6ujihVQZnx2HNYRI-18" target="GmcG6ujihVQZnx2HNYRI-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="220" as="sourcePoint" />
+            <mxPoint x="460" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GmcG6ujihVQZnx2HNYRI-27" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;控制继电器闭合&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GmcG6ujihVQZnx2HNYRI-25">
+          <mxGeometry x="-0.1786" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GmcG6ujihVQZnx2HNYRI-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=-0.025;entryY=0.677;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wt-lyz0hFmrLNddraWR2-170" source="GmcG6ujihVQZnx2HNYRI-24" target="GmcG6ujihVQZnx2HNYRI-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="310" as="sourcePoint" />
+            <mxPoint x="500" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GmcG6ujihVQZnx2HNYRI-28" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;闭合成功返回&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GmcG6ujihVQZnx2HNYRI-26">
+          <mxGeometry x="-0.0301" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GmcG6ujihVQZnx2HNYRI-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wt-lyz0hFmrLNddraWR2-170" source="GmcG6ujihVQZnx2HNYRI-24" target="GmcG6ujihVQZnx2HNYRI-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="220" as="sourcePoint" />
+            <mxPoint x="220" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GmcG6ujihVQZnx2HNYRI-31" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;IO输出&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GmcG6ujihVQZnx2HNYRI-30">
+          <mxGeometry x="0.0694" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
