@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T08:27:42.587Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="GIS0AUicI5F7uXCYyYRs" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T08:33:20.214Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Bqk8XJedvwJClbNkTS4q" version="22.1.18" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1154" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1520,7 +1520,7 @@
             <mxPoint x="80.00000000000023" y="620" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GmcG6ujihVQZnx2HNYRI-140" value="生成空托盘搬运任务" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GmcG6ujihVQZnx2HNYRI-138">
+        <mxCell id="GmcG6ujihVQZnx2HNYRI-140" value="生成NG托盘搬运任务" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GmcG6ujihVQZnx2HNYRI-138">
           <mxGeometry x="30" y="70" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GmcG6ujihVQZnx2HNYRI-141" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="GmcG6ujihVQZnx2HNYRI-138" target="GmcG6ujihVQZnx2HNYRI-143">
@@ -1541,7 +1541,7 @@
         <mxCell id="GmcG6ujihVQZnx2HNYRI-145" value="AGV继续执行任务" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GmcG6ujihVQZnx2HNYRI-142">
           <mxGeometry x="30" y="277" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GmcG6ujihVQZnx2HNYRI-146" value="AGV通过光栅，把托盘放到补充位置A，到达光栅外的B点，请求复位光栅信号、和请求托盘A放置完成信号" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GmcG6ujihVQZnx2HNYRI-142">
+        <mxCell id="GmcG6ujihVQZnx2HNYRI-146" value="AGV通过光栅，搬运NG托盘到达光栅外的B点，请求复位光栅信号、和请求托盘A位置NG托盘处置完成信号" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GmcG6ujihVQZnx2HNYRI-142">
           <mxGeometry x="30" y="390" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GmcG6ujihVQZnx2HNYRI-147" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="GmcG6ujihVQZnx2HNYRI-142" source="GmcG6ujihVQZnx2HNYRI-145" target="GmcG6ujihVQZnx2HNYRI-146">
@@ -1557,6 +1557,12 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="90" y="430" as="sourcePoint" />
             <mxPoint x="140" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GmcG6ujihVQZnx2HNYRI-184" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="GmcG6ujihVQZnx2HNYRI-142" source="GmcG6ujihVQZnx2HNYRI-143" target="GmcG6ujihVQZnx2HNYRI-144">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="120" as="sourcePoint" />
+            <mxPoint x="130" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GmcG6ujihVQZnx2HNYRI-150" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="GmcG6ujihVQZnx2HNYRI-108" source="GmcG6ujihVQZnx2HNYRI-132">
@@ -1733,7 +1739,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GmcG6ujihVQZnx2HNYRI-179" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;请求托盘A放置完成&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GmcG6ujihVQZnx2HNYRI-178">
+        <mxCell id="GmcG6ujihVQZnx2HNYRI-179" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;请求托盘A位置NG托盘处置完成&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GmcG6ujihVQZnx2HNYRI-178">
           <mxGeometry x="0.2303" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
