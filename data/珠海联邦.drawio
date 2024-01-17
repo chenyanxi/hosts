@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T08:33:20.214Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Bqk8XJedvwJClbNkTS4q" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T08:33:50.326Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="TFDI6qGfijPLQnnsV12Y" version="22.1.18" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1154" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1474,7 +1474,7 @@
         <mxCell id="GmcG6ujihVQZnx2HNYRI-127" value="&lt;b&gt;&lt;font color=&quot;#97d077&quot;&gt;DI-2&lt;/font&gt;&lt;/b&gt;寄存器" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GmcG6ujihVQZnx2HNYRI-124">
           <mxGeometry x="30" y="268" width="100" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="GmcG6ujihVQZnx2HNYRI-128" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;DO-4&lt;/font&gt;&lt;/b&gt;寄存器" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GmcG6ujihVQZnx2HNYRI-124">
+        <mxCell id="GmcG6ujihVQZnx2HNYRI-128" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;DO-6&lt;/font&gt;&lt;/b&gt;寄存器" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GmcG6ujihVQZnx2HNYRI-124">
           <mxGeometry x="30" y="474" width="100" height="65" as="geometry" />
         </mxCell>
         <mxCell id="GmcG6ujihVQZnx2HNYRI-129" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.673;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="GmcG6ujihVQZnx2HNYRI-108" source="GmcG6ujihVQZnx2HNYRI-128" target="GmcG6ujihVQZnx2HNYRI-137">
