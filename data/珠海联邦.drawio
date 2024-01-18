@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T07:25:03.186Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="AV4HSxvzeA5YWNayZvKe" version="22.1.20" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-18T07:26:24.437Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="B0aBxIlLFD-Nk2KWXHVj" version="22.1.20" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1196" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1544,7 +1544,7 @@
             <mxPoint x="140" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GmcG6ujihVQZnx2HNYRI-148" value="任务结束" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="GmcG6ujihVQZnx2HNYRI-142" vertex="1">
+        <mxCell id="GmcG6ujihVQZnx2HNYRI-148" value="AGV搬运托盘到NG库区" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="GmcG6ujihVQZnx2HNYRI-142" vertex="1">
           <mxGeometry x="30" y="480" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GmcG6ujihVQZnx2HNYRI-149" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="GmcG6ujihVQZnx2HNYRI-142" source="GmcG6ujihVQZnx2HNYRI-146" target="GmcG6ujihVQZnx2HNYRI-148" edge="1">
@@ -1557,6 +1557,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="120" as="sourcePoint" />
             <mxPoint x="130" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o6RqycrPht0BUuuxI5oy-144" value="任务结束" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GmcG6ujihVQZnx2HNYRI-142">
+          <mxGeometry x="30" y="570" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o6RqycrPht0BUuuxI5oy-145" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="GmcG6ujihVQZnx2HNYRI-142" source="GmcG6ujihVQZnx2HNYRI-148" target="o6RqycrPht0BUuuxI5oy-144">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="520" as="sourcePoint" />
+            <mxPoint x="150" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GmcG6ujihVQZnx2HNYRI-150" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" parent="GmcG6ujihVQZnx2HNYRI-108" source="GmcG6ujihVQZnx2HNYRI-132" edge="1">
