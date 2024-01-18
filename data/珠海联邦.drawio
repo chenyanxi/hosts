@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T05:41:27.913Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="XPHHPG7NKU73USCWE24Q" version="22.1.20" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-18T07:17:35.441Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="b1HNdCQ9nQF4D4_4qyUC" version="22.1.20" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1154" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1196" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2349,10 +2349,10 @@
         <mxCell id="o6RqycrPht0BUuuxI5oy-3" value="请求搬运空托盘至拆垛机" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="o6RqycrPht0BUuuxI5oy-2">
           <mxGeometry x="50" y="62.5" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="o6RqycrPht0BUuuxI5oy-4" value="请求进入电梯对接位取空垛盘" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="o6RqycrPht0BUuuxI5oy-2">
+        <mxCell id="o6RqycrPht0BUuuxI5oy-4" value="请求进入拆垛机送空垛盘" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="o6RqycrPht0BUuuxI5oy-2">
           <mxGeometry x="50" y="154" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="o6RqycrPht0BUuuxI5oy-6" value="允许进入电梯工位取空垛盘" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="o6RqycrPht0BUuuxI5oy-2">
+        <mxCell id="o6RqycrPht0BUuuxI5oy-6" value="允许进入拆垛机送空垛盘" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="o6RqycrPht0BUuuxI5oy-2">
           <mxGeometry x="50" y="255" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o6RqycrPht0BUuuxI5oy-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="o6RqycrPht0BUuuxI5oy-2" source="o6RqycrPht0BUuuxI5oy-4" target="o6RqycrPht0BUuuxI5oy-6">
@@ -2360,6 +2360,9 @@
             <mxPoint x="90" y="220" as="sourcePoint" />
             <mxPoint x="140" y="170" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="o6RqycrPht0BUuuxI5oy-139" value="AGV送空垛盘完成" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="o6RqycrPht0BUuuxI5oy-2">
+          <mxGeometry x="50" y="362" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o6RqycrPht0BUuuxI5oy-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" edge="1" parent="o6RqycrPht0BUuuxI5oy-1">
           <mxGeometry relative="1" as="geometry">
@@ -2420,8 +2423,22 @@
         <mxCell id="o6RqycrPht0BUuuxI5oy-16" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;DO-3&lt;/font&gt;&lt;/b&gt;寄存器" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="o6RqycrPht0BUuuxI5oy-14">
           <mxGeometry x="30" y="151" width="100" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="o6RqycrPht0BUuuxI5oy-17" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;DO-2&lt;/font&gt;&lt;/b&gt;寄存器" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="o6RqycrPht0BUuuxI5oy-14">
+        <mxCell id="o6RqycrPht0BUuuxI5oy-17" value="&lt;b&gt;&lt;font color=&quot;#97d077&quot;&gt;DI-2&lt;/font&gt;&lt;/b&gt;寄存器" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="o6RqycrPht0BUuuxI5oy-14">
           <mxGeometry x="30" y="253" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="o6RqycrPht0BUuuxI5oy-134" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;DO-4&lt;/font&gt;&lt;/b&gt;寄存器" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="o6RqycrPht0BUuuxI5oy-14">
+          <mxGeometry x="30" y="360" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="o6RqycrPht0BUuuxI5oy-136" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="o6RqycrPht0BUuuxI5oy-1" source="o6RqycrPht0BUuuxI5oy-134" target="o6RqycrPht0BUuuxI5oy-131">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="430" as="sourcePoint" />
+            <mxPoint x="470" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o6RqycrPht0BUuuxI5oy-138" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;返回状态值&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o6RqycrPht0BUuuxI5oy-136">
+          <mxGeometry x="-0.055" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="o6RqycrPht0BUuuxI5oy-18" value="WCS" style="swimlane;html=1;startSize=20;" vertex="1" parent="o6RqycrPht0BUuuxI5oy-1">
           <mxGeometry x="470" y="20" width="180" height="480" as="geometry" />
@@ -2432,8 +2449,11 @@
         <mxCell id="o6RqycrPht0BUuuxI5oy-20" value="1.通过TCP连接轮询发送11 05 00 02 FF 00 2F 6A(后两位为校验位)读取控制盒寄存器状态&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;2.判断返回值，如果有值就触发下一步" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="o6RqycrPht0BUuuxI5oy-18">
           <mxGeometry x="40" y="150" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="o6RqycrPht0BUuuxI5oy-21" value="1.通过TCP连接，轮询发送11 05 00 01 FF 00 DF 6A(后两位为校验位)控制继电器闭合&lt;br&gt;2.如果闭合成功会返回11 05 00 01 FF 00 DF 6A(后两位为校验位)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="o6RqycrPht0BUuuxI5oy-18">
+        <mxCell id="o6RqycrPht0BUuuxI5oy-21" value="1.通过TCP连接，轮询发送11 02 00 21 00 01 BA 91(后两位为校验位)控制继电器闭合&lt;br&gt;2.如果闭合成功会返回11 02 00 21 00 01 BA 91(后两位为校验位)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="o6RqycrPht0BUuuxI5oy-18">
           <mxGeometry x="40" y="250" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o6RqycrPht0BUuuxI5oy-131" value="1.通过TCP连接轮询发送11 05 00 03 FF 00 7E AA(后两位为校验位)读取控制盒寄存器状态&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;2.判断返回值，如果有值就触发下一步" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="o6RqycrPht0BUuuxI5oy-18">
+          <mxGeometry x="40" y="350" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="o6RqycrPht0BUuuxI5oy-22" value="RCS" style="swimlane;html=1;startSize=20;" vertex="1" parent="o6RqycrPht0BUuuxI5oy-1">
           <mxGeometry x="650" y="20" width="160" height="480" as="geometry" />
@@ -2455,8 +2475,21 @@
         <mxCell id="o6RqycrPht0BUuuxI5oy-27" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;AGV移动到拆垛机口，请求进入拆垛机送空垛盘信号&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="o6RqycrPht0BUuuxI5oy-24">
           <mxGeometry x="30" y="160" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="o6RqycrPht0BUuuxI5oy-29" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;AGV移动&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="o6RqycrPht0BUuuxI5oy-24">
+        <mxCell id="o6RqycrPht0BUuuxI5oy-29" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;AGV放完空托盘，移动到拆垛机口，请求AGV送空垛盘完成信号&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="o6RqycrPht0BUuuxI5oy-24">
           <mxGeometry x="30" y="260" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o6RqycrPht0BUuuxI5oy-142" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;任务结束&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="o6RqycrPht0BUuuxI5oy-24">
+          <mxGeometry x="30" y="370" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o6RqycrPht0BUuuxI5oy-143" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="o6RqycrPht0BUuuxI5oy-24" source="o6RqycrPht0BUuuxI5oy-29" target="o6RqycrPht0BUuuxI5oy-142">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="310" as="sourcePoint" />
+            <mxPoint x="150" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="105" y="350" />
+              <mxPoint x="80" y="350" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="o6RqycrPht0BUuuxI5oy-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="o6RqycrPht0BUuuxI5oy-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -2508,7 +2541,7 @@
             <mxPoint x="470" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o6RqycrPht0BUuuxI5oy-50" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;控制继电器闭合&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o6RqycrPht0BUuuxI5oy-49">
+        <mxCell id="o6RqycrPht0BUuuxI5oy-50" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;轮询读取&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o6RqycrPht0BUuuxI5oy-49">
           <mxGeometry x="0.0119" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -2519,19 +2552,8 @@
             <mxPoint x="490" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o6RqycrPht0BUuuxI5oy-52" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;闭合成功返回&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o6RqycrPht0BUuuxI5oy-51">
+        <mxCell id="o6RqycrPht0BUuuxI5oy-52" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;返回状态值&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o6RqycrPht0BUuuxI5oy-51">
           <mxGeometry x="-0.0359" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="o6RqycrPht0BUuuxI5oy-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="o6RqycrPht0BUuuxI5oy-1" source="o6RqycrPht0BUuuxI5oy-17" target="o6RqycrPht0BUuuxI5oy-6">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="190" y="300" as="sourcePoint" />
-            <mxPoint x="240" y="250" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="o6RqycrPht0BUuuxI5oy-54" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;IO输出&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o6RqycrPht0BUuuxI5oy-53">
-          <mxGeometry x="-0.1251" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -2577,6 +2599,61 @@
         </mxCell>
         <mxCell id="o6RqycrPht0BUuuxI5oy-125" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;请求进入拆垛机送空垛盘信号&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o6RqycrPht0BUuuxI5oy-124">
           <mxGeometry x="0.0393" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o6RqycrPht0BUuuxI5oy-126" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="o6RqycrPht0BUuuxI5oy-1" source="o6RqycrPht0BUuuxI5oy-6" target="o6RqycrPht0BUuuxI5oy-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="300" as="sourcePoint" />
+            <mxPoint x="270" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o6RqycrPht0BUuuxI5oy-127" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;IO输入&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o6RqycrPht0BUuuxI5oy-126">
+          <mxGeometry x="-0.0287" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o6RqycrPht0BUuuxI5oy-129" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="o6RqycrPht0BUuuxI5oy-1" source="o6RqycrPht0BUuuxI5oy-21" target="o6RqycrPht0BUuuxI5oy-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="330" as="sourcePoint" />
+            <mxPoint x="770" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o6RqycrPht0BUuuxI5oy-132" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="o6RqycrPht0BUuuxI5oy-1" source="o6RqycrPht0BUuuxI5oy-29" target="o6RqycrPht0BUuuxI5oy-131">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="410" as="sourcePoint" />
+            <mxPoint x="920" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="890" y="360" />
+              <mxPoint x="630" y="360" />
+              <mxPoint x="630" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o6RqycrPht0BUuuxI5oy-133" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;请求AGV送空垛盘完成信号&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o6RqycrPht0BUuuxI5oy-132">
+          <mxGeometry x="-0.1331" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o6RqycrPht0BUuuxI5oy-135" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1.019;entryY=0.154;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="o6RqycrPht0BUuuxI5oy-1" source="o6RqycrPht0BUuuxI5oy-131" target="o6RqycrPht0BUuuxI5oy-134">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="400" as="sourcePoint" />
+            <mxPoint x="470" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o6RqycrPht0BUuuxI5oy-137" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;轮询读取&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o6RqycrPht0BUuuxI5oy-135">
+          <mxGeometry x="-0.0131" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o6RqycrPht0BUuuxI5oy-140" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="o6RqycrPht0BUuuxI5oy-1" source="o6RqycrPht0BUuuxI5oy-134" target="o6RqycrPht0BUuuxI5oy-139">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="410" as="sourcePoint" />
+            <mxPoint x="240" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o6RqycrPht0BUuuxI5oy-141" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;IO输出&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o6RqycrPht0BUuuxI5oy-140">
+          <mxGeometry x="-0.0666" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
