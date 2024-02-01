@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-01T09:59:18.328Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="I30jAOUq7apVqe1vALJV" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-01T09:59:34.223Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Hy5y37gIkNZK80ALGq3g" version="22.1.21" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1395" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -441,7 +441,7 @@
         <mxCell id="wt-lyz0hFmrLNddraWR2-51" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;绕膜机工作站，送料流程图&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
           <mxGeometry x="70" y="820" width="970" height="750" as="geometry" />
         </mxCell>
-        <mxCell id="wt-lyz0hFmrLNddraWR2-52" value="PLC" style="swimlane;html=1;startSize=20;" parent="wt-lyz0hFmrLNddraWR2-51" vertex="1">
+        <mxCell id="wt-lyz0hFmrLNddraWR2-52" value="设备" style="swimlane;html=1;startSize=20;" parent="wt-lyz0hFmrLNddraWR2-51" vertex="1">
           <mxGeometry y="20" width="240" height="730" as="geometry" />
         </mxCell>
         <mxCell id="wt-lyz0hFmrLNddraWR2-132" value="请求进入打包站进料口" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="wt-lyz0hFmrLNddraWR2-52" vertex="1">
