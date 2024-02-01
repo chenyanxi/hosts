@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-01T11:05:40.154Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="81PhcxSgfji9ViYFqKZf" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-01T11:06:09.113Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="IsO2kcY_3_x9TNHCF5Da" version="22.1.21" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1395" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1490,7 +1490,7 @@
         <mxCell id="GmcG6ujihVQZnx2HNYRI-185" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;绕膜机工作站，打包完成物料搬运流程图&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
           <mxGeometry x="70" y="1590" width="970" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="GmcG6ujihVQZnx2HNYRI-186" value="PLC" style="swimlane;html=1;startSize=20;" parent="GmcG6ujihVQZnx2HNYRI-185" vertex="1">
+        <mxCell id="GmcG6ujihVQZnx2HNYRI-186" value="设备" style="swimlane;html=1;startSize=20;" parent="GmcG6ujihVQZnx2HNYRI-185" vertex="1">
           <mxGeometry y="20" width="240" height="580" as="geometry" />
         </mxCell>
         <mxCell id="GmcG6ujihVQZnx2HNYRI-188" value="请求搬运打包完成物料" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="GmcG6ujihVQZnx2HNYRI-186" vertex="1">
