@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-16T08:31:53.282Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Cv4nb1XhsdlId7iBPBj_" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-16T08:40:48.706Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="-l9lLgPoA9Vxy3WQ40BM" version="24.0.0" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="875" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -176,7 +176,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7kdRkKb2sxxw5B-0vBMB-30" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;生产流程&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="750" y="40" width="1010" height="870" as="geometry" />
+          <mxGeometry x="750" y="40" width="1030" height="870" as="geometry" />
         </mxCell>
         <mxCell id="7kdRkKb2sxxw5B-0vBMB-31" value="ERP&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="swimlane;html=1;startSize=20;" vertex="1" parent="7kdRkKb2sxxw5B-0vBMB-30">
           <mxGeometry y="20" width="160" height="850" as="geometry" />
@@ -231,11 +231,11 @@
         <mxCell id="7kdRkKb2sxxw5B-0vBMB-84" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;机台作业明细&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="7kdRkKb2sxxw5B-0vBMB-39">
           <mxGeometry x="29" y="270" width="102" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7kdRkKb2sxxw5B-0vBMB-90" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;上机人员(支持打印人员条码)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="7kdRkKb2sxxw5B-0vBMB-39">
+        <mxCell id="7kdRkKb2sxxw5B-0vBMB-90" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;上机人员(支持打印工牌条码)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="7kdRkKb2sxxw5B-0vBMB-39">
           <mxGeometry x="29" y="365" width="102" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7kdRkKb2sxxw5B-0vBMB-45" value="生产部" style="swimlane;html=1;startSize=20;" vertex="1" parent="7kdRkKb2sxxw5B-0vBMB-30">
-          <mxGeometry x="320" y="20" width="310" height="850" as="geometry" />
+          <mxGeometry x="320" y="20" width="710" height="850" as="geometry" />
         </mxCell>
         <mxCell id="7kdRkKb2sxxw5B-0vBMB-68" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;选择需要生产的工单&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="7kdRkKb2sxxw5B-0vBMB-45">
           <mxGeometry x="100" y="60" width="102" height="60" as="geometry" />
@@ -266,6 +266,9 @@
             <mxPoint x="260" y="300" as="sourcePoint" />
             <mxPoint x="310" y="250" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="7kdRkKb2sxxw5B-0vBMB-92" value="&lt;p class=&quot;MsoNormal&quot;&gt;机台灌装工序&lt;br&gt;&lt;/p&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="7kdRkKb2sxxw5B-0vBMB-45">
+          <mxGeometry x="310" y="210" width="400" height="640" as="geometry" />
         </mxCell>
         <mxCell id="7kdRkKb2sxxw5B-0vBMB-64" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="7kdRkKb2sxxw5B-0vBMB-30" source="7kdRkKb2sxxw5B-0vBMB-33" target="7kdRkKb2sxxw5B-0vBMB-40">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -298,16 +301,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7kdRkKb2sxxw5B-0vBMB-76" value="生产车间" style="swimlane;html=1;startSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="60" width="390" height="850" as="geometry" />
+          <mxGeometry x="1380" y="60" width="400" height="850" as="geometry" />
         </mxCell>
         <mxCell id="7kdRkKb2sxxw5B-0vBMB-87" value="生产大屏看板" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="7kdRkKb2sxxw5B-0vBMB-76">
-          <mxGeometry y="20" width="380" height="190" as="geometry" />
+          <mxGeometry y="20" width="400" height="190" as="geometry" />
         </mxCell>
         <mxCell id="7kdRkKb2sxxw5B-0vBMB-88" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;显示每个机台当天需要生产的工单、上机员、物料明细、生产进度、机台状态&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="7kdRkKb2sxxw5B-0vBMB-87">
           <mxGeometry x="10" y="30" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="7kdRkKb2sxxw5B-0vBMB-89" value="&lt;div&gt;上机员&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="7kdRkKb2sxxw5B-0vBMB-76">
-          <mxGeometry x="200" y="10" width="190" height="100" as="geometry" />
+        <mxCell id="7kdRkKb2sxxw5B-0vBMB-89" value="&lt;div&gt;1.上机员先通过扫码头扫描工牌，&lt;/div&gt;&lt;div&gt;如果不是生产单中的工牌，会在大屏中显示错误提示。&lt;/div&gt;&lt;div&gt;2.上机员扫描配料条码(内料)和外料条码，如果有误会显示在大屏。&lt;/div&gt;&lt;div&gt;3.上机员扫描包装条码，条码正确机台才可以进行生产。&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;align=left;" vertex="1" parent="7kdRkKb2sxxw5B-0vBMB-87">
+          <mxGeometry x="210" y="30" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="7kdRkKb2sxxw5B-0vBMB-91" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;显示当天生产工单总进度等信息&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="7kdRkKb2sxxw5B-0vBMB-87">
+          <mxGeometry x="10" y="110" width="190" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
