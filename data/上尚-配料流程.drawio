@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-16T09:02:49.020Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="ZXohGxoCJKDYI1IeaC_i" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-16T09:07:19.720Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="2fyB3c3xEpA249DOx1c1" version="24.0.0" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="875" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -235,7 +235,7 @@
           <mxGeometry x="29" y="365" width="102" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7kdRkKb2sxxw5B-0vBMB-45" value="生产部" style="swimlane;html=1;startSize=20;" vertex="1" parent="7kdRkKb2sxxw5B-0vBMB-30">
-          <mxGeometry x="320" y="20" width="740" height="950" as="geometry" />
+          <mxGeometry x="320" y="20" width="310" height="950" as="geometry" />
         </mxCell>
         <mxCell id="7kdRkKb2sxxw5B-0vBMB-68" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;选择需要生产的工单&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="7kdRkKb2sxxw5B-0vBMB-45">
           <mxGeometry x="100" y="60" width="102" height="60" as="geometry" />
@@ -278,6 +278,12 @@
             <mxPoint x="161" y="220" as="sourcePoint" />
             <mxPoint x="161" y="260" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="7kdRkKb2sxxw5B-0vBMB-126" value="工单下发" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="7kdRkKb2sxxw5B-0vBMB-45">
+          <mxGeometry y="20" width="310" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="7kdRkKb2sxxw5B-0vBMB-128" value="退料" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="7kdRkKb2sxxw5B-0vBMB-45">
+          <mxGeometry y="500" width="310" height="370" as="geometry" />
         </mxCell>
         <mxCell id="7kdRkKb2sxxw5B-0vBMB-64" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="7kdRkKb2sxxw5B-0vBMB-30" source="7kdRkKb2sxxw5B-0vBMB-33" target="7kdRkKb2sxxw5B-0vBMB-40">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -348,7 +354,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7kdRkKb2sxxw5B-0vBMB-99" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;上机员扫描内料、外料条码&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="7kdRkKb2sxxw5B-0vBMB-76">
+        <mxCell id="7kdRkKb2sxxw5B-0vBMB-99" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;上机员扫描内料、外料条码&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(多次扫码)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="7kdRkKb2sxxw5B-0vBMB-76">
           <mxGeometry x="149" y="520" width="102" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7kdRkKb2sxxw5B-0vBMB-100" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="7kdRkKb2sxxw5B-0vBMB-76" source="7kdRkKb2sxxw5B-0vBMB-95" target="7kdRkKb2sxxw5B-0vBMB-99">
@@ -430,6 +436,22 @@
         <mxCell id="7kdRkKb2sxxw5B-0vBMB-123" value="生产完成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7kdRkKb2sxxw5B-0vBMB-122">
           <mxGeometry x="-0.1083" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7kdRkKb2sxxw5B-0vBMB-124" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="7kdRkKb2sxxw5B-0vBMB-76" source="7kdRkKb2sxxw5B-0vBMB-94" target="7kdRkKb2sxxw5B-0vBMB-95">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="420" as="sourcePoint" />
+            <mxPoint x="120" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7kdRkKb2sxxw5B-0vBMB-125" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="7kdRkKb2sxxw5B-0vBMB-76" target="7kdRkKb2sxxw5B-0vBMB-94">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-110" y="460" as="sourcePoint" />
+            <mxPoint x="90" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="460" />
+              <mxPoint x="120" y="350" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="7kdRkKb2sxxw5B-0vBMB-102" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7kdRkKb2sxxw5B-0vBMB-74" target="7kdRkKb2sxxw5B-0vBMB-87">
