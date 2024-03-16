@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-16T08:56:44.423Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="2rU-Pf0JTU0vU0wtSpuU" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-16T08:58:50.482Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="1MokZmzWkLUU1VkUeMbJ" version="24.0.0" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="875" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -376,7 +376,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7kdRkKb2sxxw5B-0vBMB-106" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;上机员扫描包装袋条码&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="7kdRkKb2sxxw5B-0vBMB-76">
+        <mxCell id="7kdRkKb2sxxw5B-0vBMB-106" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;上机员扫描包装袋条码(多次扫码)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="7kdRkKb2sxxw5B-0vBMB-76">
           <mxGeometry x="149" y="620" width="102" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7kdRkKb2sxxw5B-0vBMB-108" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="7kdRkKb2sxxw5B-0vBMB-76" source="7kdRkKb2sxxw5B-0vBMB-99" target="7kdRkKb2sxxw5B-0vBMB-106">
@@ -390,7 +390,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7kdRkKb2sxxw5B-0vBMB-112" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;机台根据扫描的包装&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="7kdRkKb2sxxw5B-0vBMB-76">
+        <mxCell id="7kdRkKb2sxxw5B-0vBMB-112" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;机台根据扫描的包装袋条码数量进行生产&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="7kdRkKb2sxxw5B-0vBMB-76">
           <mxGeometry x="149" y="720" width="102" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7kdRkKb2sxxw5B-0vBMB-116" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="7kdRkKb2sxxw5B-0vBMB-76" source="7kdRkKb2sxxw5B-0vBMB-106" target="7kdRkKb2sxxw5B-0vBMB-112">
