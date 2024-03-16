@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-16T09:07:19.720Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="2fyB3c3xEpA249DOx1c1" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-16T09:07:47.809Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="pM_C3AVeJNUrRtxVKWHD" version="24.0.0" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="875" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -410,7 +410,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7kdRkKb2sxxw5B-0vBMB-118" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;生产完成&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="7kdRkKb2sxxw5B-0vBMB-76">
+        <mxCell id="7kdRkKb2sxxw5B-0vBMB-118" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;机台生产完成&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="7kdRkKb2sxxw5B-0vBMB-76">
           <mxGeometry x="149" y="820" width="102" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7kdRkKb2sxxw5B-0vBMB-119" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;大屏显示包装条码数量不足错误&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="7kdRkKb2sxxw5B-0vBMB-76">
