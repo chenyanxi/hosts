@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-14T07:41:32.290Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="2ReQ93LN4TqEGAqV-ndT" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-14T07:44:26.626Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="kbony51Ps6vm-SrmZi3e" version="24.4.0" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1290" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1204,10 +1204,10 @@
         <mxCell id="W0Nkv3bxvNxjTAdO2PIM-11" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;移动到托盘货架位置，开始举起举升盘&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="W0Nkv3bxvNxjTAdO2PIM-6">
           <mxGeometry x="35" y="140" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="W0Nkv3bxvNxjTAdO2PIM-12" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;移动到放置托盘外的申请点&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="W0Nkv3bxvNxjTAdO2PIM-6">
+        <mxCell id="W0Nkv3bxvNxjTAdO2PIM-12" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;移动到托盘外的申请点&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="W0Nkv3bxvNxjTAdO2PIM-6">
           <mxGeometry x="35" y="260" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="W0Nkv3bxvNxjTAdO2PIM-13" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;任务结束&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="W0Nkv3bxvNxjTAdO2PIM-6">
+        <mxCell id="W0Nkv3bxvNxjTAdO2PIM-13" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;移动至绕膜机输送线,交互流程不在这里展现&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="W0Nkv3bxvNxjTAdO2PIM-6">
           <mxGeometry x="35" y="355" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W0Nkv3bxvNxjTAdO2PIM-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="W0Nkv3bxvNxjTAdO2PIM-6" source="W0Nkv3bxvNxjTAdO2PIM-11" target="W0Nkv3bxvNxjTAdO2PIM-12">
@@ -1225,6 +1225,25 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="330" y="490" as="sourcePoint" />
             <mxPoint x="85" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W0Nkv3bxvNxjTAdO2PIM-39" value="移动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W0Nkv3bxvNxjTAdO2PIM-16">
+          <mxGeometry x="-0.3257" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W0Nkv3bxvNxjTAdO2PIM-36" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;任务结束&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="W0Nkv3bxvNxjTAdO2PIM-6">
+          <mxGeometry x="35" y="450" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W0Nkv3bxvNxjTAdO2PIM-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="W0Nkv3bxvNxjTAdO2PIM-6" source="W0Nkv3bxvNxjTAdO2PIM-13" target="W0Nkv3bxvNxjTAdO2PIM-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="410" as="sourcePoint" />
+            <mxPoint x="390" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W0Nkv3bxvNxjTAdO2PIM-38" value="移动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W0Nkv3bxvNxjTAdO2PIM-37">
+          <mxGeometry x="-0.3257" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="W0Nkv3bxvNxjTAdO2PIM-17" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="W0Nkv3bxvNxjTAdO2PIM-3" source="W0Nkv3bxvNxjTAdO2PIM-5" target="W0Nkv3bxvNxjTAdO2PIM-8">
@@ -1288,7 +1307,7 @@
             <mxPoint x="570" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W0Nkv3bxvNxjTAdO2PIM-30" value="送料离开" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W0Nkv3bxvNxjTAdO2PIM-29">
+        <mxCell id="W0Nkv3bxvNxjTAdO2PIM-30" value="取料离开" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W0Nkv3bxvNxjTAdO2PIM-29">
           <mxGeometry x="-0.2407" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
