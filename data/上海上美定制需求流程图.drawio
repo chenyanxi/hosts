@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-15T08:12:17.556Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="79vInM2UYGzafjXT3eTS" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-15T08:19:00.535Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="6_VqKZk5rZUM0n4-UJzT" version="24.4.0" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1290" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3225" dy="1353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1187,7 +1187,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="W0Nkv3bxvNxjTAdO2PIM-3" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;码垛机搬满料托盘交互流程图&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1160" y="1770" width="600" height="540" as="geometry" />
+          <mxGeometry x="70" y="1820" width="600" height="540" as="geometry" />
         </mxCell>
         <mxCell id="W0Nkv3bxvNxjTAdO2PIM-4" value="楚天WMS系统" style="swimlane;html=1;startSize=20;" parent="W0Nkv3bxvNxjTAdO2PIM-3" vertex="1">
           <mxGeometry y="20" width="160" height="520" as="geometry" />
@@ -1339,16 +1339,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="W0Nkv3bxvNxjTAdO2PIM-40" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;码垛机补空托盘交互流程图&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1780" y="1770" width="600" height="560" as="geometry" />
+          <mxGeometry x="710" y="1820" width="600" height="550" as="geometry" />
         </mxCell>
         <mxCell id="W0Nkv3bxvNxjTAdO2PIM-41" value="楚天WMS系统" style="swimlane;html=1;startSize=20;" parent="W0Nkv3bxvNxjTAdO2PIM-40" vertex="1">
-          <mxGeometry y="20" width="160" height="540" as="geometry" />
+          <mxGeometry y="20" width="160" height="530" as="geometry" />
         </mxCell>
         <mxCell id="W0Nkv3bxvNxjTAdO2PIM-42" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;生成空托盘搬运任务(终点为码垛机4个托盘位置的某一个点)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="W0Nkv3bxvNxjTAdO2PIM-41" vertex="1">
           <mxGeometry x="30" y="22.5" width="100" height="85" as="geometry" />
         </mxCell>
         <mxCell id="W0Nkv3bxvNxjTAdO2PIM-43" value="AGV小车" style="swimlane;html=1;startSize=20;" parent="W0Nkv3bxvNxjTAdO2PIM-40" vertex="1">
-          <mxGeometry x="160" y="20" width="270" height="540" as="geometry" />
+          <mxGeometry x="160" y="20" width="270" height="530" as="geometry" />
         </mxCell>
         <mxCell id="W0Nkv3bxvNxjTAdO2PIM-44" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;移动到码垛机4个托盘位置的其中一个点，并申请送料&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="W0Nkv3bxvNxjTAdO2PIM-43" vertex="1">
           <mxGeometry x="35" y="121" width="100" height="60" as="geometry" />
@@ -1415,7 +1415,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="W0Nkv3bxvNxjTAdO2PIM-59" value="1-6号码垛站" style="swimlane;html=1;startSize=20;" parent="W0Nkv3bxvNxjTAdO2PIM-40" vertex="1">
-          <mxGeometry x="430" y="20" width="170" height="540" as="geometry" />
+          <mxGeometry x="430" y="20" width="170" height="530" as="geometry" />
         </mxCell>
         <mxCell id="W0Nkv3bxvNxjTAdO2PIM-60" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;正常回复指令&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="W0Nkv3bxvNxjTAdO2PIM-59" vertex="1">
           <mxGeometry x="35" y="346" width="100" height="60" as="geometry" />
@@ -1486,7 +1486,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="W0Nkv3bxvNxjTAdO2PIM-73" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;内包消毒间输送线一接料交互流程图&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2410" y="1770" width="600" height="540" as="geometry" />
+          <mxGeometry x="1350" y="1830" width="600" height="540" as="geometry" />
         </mxCell>
         <mxCell id="W0Nkv3bxvNxjTAdO2PIM-74" value="楚天WMS系统" style="swimlane;html=1;startSize=20;" parent="W0Nkv3bxvNxjTAdO2PIM-73" vertex="1">
           <mxGeometry y="20" width="160" height="520" as="geometry" />
@@ -1647,7 +1647,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="W0Nkv3bxvNxjTAdO2PIM-109" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;内包消毒间输送线二接料交互流程图&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
-          <mxGeometry x="3030" y="1770" width="600" height="540" as="geometry" />
+          <mxGeometry x="1990" y="1840" width="600" height="540" as="geometry" />
         </mxCell>
         <mxCell id="W0Nkv3bxvNxjTAdO2PIM-110" value="楚天WMS系统" style="swimlane;html=1;startSize=20;" parent="W0Nkv3bxvNxjTAdO2PIM-109" vertex="1">
           <mxGeometry y="20" width="160" height="520" as="geometry" />
