@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-29T03:59:02.041Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="BSI49AqGTIDokQwx8Pnm" version="24.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-29T04:01:31.046Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="EECZLv0SHYcWxpiO2mw0" version="24.4.9" type="github">
   <diagram name="第 1 页" id="s5_8UOIld0RrF4eV0XyC">
     <mxGraphModel dx="223" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,16 +10,16 @@
         <mxCell id="FhpssYbhMITj09TuH5_0-86" value="客户" style="swimlane;html=1;startSize=20;" vertex="1" parent="FhpssYbhMITj09TuH5_0-85">
           <mxGeometry y="20" width="260" height="1110" as="geometry" />
         </mxCell>
-        <mxCell id="FhpssYbhMITj09TuH5_0-87" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;产品借用需求&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-86">
+        <mxCell id="FhpssYbhMITj09TuH5_0-87" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;产品借用需求&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-86">
           <mxGeometry x="80" y="30" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FhpssYbhMITj09TuH5_0-88" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;产品使用&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-86">
+        <mxCell id="FhpssYbhMITj09TuH5_0-88" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;产品使用&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-86">
           <mxGeometry x="80" y="490" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FhpssYbhMITj09TuH5_0-89" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;申请借转销&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-86">
+        <mxCell id="FhpssYbhMITj09TuH5_0-89" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;申请借转销&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-86">
           <mxGeometry x="20" y="600" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FhpssYbhMITj09TuH5_0-90" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;产品退回&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-86">
+        <mxCell id="FhpssYbhMITj09TuH5_0-90" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;产品退回&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-86">
           <mxGeometry x="150" y="600" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FhpssYbhMITj09TuH5_0-91" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FhpssYbhMITj09TuH5_0-86" source="FhpssYbhMITj09TuH5_0-88" target="FhpssYbhMITj09TuH5_0-89">
@@ -52,7 +52,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FhpssYbhMITj09TuH5_0-95" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;收到发票,打款&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-86">
+        <mxCell id="FhpssYbhMITj09TuH5_0-95" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;收到发票,打款&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-86">
           <mxGeometry x="30" y="760" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FhpssYbhMITj09TuH5_0-96" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" edge="1" parent="FhpssYbhMITj09TuH5_0-85" source="FhpssYbhMITj09TuH5_0-87" target="FhpssYbhMITj09TuH5_0-107">
@@ -121,22 +121,22 @@
         <mxCell id="FhpssYbhMITj09TuH5_0-106" value="销售" style="swimlane;html=1;startSize=20;" vertex="1" parent="FhpssYbhMITj09TuH5_0-85">
           <mxGeometry x="260" y="20" width="160" height="1110" as="geometry" />
         </mxCell>
-        <mxCell id="FhpssYbhMITj09TuH5_0-107" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;了解初步需求后，出产品借用合同&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-106">
+        <mxCell id="FhpssYbhMITj09TuH5_0-107" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;了解初步需求后，出产品借用合同&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-106">
           <mxGeometry x="30" y="30" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FhpssYbhMITj09TuH5_0-109" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;企业微信走借用流程&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-106">
+        <mxCell id="FhpssYbhMITj09TuH5_0-109" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;企业微信走借用流程&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-106">
           <mxGeometry x="30" y="160" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FhpssYbhMITj09TuH5_0-110" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;去仓库领取借用产品&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-106">
+        <mxCell id="FhpssYbhMITj09TuH5_0-110" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;去仓库领取借用产品&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-106">
           <mxGeometry x="30" y="330" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FhpssYbhMITj09TuH5_0-111" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;借用产品交给客户&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-106">
+        <mxCell id="FhpssYbhMITj09TuH5_0-111" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;借用产品交给客户&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-106">
           <mxGeometry x="30" y="490" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FhpssYbhMITj09TuH5_0-112" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;借转销合同&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-106">
+        <mxCell id="FhpssYbhMITj09TuH5_0-112" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;借转销合同&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-106">
           <mxGeometry x="30" y="670" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FhpssYbhMITj09TuH5_0-113" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;收到产品&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-106">
+        <mxCell id="FhpssYbhMITj09TuH5_0-113" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;收到产品&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-106">
           <mxGeometry x="30" y="600" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FhpssYbhMITj09TuH5_0-114" value="五楼仓库" style="swimlane;html=1;startSize=20;" vertex="1" parent="FhpssYbhMITj09TuH5_0-85">
@@ -147,13 +147,13 @@
             <mxPoint x="80" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FhpssYbhMITj09TuH5_0-116" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;产品出库&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-114">
+        <mxCell id="FhpssYbhMITj09TuH5_0-116" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;产品出库&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-114">
           <mxGeometry x="30" y="420" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FhpssYbhMITj09TuH5_0-117" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;收到产品,五楼库存数量记录到Excel,并通知六楼今天到了什么产品&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-114">
+        <mxCell id="FhpssYbhMITj09TuH5_0-117" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;收到产品,五楼库存数量记录到Excel,并通知六楼今天到了什么产品&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-114">
           <mxGeometry x="30" y="550" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FhpssYbhMITj09TuH5_0-118" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;产品归还&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-114">
+        <mxCell id="FhpssYbhMITj09TuH5_0-118" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;产品归还&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-114">
           <mxGeometry x="30" y="880" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FhpssYbhMITj09TuH5_0-119" value="综管部" style="swimlane;html=1;startSize=20;" vertex="1" parent="FhpssYbhMITj09TuH5_0-85">
@@ -169,13 +169,13 @@
             <mxPoint x="80" y="540" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FhpssYbhMITj09TuH5_0-122" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;合同归档,查询仓库是否有现货&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-119">
+        <mxCell id="FhpssYbhMITj09TuH5_0-122" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;合同归档,查询仓库是否有现货&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-119">
           <mxGeometry x="80" y="30" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FhpssYbhMITj09TuH5_0-123" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;通知销售走企业微信借用流程&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-119">
+        <mxCell id="FhpssYbhMITj09TuH5_0-123" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;通知销售走企业微信借用流程&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-119">
           <mxGeometry x="20" y="160" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FhpssYbhMITj09TuH5_0-124" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;采购合同&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-119">
+        <mxCell id="FhpssYbhMITj09TuH5_0-124" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;采购合同&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-119">
           <mxGeometry x="150" y="160" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FhpssYbhMITj09TuH5_0-125" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FhpssYbhMITj09TuH5_0-119" source="FhpssYbhMITj09TuH5_0-122" target="FhpssYbhMITj09TuH5_0-123">
@@ -208,10 +208,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FhpssYbhMITj09TuH5_0-129" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;审批借用单据&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-119">
+        <mxCell id="FhpssYbhMITj09TuH5_0-129" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;审批借用单据&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-119">
           <mxGeometry x="20" y="240" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FhpssYbhMITj09TuH5_0-130" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;开出库单给借用人&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-119">
+        <mxCell id="FhpssYbhMITj09TuH5_0-130" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;开出库单给借用人&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-119">
           <mxGeometry x="20" y="330" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FhpssYbhMITj09TuH5_0-131" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="FhpssYbhMITj09TuH5_0-119" source="FhpssYbhMITj09TuH5_0-129" target="FhpssYbhMITj09TuH5_0-130">
@@ -220,19 +220,19 @@
             <mxPoint x="250" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FhpssYbhMITj09TuH5_0-132" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;合同&lt;/span&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;归档&lt;/span&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;,申请发票&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-119">
+        <mxCell id="FhpssYbhMITj09TuH5_0-132" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;合同归档,申请发票&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-119">
           <mxGeometry x="80" y="670" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FhpssYbhMITj09TuH5_0-133" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;合同作废处理,产品退回五楼,更新库存&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-119">
+        <mxCell id="FhpssYbhMITj09TuH5_0-133" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;合同作废处理,产品退回五楼,更新库存&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-119">
           <mxGeometry x="80" y="810" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FhpssYbhMITj09TuH5_0-134" value="供应商" style="swimlane;html=1;startSize=20;" vertex="1" parent="FhpssYbhMITj09TuH5_0-85">
           <mxGeometry x="840" y="20" width="160" height="1110" as="geometry" />
         </mxCell>
-        <mxCell id="FhpssYbhMITj09TuH5_0-136" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;合同盖章&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-134">
+        <mxCell id="FhpssYbhMITj09TuH5_0-136" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;合同盖章&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-134">
           <mxGeometry x="40" y="160" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FhpssYbhMITj09TuH5_0-137" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;产品出货&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-134">
+        <mxCell id="FhpssYbhMITj09TuH5_0-137" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;产品出货&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-134">
           <mxGeometry x="40" y="250" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FhpssYbhMITj09TuH5_0-138" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FhpssYbhMITj09TuH5_0-134" source="FhpssYbhMITj09TuH5_0-136" target="FhpssYbhMITj09TuH5_0-137">
@@ -250,13 +250,13 @@
         <mxCell id="FhpssYbhMITj09TuH5_0-147" value="财务(金蝶系统)" style="swimlane;html=1;startSize=20;" vertex="1" parent="FhpssYbhMITj09TuH5_0-85">
           <mxGeometry x="1000" y="20" width="160" height="1110" as="geometry" />
         </mxCell>
-        <mxCell id="FhpssYbhMITj09TuH5_0-148" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;库管专员录入合同到金蝶系统&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-147">
+        <mxCell id="FhpssYbhMITj09TuH5_0-148" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;库管专员录入合同到金蝶系统&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-147">
           <mxGeometry x="40" y="160" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FhpssYbhMITj09TuH5_0-149" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;合同录入金蝶系统,和财务申请开具发票&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-147">
+        <mxCell id="FhpssYbhMITj09TuH5_0-149" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;合同录入金蝶系统,和财务申请开具发票&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-147">
           <mxGeometry x="30" y="670" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FhpssYbhMITj09TuH5_0-150" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;开具发票邮寄客户&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-147">
+        <mxCell id="FhpssYbhMITj09TuH5_0-150" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;开具发票邮寄客户&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="FhpssYbhMITj09TuH5_0-147">
           <mxGeometry x="30" y="760" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FhpssYbhMITj09TuH5_0-151" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FhpssYbhMITj09TuH5_0-147" source="FhpssYbhMITj09TuH5_0-149" target="FhpssYbhMITj09TuH5_0-150">
