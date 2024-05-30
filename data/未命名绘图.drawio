@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T08:33:19.468Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="u_T-b3V-kobjTrzqi5w2" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-30T08:34:42.175Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="eRCzM2i1_bMAT8pBg76g" version="24.4.10" type="github">
   <diagram id="a45cf8ec-cd66-6f27-3ac3-be6e809c9e4a" name="Page-1">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -91,7 +91,7 @@
             <mxPoint x="400" y="1169" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Un7WL-F1fO1ZbizaJCKd-179" value="临时调试设备*8" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.laptop_1;" vertex="1" parent="1">
+        <mxCell id="Un7WL-F1fO1ZbizaJCKd-179" value="临时调试设备*3" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.laptop_1;" vertex="1" parent="1">
           <mxGeometry x="400" y="1151" width="69.73" height="59" as="geometry" />
         </mxCell>
         <mxCell id="Un7WL-F1fO1ZbizaJCKd-180" value="" style="edgeStyle=elbowEdgeStyle;strokeWidth=2;rounded=0;endArrow=none;startArrow=none;startSize=10;endSize=10;dashed=0;html=1;strokeColor=#23445D;fontSize=18;fontColor=#F08705;startFill=0;endFill=0;fontStyle=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=80;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
@@ -142,7 +142,7 @@
             <mxPoint x="610" y="950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Un7WL-F1fO1ZbizaJCKd-191" value="监控客户端电脑*1" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.laptop_1;" vertex="1" parent="1">
+        <mxCell id="Un7WL-F1fO1ZbizaJCKd-191" value="监控客户端电脑*2" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.laptop_1;" vertex="1" parent="1">
           <mxGeometry x="1040" y="1151" width="69.73" height="59" as="geometry" />
         </mxCell>
         <mxCell id="Un7WL-F1fO1ZbizaJCKd-192" value="" style="edgeStyle=elbowEdgeStyle;strokeWidth=2;rounded=0;endArrow=none;startArrow=none;startSize=10;endSize=10;dashed=0;html=1;strokeColor=#23445D;fontSize=18;fontColor=#F08705;startFill=0;endFill=0;fontStyle=0;exitX=0;exitY=1;exitDx=60;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="66" target="Un7WL-F1fO1ZbizaJCKd-191">
