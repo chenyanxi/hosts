@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T07:27:05.009Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="eBc3t0CP8Fk7Bl6ZmaE1" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-31T11:07:21.740Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="3SExZkbiXmu3WTJQIX4k" version="24.4.10" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="600" dy="309" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -886,14 +886,30 @@
         <mxCell id="tU0uDFJnrUsiqK0Fu7fy-15" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;采购订单&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="vxcRVFSZB4g3Uvg9QgDw-119">
           <mxGeometry x="120" y="120" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tU0uDFJnrUsiqK0Fu7fy-19" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;采购订单&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="vxcRVFSZB4g3Uvg9QgDw-119">
-          <mxGeometry x="40" y="230" width="100" height="60" as="geometry" />
+        <mxCell id="tU0uDFJnrUsiqK0Fu7fy-19" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;淘宝直采&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="vxcRVFSZB4g3Uvg9QgDw-119">
+          <mxGeometry x="40" y="230" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tU0uDFJnrUsiqK0Fu7fy-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.471;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="vxcRVFSZB4g3Uvg9QgDw-119" target="tU0uDFJnrUsiqK0Fu7fy-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="180" as="sourcePoint" />
+            <mxPoint x="250" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="200" />
+              <mxPoint x="73" y="200" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="vxcRVFSZB4g3Uvg9QgDw-161" value="供应商" style="swimlane;html=1;startSize=20;" parent="vxcRVFSZB4g3Uvg9QgDw-91" vertex="1">
           <mxGeometry x="820" y="20" width="160" height="730" as="geometry" />
         </mxCell>
         <mxCell id="tU0uDFJnrUsiqK0Fu7fy-17" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;淘宝直采&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="vxcRVFSZB4g3Uvg9QgDw-161">
           <mxGeometry x="30" y="120" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tU0uDFJnrUsiqK0Fu7fy-20" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;现款供应商&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="vxcRVFSZB4g3Uvg9QgDw-161">
+          <mxGeometry x="30" y="200" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tU0uDFJnrUsiqK0Fu7fy-21" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;月结供应商&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="vxcRVFSZB4g3Uvg9QgDw-161">
+          <mxGeometry x="30" y="280" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vxcRVFSZB4g3Uvg9QgDw-138" value="OA系统" style="swimlane;html=1;startSize=20;" parent="vxcRVFSZB4g3Uvg9QgDw-91" vertex="1">
           <mxGeometry x="980" y="20" width="160" height="730" as="geometry" />
