@@ -4,53 +4,59 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Onm9FdsHoiDiQ1-qIEA--1791" value="成品区域" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F0DAAD;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="-230" width="1480" height="476" as="geometry" />
+        </mxCell>
+        <mxCell id="Onm9FdsHoiDiQ1-qIEA--1790" value="内包材区域" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F0DAAD;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="250" width="1540" height="676" as="geometry" />
+        </mxCell>
         <mxCell id="1764" value="消毒间输送线" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="190" y="640" width="490" height="90" as="geometry" />
+          <mxGeometry x="160" y="636" width="490" height="90" as="geometry" />
         </mxCell>
         <mxCell id="zb6B7RwU2urwTFCcEJx9-1789" value="缓存库区" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="810" y="640" width="570" height="270" as="geometry" />
+          <mxGeometry x="780" y="636" width="570" height="270" as="geometry" />
         </mxCell>
         <mxCell id="zb6B7RwU2urwTFCcEJx9-1790" value="拆垛区4" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="990" y="304" width="90" height="220" as="geometry" />
+          <mxGeometry x="960" y="300" width="90" height="220" as="geometry" />
         </mxCell>
         <mxCell id="Onm9FdsHoiDiQ1-qIEA--1770" value="拆垛区5" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="890" y="304" width="90" height="220" as="geometry" />
+          <mxGeometry x="860" y="300" width="90" height="220" as="geometry" />
         </mxCell>
         <mxCell id="Onm9FdsHoiDiQ1-qIEA--1771" value="拆垛区6" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="790" y="304" width="90" height="220" as="geometry" />
+          <mxGeometry x="760" y="300" width="90" height="220" as="geometry" />
         </mxCell>
         <mxCell id="Onm9FdsHoiDiQ1-qIEA--1772" value="拆垛区7" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="690" y="304" width="90" height="220" as="geometry" />
+          <mxGeometry x="660" y="300" width="90" height="220" as="geometry" />
         </mxCell>
         <mxCell id="Onm9FdsHoiDiQ1-qIEA--1773" value="拆垛区8" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="590" y="304" width="90" height="220" as="geometry" />
+          <mxGeometry x="560" y="300" width="90" height="220" as="geometry" />
         </mxCell>
         <mxCell id="Onm9FdsHoiDiQ1-qIEA--1774" value="拆垛区9" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="490" y="304" width="90" height="220" as="geometry" />
+          <mxGeometry x="460" y="300" width="90" height="220" as="geometry" />
         </mxCell>
         <mxCell id="Onm9FdsHoiDiQ1-qIEA--1775" value="拆垛区10" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="390" y="304" width="90" height="220" as="geometry" />
+          <mxGeometry x="360" y="300" width="90" height="220" as="geometry" />
         </mxCell>
         <mxCell id="Onm9FdsHoiDiQ1-qIEA--1776" value="拆垛区11" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="290" y="304" width="90" height="220" as="geometry" />
+          <mxGeometry x="260" y="300" width="90" height="220" as="geometry" />
         </mxCell>
         <mxCell id="Onm9FdsHoiDiQ1-qIEA--1777" value="拆垛区12" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="190" y="304" width="90" height="220" as="geometry" />
+          <mxGeometry x="160" y="300" width="90" height="220" as="geometry" />
         </mxCell>
         <mxCell id="Onm9FdsHoiDiQ1-qIEA--1778" value="拆垛区3" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="304" width="90" height="220" as="geometry" />
+          <mxGeometry x="1060" y="300" width="90" height="220" as="geometry" />
         </mxCell>
         <mxCell id="Onm9FdsHoiDiQ1-qIEA--1779" value="拆垛区2" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="304" width="90" height="220" as="geometry" />
+          <mxGeometry x="1160" y="300" width="90" height="220" as="geometry" />
         </mxCell>
         <mxCell id="Onm9FdsHoiDiQ1-qIEA--1780" value="拆垛区1" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="304" width="90" height="220" as="geometry" />
+          <mxGeometry x="1260" y="300" width="90" height="220" as="geometry" />
         </mxCell>
         <mxCell id="Onm9FdsHoiDiQ1-qIEA--1781" value="人工接驳区" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="550" width="170" height="100" as="geometry" />
+          <mxGeometry x="-150" y="546" width="170" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Onm9FdsHoiDiQ1-qIEA--1782" value="人工上料区" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="100" y="304" width="80" height="146" as="geometry" />
+          <mxGeometry x="70" y="300" width="80" height="146" as="geometry" />
         </mxCell>
         <mxCell id="Onm9FdsHoiDiQ1-qIEA--1783" value="立库输送线" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
           <mxGeometry x="-75" y="80" width="80" height="146" as="geometry" />
