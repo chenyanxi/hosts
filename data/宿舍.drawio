@@ -283,7 +283,7 @@
         <mxCell id="4Y57S5Hh4UY8BhRaOOIP-127" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.bed_single;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="519.1300000000001" y="-524.25" width="51.75" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="4Y57S5Hh4UY8BhRaOOIP-128" value="下铺&lt;div&gt;A0304-2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="4Y57S5Hh4UY8BhRaOOIP-128" value="下铺&lt;div&gt;A0305-2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="527" y="-484.25" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4Y57S5Hh4UY8BhRaOOIP-133" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.wallCorner;fillColor=strokeColor;" parent="1" vertex="1">
@@ -301,13 +301,13 @@
         <mxCell id="4Y57S5Hh4UY8BhRaOOIP-137" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.bed_single;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="525.1300000000001" y="-353" width="51.75" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="4Y57S5Hh4UY8BhRaOOIP-138" value="下铺&lt;div&gt;A0305-2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="4Y57S5Hh4UY8BhRaOOIP-138" value="下铺&lt;div&gt;A0306-2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="533" y="-313" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4Y57S5Hh4UY8BhRaOOIP-139" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.bed_single;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="411" y="-353" width="51.75" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="4Y57S5Hh4UY8BhRaOOIP-140" value="上铺&lt;div&gt;A0305-1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="4Y57S5Hh4UY8BhRaOOIP-140" value="上铺&lt;div&gt;A0306-1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="422" y="-313" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4Y57S5Hh4UY8BhRaOOIP-141" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.wallCorner;fillColor=strokeColor;direction=south;" parent="1" vertex="1">
@@ -343,9 +343,6 @@
         <mxCell id="ONM_g8x1p00itfnwvG1F-8" value="大床&lt;div&gt;A0301&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-401.5" y="-95" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ONM_g8x1p00itfnwvG1F-9" value="唐东耀" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="913" y="-181" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="ONM_g8x1p00itfnwvG1F-10" value="李杰" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1808" y="-360" width="60" height="30" as="geometry" />
         </mxCell>
@@ -365,19 +362,28 @@
           <mxGeometry x="997.25" y="-353" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ONM_g8x1p00itfnwvG1F-16" value="吴传桂" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1301" y="-506.75" width="60" height="30" as="geometry" />
+          <mxGeometry x="1360" y="-32.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ONM_g8x1p00itfnwvG1F-18" value="陈德锦" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1157" y="-494.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ONM_g8x1p00itfnwvG1F-19" value="周文君/皮耀明" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ONM_g8x1p00itfnwvG1F-19" value="周文君" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="855" y="-445.75" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ONM_g8x1p00itfnwvG1F-20" value="蒋嘉琪" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1430" y="-538.75" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ONM_g8x1p00itfnwvG1F-21" value="刘建兴" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1150" y="-77" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ONM_g8x1p00itfnwvG1F-23" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;未预留床位的人员：聂丰/段嘉俊/屈英杰/李锦明/欧利闲/唐阳/蒋嘉琪&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1328" y="-72.5" width="255.5" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ONM_g8x1p00itfnwvG1F-25" value="唐东耀" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="-32.5" width="165.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ONM_g8x1p00itfnwvG1F-26" value="马绍武" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1404.5" y="-32.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ONM_g8x1p00itfnwvG1F-28" value="皮耀明" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="-32.5" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
