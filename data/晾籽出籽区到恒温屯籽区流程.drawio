@@ -1,14 +1,14 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1075" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="77e6c97f196da883-1" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;晾籽出籽区到恒温屯籽区流程&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
-          <mxGeometry x="70" y="40" width="810" height="730" as="geometry" />
+          <mxGeometry x="70" y="40" width="810" height="1000" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-2" value="MES" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry y="20" width="160" height="710" as="geometry" />
+          <mxGeometry y="20" width="160" height="980" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-8" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;开始&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-2" vertex="1">
           <mxGeometry x="35" y="40" width="90" height="30" as="geometry" />
@@ -31,8 +31,14 @@
             <mxPoint x="300" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="wpisywKrS1FXvngyXWCM-19" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;108&lt;/font&gt;&lt;/div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;PDA上显示恒温库区已满，操作员手动下发任务搬运至产线缓存区&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="30" y="585" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wpisywKrS1FXvngyXWCM-21" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;109&lt;/font&gt;&lt;/div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;作业人员确认恒温室有足够储位后，通过PDA下发产线缓存区物料入库&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="30" y="740" width="100" height="90" as="geometry" />
+        </mxCell>
         <mxCell id="77e6c97f196da883-3" value="iWMS" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="160" y="20" width="160" height="710" as="geometry" />
+          <mxGeometry x="160" y="20" width="160" height="980" as="geometry" />
         </mxCell>
         <mxCell id="wpisywKrS1FXvngyXWCM-4" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;102&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;iWMS接受订单，存入订单池&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="25" y="277.5" width="110" height="75" as="geometry" />
@@ -40,8 +46,22 @@
         <mxCell id="wpisywKrS1FXvngyXWCM-8" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;是否还有储位&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="40" y="515" width="80" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="wpisywKrS1FXvngyXWCM-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-3" target="wpisywKrS1FXvngyXWCM-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="585" as="sourcePoint" />
+            <mxPoint x="190" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wpisywKrS1FXvngyXWCM-15" value="无储位" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wpisywKrS1FXvngyXWCM-14">
+          <mxGeometry x="0.2188" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="77e6c97f196da883-4" value="RCS" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="320" y="20" width="170" height="710" as="geometry" />
+          <mxGeometry x="320" y="20" width="170" height="980" as="geometry" />
         </mxCell>
         <mxCell id="wpisywKrS1FXvngyXWCM-6" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;103&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;iWMS按入库策略查找恒温室储位&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
           <mxGeometry x="-130" y="440" width="100" height="60" as="geometry" />
@@ -50,22 +70,22 @@
           <mxGeometry x="30" y="520" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wpisywKrS1FXvngyXWCM-13" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;106&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;RCS调度AGV从出籽产线搬运到产线缓存区&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="30" y="600" width="100" height="60" as="geometry" />
+          <mxGeometry x="30" y="670" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-5" value="AGV" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="490" y="20" width="160" height="710" as="geometry" />
+          <mxGeometry x="490" y="20" width="160" height="980" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-17" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;105&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;AGV搬运物料至恒温储存区&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-5" vertex="1">
           <mxGeometry x="40" y="520" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wpisywKrS1FXvngyXWCM-16" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;105&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;AGV搬运物料至产线缓存区&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-5">
-          <mxGeometry x="40" y="600" width="100" height="60" as="geometry" />
+        <mxCell id="wpisywKrS1FXvngyXWCM-16" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;107&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;AGV搬运物料至产线缓存区&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-5">
+          <mxGeometry x="40" y="670" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-6" value="备注" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="650" y="20" width="160" height="710" as="geometry" />
+          <mxGeometry x="650" y="20" width="160" height="980" as="geometry" />
         </mxCell>
-        <mxCell id="wpisywKrS1FXvngyXWCM-18" value="&lt;div style=&quot;text-align: justify;&quot;&gt;103备注：&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;1.恒温室储存区有两条主路线，一条是从一部车间到众为兴一楼恒温室；第二条是从一部车间上电梯到二部二栋二楼的恒温室，AGV要随梯。&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;106备注：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;1.如果恒温储存区有储位空出来，iWMS优先调度产线缓存区的物料搬运至恒温室存储区。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-6">
-          <mxGeometry x="20" y="50" width="120" height="230" as="geometry" />
+        <mxCell id="wpisywKrS1FXvngyXWCM-18" value="&lt;div style=&quot;text-align: justify;&quot;&gt;103备注：&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;1.恒温室储存区有两条主路线，一条是从一部车间到众为兴一楼恒温室；第二条是从一部车间上电梯到二部二栋二楼的恒温室，AGV要随梯。&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-6">
+          <mxGeometry x="20" y="110" width="120" height="170" as="geometry" />
         </mxCell>
         <mxCell id="wpisywKrS1FXvngyXWCM-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="wpisywKrS1FXvngyXWCM-2" target="wpisywKrS1FXvngyXWCM-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -108,18 +128,23 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wpisywKrS1FXvngyXWCM-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="wpisywKrS1FXvngyXWCM-8" target="wpisywKrS1FXvngyXWCM-13">
+        <mxCell id="wpisywKrS1FXvngyXWCM-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="wpisywKrS1FXvngyXWCM-19" target="wpisywKrS1FXvngyXWCM-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="290" y="670" as="sourcePoint" />
-            <mxPoint x="340" y="620" as="targetPoint" />
+            <mxPoint x="240" y="770" as="sourcePoint" />
+            <mxPoint x="290" y="720" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="240" y="650" />
+              <mxPoint x="80" y="720" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wpisywKrS1FXvngyXWCM-15" value="无储位" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wpisywKrS1FXvngyXWCM-14">
-          <mxGeometry x="0.2188" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="wpisywKrS1FXvngyXWCM-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="wpisywKrS1FXvngyXWCM-21" target="wpisywKrS1FXvngyXWCM-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="820" as="sourcePoint" />
+            <mxPoint x="240" y="770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="805" />
+              <mxPoint x="150" y="335" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
