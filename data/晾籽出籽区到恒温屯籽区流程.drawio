@@ -234,8 +234,8 @@
         <mxCell id="wpisywKrS1FXvngyXWCM-44" value="备注" style="swimlane;html=1;startSize=20;" vertex="1" parent="wpisywKrS1FXvngyXWCM-23">
           <mxGeometry x="650" y="20" width="160" height="980" as="geometry" />
         </mxCell>
-        <mxCell id="wpisywKrS1FXvngyXWCM-45" value="&lt;div style=&quot;text-align: justify;&quot;&gt;103备注：&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;1.恒温室储存区有两条主路线，一条是从一部车间到众为兴一楼恒温室；第二条是从一部车间上电梯到二部二栋二楼的恒温室，AGV要随梯。&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wpisywKrS1FXvngyXWCM-44">
-          <mxGeometry x="20" y="110" width="120" height="170" as="geometry" />
+        <mxCell id="wpisywKrS1FXvngyXWCM-45" value="&lt;div style=&quot;text-align: justify;&quot;&gt;100备注：&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;1.iWMS库存信息在入库后会同步到MES，MES在下发出库前可以判断库存是否足够。&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;101备注：&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;线边缓存区物料用完后，作业人员拿走托盘，在继续100流程进行出库即可。&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;110备注：&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;从一部搬运槟榔籽到恒温室入库后，iWMS自动判断各线边缓存区是否有空托盘进行了绑定，在进行回流搬运，如果没有AGV就回到一部暂住区&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wpisywKrS1FXvngyXWCM-44">
+          <mxGeometry x="20" y="110" width="120" height="310" as="geometry" />
         </mxCell>
         <mxCell id="wpisywKrS1FXvngyXWCM-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wpisywKrS1FXvngyXWCM-23" source="wpisywKrS1FXvngyXWCM-39" target="wpisywKrS1FXvngyXWCM-42">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
