@@ -839,88 +839,20 @@
         <mxCell id="tF73y9AiD8ILFAiXNEZX-7" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;105&lt;/font&gt;&lt;/div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;PDA上显示入库成功，人工把地牛叉车带出库区&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="tF73y9AiD8ILFAiXNEZX-2" vertex="1">
           <mxGeometry x="35" y="588" width="100" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="tF73y9AiD8ILFAiXNEZX-8" value="iWMS" style="swimlane;html=1;startSize=20;" parent="tF73y9AiD8ILFAiXNEZX-1" vertex="1">
-          <mxGeometry x="180" y="20" width="160" height="1390" as="geometry" />
-        </mxCell>
-        <mxCell id="tF73y9AiD8ILFAiXNEZX-9" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;101&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;iWMS接受订单，存入订单池&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="tF73y9AiD8ILFAiXNEZX-8" vertex="1">
-          <mxGeometry x="25" y="222" width="110" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="tF73y9AiD8ILFAiXNEZX-10" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;入库状态&lt;/span&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="tF73y9AiD8ILFAiXNEZX-8" vertex="1">
-          <mxGeometry x="40" y="457.5" width="80" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="tF73y9AiD8ILFAiXNEZX-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="tF73y9AiD8ILFAiXNEZX-8" target="tF73y9AiD8ILFAiXNEZX-4" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="80" y="530" as="sourcePoint" />
-            <mxPoint x="190" y="630" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="80" y="540" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tF73y9AiD8ILFAiXNEZX-12" value="失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tF73y9AiD8ILFAiXNEZX-11" vertex="1" connectable="0">
-          <mxGeometry x="0.2188" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tF73y9AiD8ILFAiXNEZX-13" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;102&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;iWMS按上架策略进行入库&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="tF73y9AiD8ILFAiXNEZX-8" vertex="1">
-          <mxGeometry x="30" y="332.5" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tF73y9AiD8ILFAiXNEZX-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="tF73y9AiD8ILFAiXNEZX-8" source="tF73y9AiD8ILFAiXNEZX-9" target="tF73y9AiD8ILFAiXNEZX-13" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="380" as="sourcePoint" />
-            <mxPoint x="250" y="330" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tF73y9AiD8ILFAiXNEZX-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="tF73y9AiD8ILFAiXNEZX-8" source="tF73y9AiD8ILFAiXNEZX-13" target="tF73y9AiD8ILFAiXNEZX-10" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="220" y="500" as="sourcePoint" />
-            <mxPoint x="270" y="450" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tF73y9AiD8ILFAiXNEZX-16" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;104&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;iWMS更新库存&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="tF73y9AiD8ILFAiXNEZX-8" vertex="1">
-          <mxGeometry x="30" y="602.5" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tF73y9AiD8ILFAiXNEZX-17" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;106&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;iWMS按补货策略查找物料进行补货&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="tF73y9AiD8ILFAiXNEZX-8" vertex="1">
-          <mxGeometry x="30" y="700" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tF73y9AiD8ILFAiXNEZX-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="tF73y9AiD8ILFAiXNEZX-8" source="tF73y9AiD8ILFAiXNEZX-16" target="tF73y9AiD8ILFAiXNEZX-17" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="80" y="877" as="sourcePoint" />
-            <mxPoint x="290" y="870" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tF73y9AiD8ILFAiXNEZX-19" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;109&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;iWMS更新库存&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="tF73y9AiD8ILFAiXNEZX-8" vertex="1">
-          <mxGeometry x="35" y="870" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tF73y9AiD8ILFAiXNEZX-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="tF73y9AiD8ILFAiXNEZX-8" source="tF73y9AiD8ILFAiXNEZX-10" target="tF73y9AiD8ILFAiXNEZX-16" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="190" y="640" as="sourcePoint" />
-            <mxPoint x="150" y="620" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="150" y="493" />
-              <mxPoint x="150" y="633" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tF73y9AiD8ILFAiXNEZX-22" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tF73y9AiD8ILFAiXNEZX-21" vertex="1" connectable="0">
-          <mxGeometry x="-0.0952" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="tF73y9AiD8ILFAiXNEZX-23" value="RCS" style="swimlane;html=1;startSize=20;" parent="tF73y9AiD8ILFAiXNEZX-1" vertex="1">
-          <mxGeometry x="340" y="20" width="170" height="1390" as="geometry" />
+          <mxGeometry x="180" y="20" width="170" height="1390" as="geometry" />
         </mxCell>
         <mxCell id="tF73y9AiD8ILFAiXNEZX-24" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;107&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;RCS调度AGV从一栋三楼四部囤籽区搬运物料到四部囤籽区&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="tF73y9AiD8ILFAiXNEZX-23" vertex="1">
           <mxGeometry x="40" y="765" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="tF73y9AiD8ILFAiXNEZX-25" value="AGV" style="swimlane;html=1;startSize=20;" parent="tF73y9AiD8ILFAiXNEZX-1" vertex="1">
-          <mxGeometry x="510" y="20" width="160" height="1390" as="geometry" />
+          <mxGeometry x="350" y="20" width="160" height="1390" as="geometry" />
         </mxCell>
         <mxCell id="tF73y9AiD8ILFAiXNEZX-26" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;108&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;AGV搬运物料至终点&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="tF73y9AiD8ILFAiXNEZX-25" vertex="1">
           <mxGeometry x="40" y="770" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tF73y9AiD8ILFAiXNEZX-27" value="备注" style="swimlane;html=1;startSize=20;" parent="tF73y9AiD8ILFAiXNEZX-1" vertex="1">
-          <mxGeometry x="670" y="20" width="160" height="1390" as="geometry" />
+          <mxGeometry x="510" y="20" width="160" height="1390" as="geometry" />
         </mxCell>
         <mxCell id="tF73y9AiD8ILFAiXNEZX-28" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;102备注：&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;1.iWMS设置下架策略：一栋三楼四部囤籽区按物料编码进行下架&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;2.&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;iWMS设置上架策略：&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;一栋三楼四部囤籽区&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;按物料编码、批次号进行上架&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;div&gt;3.iWMS设置混放策略：&lt;span style=&quot;text-align: center;&quot;&gt;一栋三楼四部囤籽区&lt;/span&gt;可以按不同物料编码(空桶编号和晾片成品物料编码)进行混放&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;105备注：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;1.人工介入处理，用PDA核查输入的物料编码或者库位码是否正确&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;div&gt;106备注：&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;1.iWMS设置补货策略：&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;四部一楼囤籽区和&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;四部二楼囤籽区&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;库存低于下限，从一栋三楼四部囤籽区按物料编号补充物料&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;110备注：&lt;/div&gt;&lt;div&gt;1.iWMS设置回库策略：一栋三楼四部囤籽区设置回库策略，来源库区为四部二楼和一楼囤籽区，按指定物料编号搬运&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacingTop=5;spacingLeft=10;spacingBottom=5;spacingRight=10;" parent="tF73y9AiD8ILFAiXNEZX-27" vertex="1">
           <mxGeometry x="10" y="30" width="140" height="660" as="geometry" />
@@ -931,33 +863,33 @@
             <mxPoint x="570" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tF73y9AiD8ILFAiXNEZX-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="tF73y9AiD8ILFAiXNEZX-1" source="tF73y9AiD8ILFAiXNEZX-26" target="tF73y9AiD8ILFAiXNEZX-19" edge="1">
+        <mxCell id="tF73y9AiD8ILFAiXNEZX-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="tF73y9AiD8ILFAiXNEZX-1" source="tF73y9AiD8ILFAiXNEZX-26" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="610" y="670" as="sourcePoint" />
-            <mxPoint x="420" y="653" as="targetPoint" />
+            <mxPoint x="315" y="920" as="targetPoint" />
             <Array as="points">
               <mxPoint x="600" y="920" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tF73y9AiD8ILFAiXNEZX-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="tF73y9AiD8ILFAiXNEZX-1" source="tF73y9AiD8ILFAiXNEZX-5" target="tF73y9AiD8ILFAiXNEZX-9" edge="1">
+        <mxCell id="tF73y9AiD8ILFAiXNEZX-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="tF73y9AiD8ILFAiXNEZX-1" source="tF73y9AiD8ILFAiXNEZX-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-80" y="310" as="sourcePoint" />
-            <mxPoint x="-30" y="260" as="targetPoint" />
+            <mxPoint x="205" y="279.5" as="targetPoint" />
             <Array as="points">
               <mxPoint x="80" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tF73y9AiD8ILFAiXNEZX-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="tF73y9AiD8ILFAiXNEZX-1" source="tF73y9AiD8ILFAiXNEZX-16" target="tF73y9AiD8ILFAiXNEZX-7" edge="1">
+        <mxCell id="tF73y9AiD8ILFAiXNEZX-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="tF73y9AiD8ILFAiXNEZX-1" target="tF73y9AiD8ILFAiXNEZX-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380" y="660" as="sourcePoint" />
+            <mxPoint x="210" y="652.5" as="sourcePoint" />
             <mxPoint x="430" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tF73y9AiD8ILFAiXNEZX-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="tF73y9AiD8ILFAiXNEZX-1" source="tF73y9AiD8ILFAiXNEZX-17" target="tF73y9AiD8ILFAiXNEZX-24" edge="1">
+        <mxCell id="tF73y9AiD8ILFAiXNEZX-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="tF73y9AiD8ILFAiXNEZX-1" target="tF73y9AiD8ILFAiXNEZX-24" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="430" y="1050" as="sourcePoint" />
+            <mxPoint x="260" y="780" as="sourcePoint" />
             <mxPoint x="310" y="820" as="targetPoint" />
             <Array as="points">
               <mxPoint x="260" y="820" />
@@ -1028,9 +960,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="oO1d9mykyVmdlcmb6-Wi-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tF73y9AiD8ILFAiXNEZX-19" target="oO1d9mykyVmdlcmb6-Wi-1" edge="1">
+        <mxCell id="oO1d9mykyVmdlcmb6-Wi-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="oO1d9mykyVmdlcmb6-Wi-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="1020" as="sourcePoint" />
+            <mxPoint x="335" y="970" as="sourcePoint" />
             <mxPoint x="440" y="970" as="targetPoint" />
           </mxGeometry>
         </mxCell>
