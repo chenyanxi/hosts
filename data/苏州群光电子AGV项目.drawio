@@ -19,7 +19,7 @@
         <mxCell id="6jPPhg4xajZYFyUA9qFe-10" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;工人将空料箱拿走后，把物料放置在料箱中&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
           <mxGeometry x="30" y="3610" width="100" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="6jPPhg4xajZYFyUA9qFe-11" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;人工搬运料箱放置到满料货架上，&lt;/span&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;使用PDA下挂的WMS系统进行单箱入库作业&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
+        <mxCell id="6jPPhg4xajZYFyUA9qFe-11" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;人工搬运料箱放置到满料货架上，&lt;/span&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;使用PDA下挂的WMS系统进行单箱入库作业&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="77e6c97f196da883-2">
           <mxGeometry x="30" y="3740" width="100" height="90" as="geometry" />
         </mxCell>
         <mxCell id="6jPPhg4xajZYFyUA9qFe-12" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;人工搬运料箱放置到补料货架上，&lt;/span&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;使用PDA下挂的WMS系统进行批量入库作业&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
@@ -289,7 +289,7 @@
         <mxCell id="nlr6UDlaJSdSzfd9d1N8-77" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;上报货架放置完成信息&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-5" vertex="1">
           <mxGeometry x="20" y="2130" width="100" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="nlr6UDlaJSdSzfd9d1N8-81" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;线边是否有空货架，分配AGV执行搬运任务&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-5" vertex="1">
+        <mxCell id="nlr6UDlaJSdSzfd9d1N8-81" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;线边是否有空货架，分配AGV执行搬运任务&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#f8cecc;strokeColor=#b85450;" parent="77e6c97f196da883-5" vertex="1">
           <mxGeometry x="20" y="2260" width="100" height="90" as="geometry" />
         </mxCell>
         <mxCell id="nlr6UDlaJSdSzfd9d1N8-82" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="77e6c97f196da883-5" source="nlr6UDlaJSdSzfd9d1N8-77" target="nlr6UDlaJSdSzfd9d1N8-81" edge="1">
