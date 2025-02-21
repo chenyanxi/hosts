@@ -134,7 +134,7 @@
         <mxCell id="VR0HC7x2fqtfnYy5z5dV-3" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;开始&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="VR0HC7x2fqtfnYy5z5dV-2" vertex="1">
           <mxGeometry x="45" y="40" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VR0HC7x2fqtfnYy5z5dV-5" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;100&lt;br&gt;机切班线边区叫料：&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;作业人员通过PDA的MES系统，下达搬运指令至RCS系统&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="VR0HC7x2fqtfnYy5z5dV-2" vertex="1">
+        <mxCell id="VR0HC7x2fqtfnYy5z5dV-5" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;100&lt;br&gt;机切班作业人员把空料框堆放在托盘上后，&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;通过PDA的MES系统，下达搬运指令至RCS系统&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="VR0HC7x2fqtfnYy5z5dV-2" vertex="1">
           <mxGeometry x="25" y="110" width="130" height="110" as="geometry" />
         </mxCell>
         <mxCell id="VR0HC7x2fqtfnYy5z5dV-6" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;105&lt;br&gt;机切班线边区空框和空托盘搬运：&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;作业人员把空托盘一个一个叠加码垛好或把空料框码垛完成时，&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; background-color: initial;&quot;&gt;通过PDA的MES系统，下达搬运指令至RCS系统&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="VR0HC7x2fqtfnYy5z5dV-2" vertex="1">
@@ -146,13 +146,13 @@
             <mxPoint x="-30" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8hub9M_yxdQBxepMXlnU-4" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;104&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px;&quot;&gt;MES接收任务完成消息，更新库存数量&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="VR0HC7x2fqtfnYy5z5dV-2" vertex="1">
+        <mxCell id="8hub9M_yxdQBxepMXlnU-4" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;104&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px;&quot;&gt;MES接收任务完成消息&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="VR0HC7x2fqtfnYy5z5dV-2" vertex="1">
           <mxGeometry x="45" y="320" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="VR0HC7x2fqtfnYy5z5dV-29" value="RCS" style="swimlane;html=1;startSize=20;" parent="VR0HC7x2fqtfnYy5z5dV-2" vertex="1">
           <mxGeometry x="180" width="170" height="740" as="geometry" />
         </mxCell>
-        <mxCell id="mjkPglRVfP24f_3QyjHq-1" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;101&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;RCS调度AGV从恒温囤籽区搬运物料到机切线边缓存区&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="VR0HC7x2fqtfnYy5z5dV-29" vertex="1">
+        <mxCell id="mjkPglRVfP24f_3QyjHq-1" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;101&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;RCS调度AGV从指定线边工位搬运空料框托盘到晾籽空框存放区&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="VR0HC7x2fqtfnYy5z5dV-29" vertex="1">
           <mxGeometry x="30" y="220" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8hub9M_yxdQBxepMXlnU-1" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;103&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;RCS通知MES，任务执行完成&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="VR0HC7x2fqtfnYy5z5dV-29" vertex="1">
