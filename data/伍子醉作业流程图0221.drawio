@@ -965,7 +965,7 @@
         <mxCell id="6WqSYqVySvVVa8ZO2hyX-14" value="RCS" style="swimlane;html=1;startSize=20;" parent="6WqSYqVySvVVa8ZO2hyX-1" vertex="1">
           <mxGeometry x="200" y="20" width="170" height="2250" as="geometry" />
         </mxCell>
-        <mxCell id="6WqSYqVySvVVa8ZO2hyX-19" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;101&lt;/font&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;RCS生成跨楼层接驳任务，调度两台叉车执行搬运&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6WqSYqVySvVVa8ZO2hyX-14" vertex="1">
+        <mxCell id="6WqSYqVySvVVa8ZO2hyX-19" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;101&lt;/font&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;RCS生成跨楼层接驳任务，调度三台叉车执行搬运&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6WqSYqVySvVVa8ZO2hyX-14" vertex="1">
           <mxGeometry x="20" y="118" width="100" height="105" as="geometry" />
         </mxCell>
         <mxCell id="6WqSYqVySvVVa8ZO2hyX-21" value="&lt;font style=&quot;font-size: 12px; color: rgb(255, 0, 0);&quot; face=&quot;Helvetica&quot;&gt;102&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px; color: rgb(255, 0, 0);&quot; face=&quot;Helvetica&quot;&gt;RCS调度四部二楼叉车至包装机工位搬运成品托盘至二楼电梯&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="6WqSYqVySvVVa8ZO2hyX-14" vertex="1">
@@ -1358,15 +1358,15 @@
     </mxGraphModel>
   </diagram>
   <diagram name="四部二楼单口包装机补充空托盘流程" id="usQ6NEwlW9ykE2mQI2nM">
-    <mxGraphModel dx="1050" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1235" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="yfBima-DpN10BwnVo2wP-0" />
         <mxCell id="yfBima-DpN10BwnVo2wP-1" parent="yfBima-DpN10BwnVo2wP-0" />
         <mxCell id="yfBima-DpN10BwnVo2wP-2" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;四部二楼单口包装机补充空托盘流程&lt;/span&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-1">
-          <mxGeometry x="10" y="30" width="850" height="2270" as="geometry" />
+          <mxGeometry x="10" y="30" width="850" height="2080" as="geometry" />
         </mxCell>
         <mxCell id="yfBima-DpN10BwnVo2wP-3" value="MES" style="swimlane;html=1;startSize=20;" vertex="1" parent="yfBima-DpN10BwnVo2wP-2">
-          <mxGeometry y="20" width="200" height="2250" as="geometry" />
+          <mxGeometry y="20" width="200" height="2060" as="geometry" />
         </mxCell>
         <mxCell id="yfBima-DpN10BwnVo2wP-4" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;开始&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-3">
           <mxGeometry x="55" y="40" width="90" height="30" as="geometry" />
@@ -1377,19 +1377,19 @@
             <mxPoint x="100" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-6" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-family: Helvetica; background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 100&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;单口包装机成品入库：&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;作业人员把成品打包好并码垛完成时，&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; background-color: initial;&quot;&gt;通过PDA的MES系统，下达入库搬运指令到RCS系统&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=right;" vertex="1" parent="yfBima-DpN10BwnVo2wP-3">
+        <mxCell id="yfBima-DpN10BwnVo2wP-6" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-family: Helvetica; background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 100&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;单口包装机补充空托盘：&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;作业人员发现没有空托盘时，&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; background-color: initial;&quot;&gt;通过PDA的MES系统，下达补充空托盘搬运指令到RCS系统&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=right;" vertex="1" parent="yfBima-DpN10BwnVo2wP-3">
           <mxGeometry x="26.5" y="100" width="147" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-7" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;134&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px;&quot;&gt;MES接收任务完成消息&lt;/span&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;，更新库存数量&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-3">
-          <mxGeometry x="50" y="2141" width="100" height="70" as="geometry" />
+        <mxCell id="LvbeyUJf7nhsqyd-oBPF-0" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;134&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px;&quot;&gt;MES接收任务完成消息&lt;/span&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;，更新库存数量&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-3">
+          <mxGeometry x="45" y="1930" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yfBima-DpN10BwnVo2wP-8" value="RCS" style="swimlane;html=1;startSize=20;" vertex="1" parent="yfBima-DpN10BwnVo2wP-2">
-          <mxGeometry x="200" y="20" width="170" height="2250" as="geometry" />
+          <mxGeometry x="200" y="20" width="170" height="2060" as="geometry" />
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-9" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;101&lt;/font&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;RCS生成跨楼层接驳任务，调度两台叉车执行搬运&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-8">
+        <mxCell id="yfBima-DpN10BwnVo2wP-9" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;101&lt;/font&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;RCS生成跨楼层接驳任务，调度三台叉车执行搬运&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-8">
           <mxGeometry x="20" y="118" width="100" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-10" value="&lt;font style=&quot;font-size: 12px; color: rgb(255, 0, 0);&quot; face=&quot;Helvetica&quot;&gt;102&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px; color: rgb(255, 0, 0);&quot; face=&quot;Helvetica&quot;&gt;RCS调度四部二楼叉车至包装机工位搬运成品托盘至二楼电梯&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-8">
+        <mxCell id="yfBima-DpN10BwnVo2wP-10" value="&lt;font style=&quot;font-size: 12px; color: rgb(255, 0, 0);&quot; face=&quot;Helvetica&quot;&gt;102&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px; color: rgb(255, 0, 0);&quot; face=&quot;Helvetica&quot;&gt;RCS调度仓库叉车从空托盘区域搬运至暂存接驳区&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-8">
           <mxGeometry x="20" y="269" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yfBima-DpN10BwnVo2wP-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-8" source="yfBima-DpN10BwnVo2wP-9" target="yfBima-DpN10BwnVo2wP-10">
@@ -1398,7 +1398,7 @@
             <mxPoint x="190" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-12" value="&lt;font style=&quot;font-size: 12px; color: rgb(255, 0, 0);&quot; face=&quot;Helvetica&quot;&gt;103&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px; color: rgb(255, 0, 0);&quot; face=&quot;Helvetica&quot;&gt;RCS调度四部一楼叉车至一楼电梯准备接驳成品托盘&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-8">
+        <mxCell id="yfBima-DpN10BwnVo2wP-12" value="&lt;font style=&quot;font-size: 12px; color: rgb(255, 0, 0);&quot; face=&quot;Helvetica&quot;&gt;103&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px; color: rgb(255, 0, 0);&quot; face=&quot;Helvetica&quot;&gt;RCS调度四部一楼叉车至暂存接驳区等待接驳&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-8">
           <mxGeometry x="20" y="370" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yfBima-DpN10BwnVo2wP-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-8" source="yfBima-DpN10BwnVo2wP-9" target="yfBima-DpN10BwnVo2wP-12">
@@ -1413,37 +1413,51 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-14" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;107&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;RCS锁定电梯，其它楼层小车不能呼梯&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-8">
-          <mxGeometry x="20" y="480" width="100" height="90" as="geometry" />
+        <mxCell id="TZhZziC0IdfXQcwODyLG-2" value="&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;105&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;RCS调度第二台叉车进行接驳搬运&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-8">
+          <mxGeometry x="20" y="470" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-15" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;116&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;RCS释放电梯，其它楼层小车可以正常呼梯&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-8">
-          <mxGeometry x="35" y="870" width="100" height="90" as="geometry" />
+        <mxCell id="462v7IFQ66cAfb8g8OhZ-1" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;116&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;RCS释放电梯，其它楼层小车可以正常呼梯&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-8">
+          <mxGeometry x="20" y="1150" width="100" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-16" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;117&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;RCS锁定电梯，其它楼层小车不能呼梯&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-8">
-          <mxGeometry x="35" y="1119" width="100" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-17" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px; color: rgb(255, 0, 0);&quot;&gt;130&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;RCS生成仓库暂存区接驳任务，调度成品库存车至暂存区等待&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-8">
-          <mxGeometry x="35" y="1250" width="100" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-8" source="yfBima-DpN10BwnVo2wP-16" target="yfBima-DpN10BwnVo2wP-17">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="1260" as="sourcePoint" />
-            <mxPoint x="260" y="1210" as="targetPoint" />
+        <mxCell id="462v7IFQ66cAfb8g8OhZ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="yfBima-DpN10BwnVo2wP-8" source="462v7IFQ66cAfb8g8OhZ-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-19" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;126&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;RCS释放电梯，其它楼层小车可以正常呼梯&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-8">
-          <mxGeometry x="35" y="1510" width="100" height="90" as="geometry" />
+        <mxCell id="462v7IFQ66cAfb8g8OhZ-0" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;107&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;RCS锁定电梯，其它楼层小车不能呼梯&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-8">
+          <mxGeometry x="20" y="760" width="100" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-20" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;133&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;RCS通知MES，任务执行完成&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-8">
-          <mxGeometry x="35" y="2130" width="100" height="90" as="geometry" />
+        <mxCell id="462v7IFQ66cAfb8g8OhZ-20" value="&lt;font style=&quot;font-size: 12px; color: rgb(255, 0, 0);&quot; face=&quot;Helvetica&quot;&gt;103&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px; color: rgb(255, 0, 0);&quot; face=&quot;Helvetica&quot;&gt;RCS调度四部二楼叉车至电梯等待点&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-8">
+          <mxGeometry x="20" y="1280" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="462v7IFQ66cAfb8g8OhZ-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-8" source="yfBima-DpN10BwnVo2wP-9" target="462v7IFQ66cAfb8g8OhZ-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="220" as="sourcePoint" />
+            <mxPoint x="250" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="250" />
+              <mxPoint x="10" y="250" />
+              <mxPoint x="10" y="1260" />
+              <mxPoint x="70" y="1260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9h3tbf-4W2Y06V1PVbAG-1" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;126&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;RCS释放电梯，其它楼层小车可以正常呼梯&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-8">
+          <mxGeometry x="20" y="1790" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9h3tbf-4W2Y06V1PVbAG-0" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;117&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;RCS锁定电梯，其它楼层小车不能呼梯&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-8">
+          <mxGeometry x="20" y="1390" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LvbeyUJf7nhsqyd-oBPF-1" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;133&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;RCS通知MES，任务执行完成&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-8">
+          <mxGeometry x="20" y="1920" width="100" height="90" as="geometry" />
         </mxCell>
         <mxCell id="yfBima-DpN10BwnVo2wP-21" value="AGV" style="swimlane;html=1;startSize=20;" vertex="1" parent="yfBima-DpN10BwnVo2wP-2">
-          <mxGeometry x="370" y="20" width="160" height="2250" as="geometry" />
+          <mxGeometry x="370" y="20" width="160" height="2060" as="geometry" />
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-22" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;104&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;2楼叉车行驶至2楼包装机工位取成品托盘&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
+        <mxCell id="yfBima-DpN10BwnVo2wP-22" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;104&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;仓库叉车行驶至空托盘区域取空托盘&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
           <mxGeometry x="30" y="274" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-23" value="&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;105&lt;/font&gt;&lt;/div&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px;&quot;&gt;叉车行驶至电梯等待点，WCS开始呼梯&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
+        <mxCell id="yfBima-DpN10BwnVo2wP-23" value="&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;105&lt;/font&gt;&lt;/div&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px;&quot;&gt;叉车行驶至暂存接驳区，放下空托盘&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
           <mxGeometry x="30" y="370" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yfBima-DpN10BwnVo2wP-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-21" source="yfBima-DpN10BwnVo2wP-22" target="yfBima-DpN10BwnVo2wP-23">
@@ -1452,131 +1466,112 @@
             <mxPoint x="230" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-25" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;108&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;WCS发送锁梯信号，并申请开门&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
-          <mxGeometry x="30" y="480" width="100" height="90" as="geometry" />
+        <mxCell id="TZhZziC0IdfXQcwODyLG-0" value="&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;105&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;四部一楼叉车行驶至暂存接驳区等待&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
+          <mxGeometry x="28" y="470" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-26" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;110&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;WCS判断电梯开门到位后，就调度叉车进入电梯放置成品托盘&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
-          <mxGeometry x="30" y="610" width="100" height="90" as="geometry" />
+        <mxCell id="TZhZziC0IdfXQcwODyLG-3" value="&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;105&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;四部一楼叉车进入暂存区开始接驳搬运&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
+          <mxGeometry x="28" y="560" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-27" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;112&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;叉车放置成品托盘完成，回到电梯等待点，发送释放电梯、呼梯到1楼信号、和关门信号&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
-          <mxGeometry x="30" y="740" width="100" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-28" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;115&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;2楼叉车任务结束&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
-          <mxGeometry x="34" y="870" width="100" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-29" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;115&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;1楼叉车行驶至1楼电梯等待位，WCS判断电梯到位信号&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
-          <mxGeometry x="30" y="1000" width="100" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-30" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;118&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;WCS发送锁梯信号，并申请开门&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
-          <mxGeometry x="30" y="1119" width="100" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-31" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;122&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;叉车取成品托盘完成，回到电梯等待点，发送释放电梯、和关门信号&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
-          <mxGeometry x="28" y="1380" width="100" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-32" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;125&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;1楼叉车搬运成品托盘行驶至成品暂存接驳区&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
-          <mxGeometry x="32" y="1510" width="100" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-33" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;120&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;WCS判断电梯开门到位后，就调度叉车进入电梯取成品托盘&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
-          <mxGeometry x="28" y="1250" width="100" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-34" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;128&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;1楼叉车搬运成品托盘至成品暂存接驳区完成&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
-          <mxGeometry x="31" y="1640" width="100" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-21" source="yfBima-DpN10BwnVo2wP-32" target="yfBima-DpN10BwnVo2wP-34">
+        <mxCell id="TZhZziC0IdfXQcwODyLG-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-21" source="TZhZziC0IdfXQcwODyLG-0" target="TZhZziC0IdfXQcwODyLG-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="1670" as="sourcePoint" />
-            <mxPoint x="260" y="1620" as="targetPoint" />
+            <mxPoint x="190" y="550" as="sourcePoint" />
+            <mxPoint x="240" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-36" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;129&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;成品库叉车行驶至成品暂存接驳区等待&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
-          <mxGeometry x="32" y="1770" width="100" height="90" as="geometry" />
+        <mxCell id="TZhZziC0IdfXQcwODyLG-6" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;113&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;四部一楼叉车搬运空托盘行驶至电梯等待点，WCS开始呼梯&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
+          <mxGeometry x="28" y="650" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-37" value="继续执行任务" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
-          <mxGeometry x="42" y="1900" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-21" source="yfBima-DpN10BwnVo2wP-36" target="yfBima-DpN10BwnVo2wP-37">
+        <mxCell id="TZhZziC0IdfXQcwODyLG-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-21" source="TZhZziC0IdfXQcwODyLG-3" target="TZhZziC0IdfXQcwODyLG-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="190" y="1880" as="sourcePoint" />
-            <mxPoint x="240" y="1830" as="targetPoint" />
+            <mxPoint x="210" y="640" as="sourcePoint" />
+            <mxPoint x="260" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-21" source="yfBima-DpN10BwnVo2wP-34" target="yfBima-DpN10BwnVo2wP-37">
+        <mxCell id="462v7IFQ66cAfb8g8OhZ-5" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;115&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;四部一楼叉车任务结束&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
+          <mxGeometry x="26" y="1150" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="462v7IFQ66cAfb8g8OhZ-4" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;112&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;叉车放置空托盘完成，回到电梯等待点，发送释放电梯、呼梯到2楼信号、和关门信号&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
+          <mxGeometry x="30" y="1020" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="462v7IFQ66cAfb8g8OhZ-3" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;110&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;WCS判断电梯开门到位后，就调度叉车进入电梯放置空托盘&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
+          <mxGeometry x="28" y="890" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="462v7IFQ66cAfb8g8OhZ-2" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;108&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;WCS发送锁梯信号，并申请开门&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
+          <mxGeometry x="28" y="760" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="462v7IFQ66cAfb8g8OhZ-23" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;115&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;四部二楼叉车行驶至电梯等待点，&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 12px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;WCS判断电梯到位信号&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
+          <mxGeometry x="26" y="1270" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9h3tbf-4W2Y06V1PVbAG-2" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;118&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;WCS发送锁梯信号，并申请开门&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
+          <mxGeometry x="30" y="1392" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9h3tbf-4W2Y06V1PVbAG-5" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;120&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;WCS判断电梯开门到位后，就调度叉车进入电梯取空托盘&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
+          <mxGeometry x="28" y="1529" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9h3tbf-4W2Y06V1PVbAG-3" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;122&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;叉车取空托盘完成，回到电梯等待点，发送释放电梯、和关门信号&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
+          <mxGeometry x="28" y="1661" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9h3tbf-4W2Y06V1PVbAG-4" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;125&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;二楼叉车电梯对接完成，行驶至打包机工位&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
+          <mxGeometry x="32" y="1791" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9h3tbf-4W2Y06V1PVbAG-6" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;128&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;叉车行驶至打包机工位放置空托盘完成&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
+          <mxGeometry x="31" y="1919" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XrHxTXsyMTI5OITM62in-0" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-21" source="9h3tbf-4W2Y06V1PVbAG-4" target="9h3tbf-4W2Y06V1PVbAG-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="230" y="1770" as="sourcePoint" />
-            <mxPoint x="280" y="1720" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="150" y="1685" />
-              <mxPoint x="150" y="1940" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-40" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;131&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;成品库叉车驶入接驳区，开始取成品托盘&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
-          <mxGeometry x="32" y="2010" width="100" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-21" source="yfBima-DpN10BwnVo2wP-37" target="yfBima-DpN10BwnVo2wP-40">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="220" y="1980" as="sourcePoint" />
-            <mxPoint x="270" y="1930" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-42" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;132&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;成品库叉车行驶至指定库位，并通知放置成品托盘完成&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-21">
-          <mxGeometry x="34" y="2130" width="100" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-21" source="yfBima-DpN10BwnVo2wP-40" target="yfBima-DpN10BwnVo2wP-42">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="2120" as="sourcePoint" />
-            <mxPoint x="260" y="2070" as="targetPoint" />
+            <mxPoint x="220" y="1950" as="sourcePoint" />
+            <mxPoint x="270" y="1900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yfBima-DpN10BwnVo2wP-44" value="电梯" style="swimlane;html=1;startSize=20;" vertex="1" parent="yfBima-DpN10BwnVo2wP-2">
-          <mxGeometry x="530" y="20" width="160" height="2250" as="geometry" />
+          <mxGeometry x="530" y="20" width="160" height="2060" as="geometry" />
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-45" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;106&lt;/font&gt;&lt;/div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;电梯运行至目标楼层&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-44">
-          <mxGeometry x="30" y="370" width="100" height="60" as="geometry" />
+        <mxCell id="yfBima-DpN10BwnVo2wP-48" value="&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;106&lt;/font&gt;&lt;/div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;电梯运行至目标楼层&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-44">
+          <mxGeometry x="30" y="650" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-46" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;109&lt;/font&gt;&lt;/div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;电梯锁梯并开门，返回开门到位信号&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-44">
-          <mxGeometry x="30" y="480" width="100" height="90" as="geometry" />
+        <mxCell id="462v7IFQ66cAfb8g8OhZ-6" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;109&lt;/font&gt;&lt;/div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;电梯锁梯并开门，返回开门到位信号&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-44">
+          <mxGeometry x="30" y="760" width="100" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-47" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;111&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;叉车进入电梯放置成品托盘&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-44">
-          <mxGeometry x="30" y="610" width="100" height="90" as="geometry" />
+        <mxCell id="462v7IFQ66cAfb8g8OhZ-7" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;111&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;叉车进入电梯放置空托盘&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-44">
+          <mxGeometry x="30" y="890" width="100" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-48" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;113&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;释放电梯并关门&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-44">
-          <mxGeometry x="30" y="740" width="100" height="90" as="geometry" />
+        <mxCell id="462v7IFQ66cAfb8g8OhZ-8" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;113&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;释放电梯并关门&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-44">
+          <mxGeometry x="30" y="1020" width="100" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-49" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;114&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;返回电梯关门到位信号&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-44">
-          <mxGeometry x="30" y="870" width="100" height="90" as="geometry" />
+        <mxCell id="462v7IFQ66cAfb8g8OhZ-9" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;114&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;返回电梯关门到位信号&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-44">
+          <mxGeometry x="30" y="1150" width="100" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-50" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-44" source="yfBima-DpN10BwnVo2wP-48" target="yfBima-DpN10BwnVo2wP-49">
+        <mxCell id="462v7IFQ66cAfb8g8OhZ-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-44" source="462v7IFQ66cAfb8g8OhZ-8" target="462v7IFQ66cAfb8g8OhZ-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="830" as="sourcePoint" />
-            <mxPoint x="260" y="780" as="targetPoint" />
+            <mxPoint x="120" y="1150" as="sourcePoint" />
+            <mxPoint x="170" y="1100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-51" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;116&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;电梯运行至1楼，并返回到达目标楼层信号&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-44">
-          <mxGeometry x="30" y="995" width="100" height="90" as="geometry" />
+        <mxCell id="KUMywNnsW71qVfk_Uyps-0" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;116&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;电梯运行至二楼，并返回到达目标楼层信号&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-44">
+          <mxGeometry x="30" y="1270" width="100" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-52" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;119&lt;/font&gt;&lt;/div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;电梯锁梯并开门，返回开门到位信号&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-44">
-          <mxGeometry x="30" y="1119" width="100" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-53" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;121&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;叉车进入电梯取成品托盘&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-44">
-          <mxGeometry x="30" y="1250" width="100" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-54" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;123&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;释放电梯并关门&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-44">
-          <mxGeometry x="30" y="1380" width="100" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-55" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;124&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;返回电梯关门到位信号&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-44">
-          <mxGeometry x="30" y="1510" width="100" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-56" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-44" source="yfBima-DpN10BwnVo2wP-54" target="yfBima-DpN10BwnVo2wP-55">
+        <mxCell id="KUMywNnsW71qVfk_Uyps-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-44" source="462v7IFQ66cAfb8g8OhZ-9" target="KUMywNnsW71qVfk_Uyps-0">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="1470" as="sourcePoint" />
-            <mxPoint x="250" y="1420" as="targetPoint" />
+            <mxPoint x="190" y="1260" as="sourcePoint" />
+            <mxPoint x="240" y="1210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-57" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-44" source="yfBima-DpN10BwnVo2wP-49" target="yfBima-DpN10BwnVo2wP-51">
+        <mxCell id="9h3tbf-4W2Y06V1PVbAG-10" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;124&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;返回电梯关门到位信号&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-44">
+          <mxGeometry x="30" y="1791" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9h3tbf-4W2Y06V1PVbAG-9" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;123&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;释放电梯并关门&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-44">
+          <mxGeometry x="30" y="1661" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9h3tbf-4W2Y06V1PVbAG-8" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;121&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;叉车进入电梯取空托盘&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-44">
+          <mxGeometry x="30" y="1531" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9h3tbf-4W2Y06V1PVbAG-7" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;119&lt;/font&gt;&lt;/div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;电梯锁梯并开门，返回开门到位信号&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="yfBima-DpN10BwnVo2wP-44">
+          <mxGeometry x="30" y="1393" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9h3tbf-4W2Y06V1PVbAG-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-44" source="9h3tbf-4W2Y06V1PVbAG-9" target="9h3tbf-4W2Y06V1PVbAG-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="950" as="sourcePoint" />
-            <mxPoint x="290" y="900" as="targetPoint" />
+            <mxPoint x="190" y="1750" as="sourcePoint" />
+            <mxPoint x="240" y="1700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yfBima-DpN10BwnVo2wP-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="yfBima-DpN10BwnVo2wP-6" target="yfBima-DpN10BwnVo2wP-9">
@@ -1586,9 +1581,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yfBima-DpN10BwnVo2wP-59" value="备注" style="swimlane;html=1;startSize=20;" vertex="1" parent="yfBima-DpN10BwnVo2wP-2">
-          <mxGeometry x="690" y="20" width="160" height="2250" as="geometry" />
+          <mxGeometry x="690" y="20" width="160" height="2060" as="geometry" />
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-60" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;100备注：&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1.MES调用任务生成接口，传入起点单口包装机工位编号，终点为MES管控的成品库库位编号；&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;101备注：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 255, 255));&quot;&gt;1.RCS需根据MES传入的起点终点，生成3个任务进行3台车的接驳(待确认)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;2.RCS需定制自动分配空闲电梯为接驳任务终点功能(待确认)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;107备注：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;1.RCS需定制锁定功能，当某一台电梯在和AGV接驳时，其它楼层的AGV不能去和该电梯进行交互&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;106备注：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;1.电梯要有锁梯信号&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacingTop=5;spacingLeft=10;spacingBottom=5;spacingRight=10;" vertex="1" parent="yfBima-DpN10BwnVo2wP-59">
+        <mxCell id="yfBima-DpN10BwnVo2wP-60" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;100备注：&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1.MES调用任务生成接口，传入起点空托盘区编号，终点为打包机工作站编号；&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;101备注：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 255, 255));&quot;&gt;1.RCS需根据MES传入的起点终点，生成3个任务进行3台车的接驳(待确认)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;2.RCS需定制自动分配空闲电梯为接驳任务终点功能(待确认)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;107备注：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;1.RCS需定制锁定功能，当某一台电梯在和AGV接驳时，其它楼层的AGV不能去和该电梯进行交互&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;106备注：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;1.电梯要有锁梯信号&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacingTop=5;spacingLeft=10;spacingBottom=5;spacingRight=10;" vertex="1" parent="yfBima-DpN10BwnVo2wP-59">
           <mxGeometry x="10" y="30" width="140" height="640" as="geometry" />
         </mxCell>
         <mxCell id="yfBima-DpN10BwnVo2wP-61" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="yfBima-DpN10BwnVo2wP-10" target="yfBima-DpN10BwnVo2wP-22">
@@ -1598,181 +1593,196 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-62" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="yfBima-DpN10BwnVo2wP-23" target="yfBima-DpN10BwnVo2wP-45">
+        <mxCell id="yfBima-DpN10BwnVo2wP-62" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="yfBima-DpN10BwnVo2wP-23" target="TZhZziC0IdfXQcwODyLG-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="590" y="530" as="sourcePoint" />
-            <mxPoint x="640" y="480" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-63" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="yfBima-DpN10BwnVo2wP-45" target="yfBima-DpN10BwnVo2wP-14">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="640" y="360" as="sourcePoint" />
-            <mxPoint x="690" y="310" as="targetPoint" />
+            <mxPoint x="320" y="480" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="610" y="470" />
+              <mxPoint x="450" y="470" />
               <mxPoint x="270" y="470" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-64" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="yfBima-DpN10BwnVo2wP-14" target="yfBima-DpN10BwnVo2wP-25">
+        <mxCell id="TZhZziC0IdfXQcwODyLG-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="yfBima-DpN10BwnVo2wP-12" target="TZhZziC0IdfXQcwODyLG-0">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="660" as="sourcePoint" />
-            <mxPoint x="490" y="610" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-65" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="yfBima-DpN10BwnVo2wP-25" target="yfBima-DpN10BwnVo2wP-46">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="600" y="660" as="sourcePoint" />
-            <mxPoint x="650" y="610" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-66" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="yfBima-DpN10BwnVo2wP-46" target="yfBima-DpN10BwnVo2wP-26">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="610" y="650" as="sourcePoint" />
-            <mxPoint x="660" y="600" as="targetPoint" />
+            <mxPoint x="330" y="530" as="sourcePoint" />
+            <mxPoint x="380" y="480" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="610" y="610" />
-              <mxPoint x="450" y="610" />
+              <mxPoint x="350" y="425" />
+              <mxPoint x="350" y="520" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="yfBima-DpN10BwnVo2wP-26" target="yfBima-DpN10BwnVo2wP-47">
+        <mxCell id="TZhZziC0IdfXQcwODyLG-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="TZhZziC0IdfXQcwODyLG-2" target="TZhZziC0IdfXQcwODyLG-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="590" y="790" as="sourcePoint" />
-            <mxPoint x="640" y="740" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="yfBima-DpN10BwnVo2wP-47" target="yfBima-DpN10BwnVo2wP-27">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="740" y="780" as="sourcePoint" />
-            <mxPoint x="790" y="730" as="targetPoint" />
+            <mxPoint x="310" y="620" as="sourcePoint" />
+            <mxPoint x="360" y="570" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="610" y="740" />
-              <mxPoint x="450" y="740" />
+              <mxPoint x="340" y="520" />
+              <mxPoint x="340" y="610" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-69" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="yfBima-DpN10BwnVo2wP-27" target="yfBima-DpN10BwnVo2wP-48">
+        <mxCell id="iugCilNYQvoKhBDKX_Tr-0" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="TZhZziC0IdfXQcwODyLG-6" target="yfBima-DpN10BwnVo2wP-48">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="730" y="820" as="sourcePoint" />
-            <mxPoint x="780" y="770" as="targetPoint" />
+            <mxPoint x="580" y="630" as="sourcePoint" />
+            <mxPoint x="630" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-70" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="yfBima-DpN10BwnVo2wP-49" target="yfBima-DpN10BwnVo2wP-28">
+        <mxCell id="462v7IFQ66cAfb8g8OhZ-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="yfBima-DpN10BwnVo2wP-48" target="462v7IFQ66cAfb8g8OhZ-0">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="710" y="940" as="sourcePoint" />
-            <mxPoint x="760" y="890" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-71" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="yfBima-DpN10BwnVo2wP-28" target="yfBima-DpN10BwnVo2wP-15">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="1040" as="sourcePoint" />
-            <mxPoint x="490" y="990" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-72" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="yfBima-DpN10BwnVo2wP-12" target="yfBima-DpN10BwnVo2wP-29">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="350" y="430" as="sourcePoint" />
-            <mxPoint x="400" y="380" as="targetPoint" />
+            <mxPoint x="730" y="780" as="sourcePoint" />
+            <mxPoint x="780" y="730" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="360" y="425" />
-              <mxPoint x="360" y="1060" />
+              <mxPoint x="610" y="760" />
+              <mxPoint x="270" y="760" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-73" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="yfBima-DpN10BwnVo2wP-29" target="yfBima-DpN10BwnVo2wP-51">
+        <mxCell id="462v7IFQ66cAfb8g8OhZ-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="462v7IFQ66cAfb8g8OhZ-0" target="462v7IFQ66cAfb8g8OhZ-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="610" y="1160" as="sourcePoint" />
-            <mxPoint x="660" y="1110" as="targetPoint" />
+            <mxPoint x="300" y="920" as="sourcePoint" />
+            <mxPoint x="350" y="870" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-74" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="yfBima-DpN10BwnVo2wP-51" target="yfBima-DpN10BwnVo2wP-16">
+        <mxCell id="462v7IFQ66cAfb8g8OhZ-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="462v7IFQ66cAfb8g8OhZ-2" target="462v7IFQ66cAfb8g8OhZ-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="760" y="1090" as="sourcePoint" />
-            <mxPoint x="810" y="1040" as="targetPoint" />
+            <mxPoint x="750" y="840" as="sourcePoint" />
+            <mxPoint x="800" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="462v7IFQ66cAfb8g8OhZ-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="462v7IFQ66cAfb8g8OhZ-6" target="462v7IFQ66cAfb8g8OhZ-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="890" as="sourcePoint" />
+            <mxPoint x="810" y="840" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="610" y="1120" />
-              <mxPoint x="285" y="1120" />
+              <mxPoint x="610" y="890" />
+              <mxPoint x="448" y="890" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-75" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="yfBima-DpN10BwnVo2wP-16" target="yfBima-DpN10BwnVo2wP-30">
+        <mxCell id="462v7IFQ66cAfb8g8OhZ-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="462v7IFQ66cAfb8g8OhZ-3" target="462v7IFQ66cAfb8g8OhZ-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="1280" as="sourcePoint" />
-            <mxPoint x="490" y="1230" as="targetPoint" />
+            <mxPoint x="770" y="990" as="sourcePoint" />
+            <mxPoint x="820" y="940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-76" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="yfBima-DpN10BwnVo2wP-30" target="yfBima-DpN10BwnVo2wP-52">
+        <mxCell id="462v7IFQ66cAfb8g8OhZ-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="462v7IFQ66cAfb8g8OhZ-7" target="462v7IFQ66cAfb8g8OhZ-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="720" y="1210" as="sourcePoint" />
-            <mxPoint x="770" y="1160" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-77" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="yfBima-DpN10BwnVo2wP-52" target="yfBima-DpN10BwnVo2wP-33">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="750" y="1230" as="sourcePoint" />
-            <mxPoint x="800" y="1180" as="targetPoint" />
+            <mxPoint x="760" y="1000" as="sourcePoint" />
+            <mxPoint x="810" y="950" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="610" y="1250" />
-              <mxPoint x="448" y="1250" />
+              <mxPoint x="610" y="1020" />
+              <mxPoint x="450" y="1020" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-78" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="yfBima-DpN10BwnVo2wP-33" target="yfBima-DpN10BwnVo2wP-53">
+        <mxCell id="462v7IFQ66cAfb8g8OhZ-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="462v7IFQ66cAfb8g8OhZ-4" target="462v7IFQ66cAfb8g8OhZ-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="730" y="1320" as="sourcePoint" />
-            <mxPoint x="780" y="1270" as="targetPoint" />
+            <mxPoint x="610" y="1060" as="sourcePoint" />
+            <mxPoint x="660" y="1010" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-79" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="yfBima-DpN10BwnVo2wP-53" target="yfBima-DpN10BwnVo2wP-31">
+        <mxCell id="462v7IFQ66cAfb8g8OhZ-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="462v7IFQ66cAfb8g8OhZ-9" target="462v7IFQ66cAfb8g8OhZ-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="740" y="1400" as="sourcePoint" />
-            <mxPoint x="790" y="1350" as="targetPoint" />
+            <mxPoint x="590" y="1320" as="sourcePoint" />
+            <mxPoint x="640" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="462v7IFQ66cAfb8g8OhZ-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="462v7IFQ66cAfb8g8OhZ-5" target="462v7IFQ66cAfb8g8OhZ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="1320" as="sourcePoint" />
+            <mxPoint x="470" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="462v7IFQ66cAfb8g8OhZ-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="462v7IFQ66cAfb8g8OhZ-20" target="462v7IFQ66cAfb8g8OhZ-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1460" as="sourcePoint" />
+            <mxPoint x="490" y="1410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-mTbx3tbQkQtAwLMgvo-0" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="462v7IFQ66cAfb8g8OhZ-23" target="KUMywNnsW71qVfk_Uyps-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="1430" as="sourcePoint" />
+            <mxPoint x="640" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9h3tbf-4W2Y06V1PVbAG-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="KUMywNnsW71qVfk_Uyps-0" target="9h3tbf-4W2Y06V1PVbAG-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="1400" as="sourcePoint" />
+            <mxPoint x="840" y="1350" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="610" y="1380" />
-              <mxPoint x="448" y="1380" />
+              <mxPoint x="610" y="1390" />
+              <mxPoint x="270" y="1390" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-80" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="yfBima-DpN10BwnVo2wP-31" target="yfBima-DpN10BwnVo2wP-54">
+        <mxCell id="9h3tbf-4W2Y06V1PVbAG-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="9h3tbf-4W2Y06V1PVbAG-0" target="9h3tbf-4W2Y06V1PVbAG-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="720" y="1450" as="sourcePoint" />
-            <mxPoint x="770" y="1400" as="targetPoint" />
+            <mxPoint x="760" y="1470" as="sourcePoint" />
+            <mxPoint x="810" y="1420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-81" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="yfBima-DpN10BwnVo2wP-55" target="yfBima-DpN10BwnVo2wP-32">
+        <mxCell id="9h3tbf-4W2Y06V1PVbAG-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="9h3tbf-4W2Y06V1PVbAG-2" target="9h3tbf-4W2Y06V1PVbAG-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="620" y="1680" as="sourcePoint" />
-            <mxPoint x="670" y="1630" as="targetPoint" />
+            <mxPoint x="740" y="1470" as="sourcePoint" />
+            <mxPoint x="790" y="1420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-82" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="yfBima-DpN10BwnVo2wP-32" target="yfBima-DpN10BwnVo2wP-19">
+        <mxCell id="9h3tbf-4W2Y06V1PVbAG-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="9h3tbf-4W2Y06V1PVbAG-7" target="9h3tbf-4W2Y06V1PVbAG-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="1690" as="sourcePoint" />
-            <mxPoint x="610" y="1640" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-83" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="yfBima-DpN10BwnVo2wP-17" target="yfBima-DpN10BwnVo2wP-36">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="300" y="1450" as="sourcePoint" />
-            <mxPoint x="350" y="1790" as="targetPoint" />
+            <mxPoint x="740" y="1540" as="sourcePoint" />
+            <mxPoint x="790" y="1490" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="285" y="1380" />
-              <mxPoint x="350" y="1380" />
-              <mxPoint x="350" y="1835" />
+              <mxPoint x="610" y="1520" />
+              <mxPoint x="448" y="1520" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-84" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="yfBima-DpN10BwnVo2wP-42" target="yfBima-DpN10BwnVo2wP-20">
+        <mxCell id="9h3tbf-4W2Y06V1PVbAG-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="9h3tbf-4W2Y06V1PVbAG-5" target="9h3tbf-4W2Y06V1PVbAG-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="610" y="2180" as="sourcePoint" />
-            <mxPoint x="660" y="2130" as="targetPoint" />
+            <mxPoint x="720" y="1620" as="sourcePoint" />
+            <mxPoint x="770" y="1570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yfBima-DpN10BwnVo2wP-85" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="yfBima-DpN10BwnVo2wP-20" target="yfBima-DpN10BwnVo2wP-7">
+        <mxCell id="9h3tbf-4W2Y06V1PVbAG-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="9h3tbf-4W2Y06V1PVbAG-3" target="9h3tbf-4W2Y06V1PVbAG-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="250" y="2380" as="sourcePoint" />
-            <mxPoint x="300" y="2330" as="targetPoint" />
+            <mxPoint x="720" y="1730" as="sourcePoint" />
+            <mxPoint x="540" y="1690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9h3tbf-4W2Y06V1PVbAG-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="9h3tbf-4W2Y06V1PVbAG-8" target="9h3tbf-4W2Y06V1PVbAG-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="1660" as="sourcePoint" />
+            <mxPoint x="780" y="1610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="1660" />
+              <mxPoint x="448" y="1660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9h3tbf-4W2Y06V1PVbAG-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="9h3tbf-4W2Y06V1PVbAG-10" target="9h3tbf-4W2Y06V1PVbAG-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="1860" as="sourcePoint" />
+            <mxPoint x="780" y="1810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9h3tbf-4W2Y06V1PVbAG-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="9h3tbf-4W2Y06V1PVbAG-4" target="9h3tbf-4W2Y06V1PVbAG-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="1960" as="sourcePoint" />
+            <mxPoint x="650" y="1910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LvbeyUJf7nhsqyd-oBPF-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="9h3tbf-4W2Y06V1PVbAG-6" target="LvbeyUJf7nhsqyd-oBPF-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="2110" as="sourcePoint" />
+            <mxPoint x="490" y="2060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LvbeyUJf7nhsqyd-oBPF-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yfBima-DpN10BwnVo2wP-2" source="LvbeyUJf7nhsqyd-oBPF-1" target="LvbeyUJf7nhsqyd-oBPF-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="2090" as="sourcePoint" />
+            <mxPoint x="320" y="2040" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
