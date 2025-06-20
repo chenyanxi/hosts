@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="第 1 页" id="FyYwuIMv7pIzDTBWUkwP">
-    <mxGraphModel dx="857" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,16 +52,16 @@
         <mxCell id="1FttGRvpAy5LGu-Mhhtg-19" value="" style="line;strokeWidth=2;html=1;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="353" y="792" width="170" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="1FttGRvpAy5LGu-Mhhtg-21" value="1100mm" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-45;size=0.3960000000000036;" vertex="1" parent="1">
+        <mxCell id="1FttGRvpAy5LGu-Mhhtg-21" value="110mm" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-45;size=0.3960000000000036;" vertex="1" parent="1">
           <mxGeometry x="317.92" y="660.09" width="20" height="269.67" as="geometry" />
         </mxCell>
-        <mxCell id="1FttGRvpAy5LGu-Mhhtg-22" value="120mm" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-45;" vertex="1" parent="1">
+        <mxCell id="1FttGRvpAy5LGu-Mhhtg-22" value="12mm" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-45;" vertex="1" parent="1">
           <mxGeometry x="421.17" y="671.17" width="20" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1FttGRvpAy5LGu-Mhhtg-23" value="950mm" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
+        <mxCell id="1FttGRvpAy5LGu-Mhhtg-23" value="95mm" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="288.25" y="808.75" width="74.5" height="225" as="geometry" />
         </mxCell>
-        <mxCell id="1FttGRvpAy5LGu-Mhhtg-24" value="920mm" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=0;" vertex="1" parent="1">
+        <mxCell id="1FttGRvpAy5LGu-Mhhtg-24" value="92mm" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=0;" vertex="1" parent="1">
           <mxGeometry x="441.17" y="683.5" width="74.5" height="225" as="geometry" />
         </mxCell>
       </root>
