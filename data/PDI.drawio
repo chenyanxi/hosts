@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="第 1 页" id="FyYwuIMv7pIzDTBWUkwP">
-    <mxGraphModel dx="425" dy="218" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="744" dy="382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -104,7 +104,7 @@
           <mxGeometry x="177" y="160" width="30" height="250" as="geometry" />
         </mxCell>
         <mxCell id="EMxXq2YWqxXCk6TcJ9qh-19" value="85cm" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="190" y="71" width="20" height="46" as="geometry" />
+          <mxGeometry x="189.5" y="70.5" width="20" height="47" as="geometry" />
         </mxCell>
         <mxCell id="EMxXq2YWqxXCk6TcJ9qh-20" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;立柱相机支架&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="216.99999999999994" y="146" width="60" height="30" as="geometry" />
@@ -114,6 +114,24 @@
         </mxCell>
         <mxCell id="EMxXq2YWqxXCk6TcJ9qh-22" value="86cm" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;size=0.35;" vertex="1" parent="1">
           <mxGeometry x="209" y="100" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EMxXq2YWqxXCk6TcJ9qh-23" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="179.5" y="125.5" width="10" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="EMxXq2YWqxXCk6TcJ9qh-24" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="167" y="100" width="10" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="EMxXq2YWqxXCk6TcJ9qh-25" value="14cm" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="217" y="140" width="20" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="EMxXq2YWqxXCk6TcJ9qh-26" value="59cm" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="160" y="86.5" width="20" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="EMxXq2YWqxXCk6TcJ9qh-27" value="3cm" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="169.5" y="94.5" width="20" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="EMxXq2YWqxXCk6TcJ9qh-28" value="47cm" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="154" y="146" width="20" height="5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
