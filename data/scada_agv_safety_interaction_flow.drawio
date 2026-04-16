@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Codex drawio-diagrams-enhanced">
   <diagram id="scada-agv-flow" name="SCADA-AGV交互流程">
-    <mxGraphModel dx="1493" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1813" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
