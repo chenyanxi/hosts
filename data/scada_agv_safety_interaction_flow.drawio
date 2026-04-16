@@ -1,0 +1,173 @@
+<mxfile host="app.diagrams.net" agent="Codex drawio-diagrams-enhanced">
+  <diagram id="scada-agv-flow" name="SCADA-AGV交互流程">
+    <mxGraphModel dx="1493" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#0F172A;" value="AGV系统协议交互流程图" vertex="1">
+          <mxGeometry height="30" width="360" x="40" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontColor=#475569;" value="场景：SCADA 一次性下发整任务给 AGV；自动取盖机、配料、混合、自动加盖机、卸料站执行安全交互与完成反馈" vertex="1">
+          <mxGeometry height="20" width="1100" x="40" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#93C5FD;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="190" width="3440" x="40" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#94A3B8;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="300" width="3440" x="40" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#FFFBEB;strokeColor=#F59E0B;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="250" width="3440" x="40" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#2563EB;strokeColor=#1D4ED8;strokeWidth=1.5;fontColor=#FFFFFF;fontSize=15;fontStyle=1;" value="SCADA 上层系统" vertex="1">
+          <mxGeometry height="50" width="180" x="60" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#0F172A;strokeColor=#020617;strokeWidth=1.5;fontColor=#FFFFFF;fontSize=15;fontStyle=1;" value="AGV 系统" vertex="1">
+          <mxGeometry height="50" width="180" x="60" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="15" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#D97706;strokeColor=#B45309;strokeWidth=1.5;fontColor=#FFFFFF;fontSize=15;fontStyle=1;" value="PLC / 现场设备安全互锁" vertex="1">
+          <mxGeometry height="50" width="220" x="60" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="20" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FFFFFF;strokeColor=#60A5FA;strokeWidth=1.5;fontColor=#0F172A;fontSize=13;" value="开机前一次性确定参数&#xa;存罐区坐标 / 起点坐标&#xa;自动取盖机、自动加盖机&#xa;配料口1-9、混合机1-3、卸料机1-6" vertex="1">
+          <mxGeometry height="120" width="290" x="360" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="21" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#DBEAFE;strokeColor=#2563EB;strokeWidth=1.5;fontColor=#0F172A;fontSize=13;fontStyle=1;" value="SCADA 一次性下发整任务&#xa;任务号 / 罐位&#xa;配料口1-9(多个)&#xa;混合机1-3(其中1个) / 卸料机1-6(其中1个)" vertex="1">
+          <mxGeometry height="140" width="320" x="720" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="22" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FFFFFF;strokeColor=#60A5FA;strokeWidth=1.5;fontColor=#0F172A;fontSize=13;" value="SCADA 通过标准协议获取状态&#xa;任务开始 / 任务结束 / 异常" vertex="1">
+          <mxGeometry height="90" width="260" x="1110" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="30" parent="1" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;strokeWidth=1.5;fontColor=#0F172A;fontSize=14;fontStyle=1;" value="空闲 / 可接单" vertex="1">
+          <mxGeometry height="70" width="170" x="340" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="31" parent="1" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=#64748B;strokeWidth=1.5;fontColor=#0F172A;fontSize=13;" value="任务开始&#xa;存罐区取空罐" vertex="1">
+          <mxGeometry height="70" width="170" x="580" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="32" parent="1" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#2563EB;strokeWidth=1.5;fontColor=#0F172A;fontSize=13;" value="自动取盖机&#xa;放罐到设备上&#xa;AGV 退出设备等待信号&#xa;再进入设备取走罐子" vertex="1">
+          <mxGeometry height="120" width="220" x="820" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="33" parent="1" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#2563EB;strokeWidth=1.5;fontColor=#0F172A;fontSize=13;" value="配料&#xa;前往指定配料口&#xa;AGV 带罐在设备下等待&#xa;配料完成后离开" vertex="1">
+          <mxGeometry height="120" width="220" x="1110" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="34" parent="1" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#2563EB;strokeWidth=1.5;fontColor=#0F172A;fontSize=13;" value="翻转混合机&#xa;前往指定混合机&#xa;放入后在外等待约10-15分钟&#xa;完成后取出" vertex="1">
+          <mxGeometry height="120" width="230" x="1400" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="35" parent="1" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#2563EB;strokeWidth=1.5;fontColor=#0F172A;fontSize=13;" value="自动加盖机&#xa;放罐到设备上&#xa;AGV 退出设备等待信号&#xa;再进入设备取走罐子" vertex="1">
+          <mxGeometry height="120" width="220" x="1700" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="36" parent="1" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#2563EB;strokeWidth=1.5;fontColor=#0F172A;fontSize=13;" value="卸料站&#xa;前往指定卸料机&#xa;放罐后在外等待&#xa;完成后取走" vertex="1">
+          <mxGeometry height="120" width="220" x="1990" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="37" parent="1" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=#64748B;strokeWidth=1.5;fontColor=#0F172A;fontSize=13;" value="回库存罐区&#xa;回到起点" vertex="1">
+          <mxGeometry height="70" width="180" x="2280" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="38" parent="1" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#DC2626;strokeWidth=1.5;fontColor=#0F172A;fontSize=14;fontStyle=1;" value="任务结束 / 异常反馈" vertex="1">
+          <mxGeometry height="70" width="200" x="2530" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="40" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;strokeWidth=1.5;fontColor=#0F172A;fontSize=12;" value="自动取盖机互锁&#xa;允许进站 / 取盖完成" vertex="1">
+          <mxGeometry height="90" width="150" x="855" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="41" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;strokeWidth=1.5;fontColor=#0F172A;fontSize=12;" value="配料机互锁&#xa;允许下料 / 配料完成" vertex="1">
+          <mxGeometry height="90" width="150" x="1145" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="42" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;strokeWidth=1.5;fontColor=#0F172A;fontSize=12;" value="翻转混合机互锁&#xa;允许混合 / 混合完成" vertex="1">
+          <mxGeometry height="90" width="150" x="1440" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="43" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;strokeWidth=1.5;fontColor=#0F172A;fontSize=12;" value="自动加盖机互锁&#xa;允许进站 / 加盖完成" vertex="1">
+          <mxGeometry height="90" width="150" x="1735" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="44" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;strokeWidth=1.5;fontColor=#0F172A;fontSize=12;" value="卸料机互锁&#xa;允许卸料 / 卸料完成" vertex="1">
+          <mxGeometry height="90" width="150" x="2025" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="50" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FFFFFF;strokeColor=#94A3B8;strokeWidth=1.5;fontColor=#0F172A;fontSize=13;" value="协议说明&#xa;1. 任务由 SCADA 一次性下发给 AGV，不在各工位重复派工；配料口1-9会下发多个，混合机1-3和卸料机1-6各下发其中1个站点。&#xa;2. 自动取盖机、配料、混合、自动加盖机、卸料五站均需要安全交互。&#xa;3. AGV 对外建议提供：任务开始、任务结束、异常状态。&#xa;4. 坐标和站点编号由 SCADA/上位系统在开机前确认。&#xa;5. 回库存罐区即回到起点。" vertex="1">
+          <mxGeometry height="260" width="620" x="2810" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="60" edge="1" parent="1" source="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2563EB;strokeWidth=2;endArrow=block;endFill=1;" target="21" value="参数准备">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="61" edge="1" parent="1" source="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2563EB;strokeWidth=2;endArrow=block;endFill=1;" target="30" value="整任务下发">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="260" />
+              <mxPoint x="425" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="62" edge="1" parent="1" source="30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0F172A;strokeWidth=2;endArrow=block;endFill=1;" target="31" value="接单启动">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="63" edge="1" parent="1" source="31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0F172A;strokeWidth=2;endArrow=block;endFill=1;" target="32" value="前往自动取盖机">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64" edge="1" parent="1" source="32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0F172A;strokeWidth=2;endArrow=block;endFill=1;" target="33" value="进入配料">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65" edge="1" parent="1" source="33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0F172A;strokeWidth=2;endArrow=block;endFill=1;" target="34" value="进入混合">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="66" edge="1" parent="1" source="34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0F172A;strokeWidth=2;endArrow=block;endFill=1;" target="35" value="进入自动加盖">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67" edge="1" parent="1" source="35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0F172A;strokeWidth=2;endArrow=block;endFill=1;" target="36" value="进入卸料">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="68" edge="1" parent="1" source="36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0F172A;strokeWidth=2;endArrow=block;endFill=1;" target="37" value="回到起点">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="69" edge="1" parent="1" source="37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0F172A;strokeWidth=2;endArrow=block;endFill=1;" target="38" value="结束反馈">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="70" edge="1" parent="1" source="31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748B;strokeWidth=1.5;endArrow=open;endFill=0;dashed=1;dashPattern=6 4;" target="22" value="标准协议: 任务开始">
+          <mxGeometry relative="1" x="-0.1155" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="665" y="350" />
+              <mxPoint x="1240" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="71" edge="1" parent="1" source="38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748B;strokeWidth=1.5;endArrow=open;endFill=0;dashed=1;dashPattern=6 4;" target="22" value="标准协议: 任务结束 / 异常">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2630" y="350" />
+              <mxPoint x="1240" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72" edge="1" parent="1" source="32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#D97706;strokeWidth=1.5;endArrow=open;endFill=0;dashed=1;dashPattern=4 4;" target="40" value="到位 / 请求进站">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="73" edge="1" parent="1" source="40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#D97706;strokeWidth=1.5;endArrow=open;endFill=0;dashed=1;dashPattern=4 4;" target="32" value="安全允许 / 取盖完成">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="74" edge="1" parent="1" source="33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#D97706;strokeWidth=1.5;endArrow=open;endFill=0;dashed=1;dashPattern=4 4;" target="41" value="到位 / 请求下料">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="75" edge="1" parent="1" source="41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#D97706;strokeWidth=1.5;endArrow=open;endFill=0;dashed=1;dashPattern=4 4;" target="33" value="允许下料 / 配料完成">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="76" edge="1" parent="1" source="34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#D97706;strokeWidth=1.5;endArrow=open;endFill=0;dashed=1;dashPattern=4 4;" target="42" value="到位 / 请求混合">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="77" edge="1" parent="1" source="42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#D97706;strokeWidth=1.5;endArrow=open;endFill=0;dashed=1;dashPattern=4 4;" target="34" value="允许混合 / 混合完成">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="78" edge="1" parent="1" source="35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#D97706;strokeWidth=1.5;endArrow=open;endFill=0;dashed=1;dashPattern=4 4;" target="43" value="到位 / 请求进站">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79" edge="1" parent="1" source="43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#D97706;strokeWidth=1.5;endArrow=open;endFill=0;dashed=1;dashPattern=4 4;" target="35" value="安全允许 / 加盖完成">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="80" edge="1" parent="1" source="36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#D97706;strokeWidth=1.5;endArrow=open;endFill=0;dashed=1;dashPattern=4 4;" target="44" value="到位 / 请求卸料">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="81" edge="1" parent="1" source="44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#D97706;strokeWidth=1.5;endArrow=open;endFill=0;dashed=1;dashPattern=4 4;" target="36" value="允许卸料 / 卸料完成">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82" edge="1" parent="1" source="38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#94A3B8;strokeWidth=1.2;endArrow=open;endFill=0;dashed=1;dashPattern=2 2;" target="50" value="协议说明">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
