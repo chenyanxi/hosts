@@ -1,0 +1,441 @@
+<mxfile host="app.diagrams.net" agent="Codex">
+  <diagram id="hkc-main-spine" name="主线清晰版">
+    <mxGraphModel dx="3173" dy="-1885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3308" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-499" parent="1" style="text;html=1;fontSize=24;fontStyle=1;align=center;verticalAlign=middle;" value="北海惠科 M3 自动合箱一体机｜完整业务流程图" vertex="1">
+          <mxGeometry height="50" width="2160" x="2186.4287109375005" y="3792.4286411830362" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-500" parent="1" style="swimlane;horizontal=1;startSize=44;html=1;rounded=0;fontStyle=1;fontSize=15;fillColor=#dbeafe;strokeColor=#2563eb;align=center;verticalAlign=middle;" value="客户 MES&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;任务/箱源/账流/校验&lt;/span&gt;" vertex="1">
+          <mxGeometry height="2090" width="390" x="2186.4287109375005" y="3862.4286411830362" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-501" parent="1" style="swimlane;horizontal=1;startSize=44;html=1;rounded=0;fontStyle=1;fontSize=15;fillColor=#dbeafe;strokeColor=#2563eb;align=center;verticalAlign=middle;" value="客户 MCS / AGV&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;客户负责调度&lt;/span&gt;" vertex="1">
+          <mxGeometry height="2090" width="390" x="2576.4287109375005" y="3862.4286411830362" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-502" parent="1" style="swimlane;horizontal=1;startSize=44;html=1;rounded=0;fontStyle=1;fontSize=15;fillColor=#dbeafe;strokeColor=#2563eb;align=center;verticalAlign=middle;" value="设备上位机&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;申请/判断/状态机/追溯&lt;/span&gt;" vertex="1">
+          <mxGeometry height="2090" width="450" x="2966.4287109375005" y="3862.4286411830362" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-503" parent="1" style="swimlane;horizontal=1;startSize=44;html=1;rounded=0;fontStyle=1;fontSize=15;fillColor=#dbeafe;strokeColor=#2563eb;align=center;verticalAlign=middle;" value="PLC / 视觉 / 机器人&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;控制/识别/抓取/防错&lt;/span&gt;" vertex="1">
+          <mxGeometry height="2090" width="450" x="3416.4287109375005" y="3862.4286411830362" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-504" parent="1" style="swimlane;horizontal=1;startSize=44;html=1;rounded=0;fontStyle=1;fontSize=15;fillColor=#dbeafe;strokeColor=#2563eb;align=center;verticalAlign=middle;" value="输送 / 称重 / 码垛&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;箱物流与最终去向&lt;/span&gt;" vertex="1">
+          <mxGeometry height="2090" width="480" x="3866.4287109375005" y="3862.4286411830362" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-505" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#e5e7eb;strokeColor=#9ca3af;" value="" vertex="1">
+          <mxGeometry height="34" width="2160" x="2186.4287109375005" y="3942.4286411830362" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-506" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#e5e7eb;strokeColor=#9ca3af;" value="" vertex="1">
+          <mxGeometry height="34" width="2160" x="2186.4287109375005" y="4242.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-507" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#e5e7eb;strokeColor=#9ca3af;" value="" vertex="1">
+          <mxGeometry height="34" width="2160" x="2186.4287109375005" y="4612.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-508" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#e5e7eb;strokeColor=#9ca3af;" value="" vertex="1">
+          <mxGeometry height="34" width="2160" x="2186.4287109375005" y="5032.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-509" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#e5e7eb;strokeColor=#9ca3af;" value="" vertex="1">
+          <mxGeometry height="34" width="2160" x="2186.4287109375005" y="5292.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-510" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f5f3ff;strokeColor=#7c3aed;strokeWidth=2;" value="MES下发当前生产产品&lt;br&gt;任务号/型号/等级/Type" vertex="1">
+          <mxGeometry height="62" width="235" x="2261.4287109375005" y="3997.4286411830362" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-511" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#eff6ff;strokeColor=#2563eb;strokeWidth=2;" value="获取并锁定当前产品&lt;br&gt;锁定Recipe版本&lt;br&gt;&lt;b&gt;同一时刻只生产一种产品&lt;/b&gt;" vertex="1">
+          <mxGeometry height="72" width="250" x="3066.4287109375005" y="3997.4286411830362" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-512" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fff7ed;strokeColor=#f97316;strokeWidth=2;" value="向MES请求叫料&lt;br&gt;&lt;b&gt;首次请求两箱&lt;/b&gt;" vertex="1">
+          <mxGeometry height="62" width="250" x="3066.4287109375005" y="4107.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-513" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f5f3ff;strokeColor=#7c3aed;strokeWidth=2;" value="MES分配两箱&lt;br&gt;箱号/库位/预计信息" vertex="1">
+          <mxGeometry height="62" width="235" x="2261.4287109375005" y="4107.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-514" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f5f3ff;strokeColor=#7c3aed;strokeWidth=2;" value="MCS创建两箱送料任务&lt;br&gt;调度AGV/CTU取箱" vertex="1">
+          <mxGeometry height="62" width="230" x="2661.4287109375005" y="4152.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-515" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fef2f2;strokeColor=#dc2626;strokeWidth=2;" value="换型互锁：必须结束并清空当前任务，禁止混产" vertex="1">
+          <mxGeometry height="45" width="250" x="3066.4287109375005" y="4182.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-516" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-510" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#f97316;endArrow=block;endFill=1;dashed=1;dashPattern=8 5;" target="bVvTw0cpX0oWkARZSMpk-511" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-517" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-511" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#2563eb;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-512" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-518" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-512" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#f97316;endArrow=block;endFill=1;dashed=1;dashPattern=8 5;" target="bVvTw0cpX0oWkARZSMpk-513" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2781.43" y="4140" />
+              <mxPoint x="2781.43" y="4090" />
+              <mxPoint x="2378.86" y="4090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-519" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-513" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#7c3aed;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-514" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2600" y="4138.43" />
+              <mxPoint x="2600" y="4183.43" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-520" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f5f3ff;strokeColor=#7c3aed;strokeWidth=2;" value="AGV依次送第1箱/第2箱&lt;br&gt;到接料口完成握手" vertex="1">
+          <mxGeometry height="62" width="230" x="2661.4287109375005" y="4302.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-521" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#eff6ff;strokeColor=#2563eb;strokeWidth=2;" value="接料口检测料箱到位&lt;br&gt;允许/占位/挡停/居中" vertex="1">
+          <mxGeometry height="62" width="245" x="3981.4287109375005" y="4302.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-522" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#eff6ff;strokeColor=#2563eb;strokeWidth=2;" value="BOX扫码&lt;br&gt;读码失败→停止并报警" vertex="1">
+          <mxGeometry height="62" width="230" x="3526.4287109375005" y="4382.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-523" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fff7ed;strokeColor=#f97316;strokeWidth=2;" value="上位机以BOX ID&lt;br&gt;再次向MES核对料箱" vertex="1">
+          <mxGeometry height="62" width="230" x="3076.4287109375005" y="4382.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-524" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f5f3ff;strokeColor=#7c3aed;strokeWidth=2;" value="MES返回详细信息&lt;br&gt;产品/等级/Type/数量&lt;br&gt;箱规/库位/箱状态" vertex="1">
+          <mxGeometry height="78" width="235" x="2261.4287109375005" y="4372.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-525" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fffbeb;strokeColor=#f59e0b;strokeWidth=2;" value="属于当前生产产品&lt;br&gt;且数据有效？" vertex="1">
+          <mxGeometry height="90" width="190" x="3096.4287109375005" y="4487.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-526" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fef2f2;strokeColor=#dc2626;strokeWidth=2;" value="NO：隔离/报警&lt;br&gt;禁止进入A/B/C&lt;br&gt;人工处理" vertex="1">
+          <mxGeometry height="70" width="230" x="3526.4287109375005" y="4497.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-527" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fffbeb;strokeColor=#f59e0b;strokeWidth=2;" value="首次两箱均完成核验？" vertex="1">
+          <mxGeometry height="75" width="190" x="3096.4287109375005" y="4662.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-529" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-520" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#2563eb;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-521" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-530" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-521" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#2563eb;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-522" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4103.86" y="4370" />
+              <mxPoint x="3641.43" y="4370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-531" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-522" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#2563eb;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-523" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-532" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-523" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#f97316;endArrow=block;endFill=1;dashed=1;dashPattern=8 5;" target="bVvTw0cpX0oWkARZSMpk-524" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-533" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-524" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#f97316;endArrow=block;endFill=1;dashed=1;dashPattern=8 5;" target="bVvTw0cpX0oWkARZSMpk-525" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2378.86" y="4460" />
+              <mxPoint x="3191.43" y="4460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-534" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-525" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#dc2626;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-526" value="NO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-535" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-525" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#16a34a;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-527" value="YES">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-536" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-527" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#dc2626;endArrow=block;endFill=1;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="bVvTw0cpX0oWkARZSMpk-520" value="NO：等待第2箱">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-537" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f0fdf4;strokeColor=#16a34a;strokeWidth=2;" value="比较两箱当前数量&lt;br&gt;&lt;b&gt;少量箱=拆箱源箱&lt;/b&gt;&lt;br&gt;&lt;b&gt;多量箱=码放目标箱&lt;/b&gt;" vertex="1">
+          <mxGeometry height="82" width="250" x="3066.4287109375005" y="4752.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-538" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#eff6ff;strokeColor=#2563eb;strokeWidth=2;" value="A 合箱位&lt;br&gt;源箱或目标箱&lt;br&gt;角色动态分配" vertex="1">
+          <mxGeometry height="78" width="170" x="3926.4287109375005" y="4677.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-539" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#eff6ff;strokeColor=#2563eb;strokeWidth=2;" value="B 合箱位&lt;br&gt;源箱或目标箱&lt;br&gt;角色动态分配" vertex="1">
+          <mxGeometry height="78" width="170" x="4126.4287109375" y="4677.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-540" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fff7ed;strokeColor=#f97316;strokeWidth=2;" value="C 过渡位：等待/换位&lt;br&gt;不执行拆箱或码放" vertex="1">
+          <mxGeometry height="55" width="270" x="3976.4287109375005" y="4782.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-541" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#eff6ff;strokeColor=#2563eb;strokeWidth=2;" value="顶部视觉识别来料&lt;br&gt;泡棉↔玻璃屏+PCB&lt;br&gt;破片检测/PCB读码" vertex="1">
+          <mxGeometry height="78" width="230" x="3526.4287109375005" y="4777.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-542" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#eff6ff;strokeColor=#2563eb;strokeWidth=2;" value="机器人从少量源箱拆取&lt;br&gt;真空与负载监控" vertex="1">
+          <mxGeometry height="62" width="230" x="3526.4287109375005" y="4882.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-543" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#eff6ff;strokeColor=#2563eb;strokeWidth=2;" value="下相机精定位&lt;br&gt;X/Y/θ坐标补偿" vertex="1">
+          <mxGeometry height="62" width="230" x="3526.4287109375005" y="4962.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-544" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f0fdf4;strokeColor=#16a34a;strokeWidth=2;" value="码放到多量目标箱&lt;br&gt;按Recipe交替顺序防错" vertex="1">
+          <mxGeometry height="62" width="245" x="3981.4287109375005" y="4962.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-545" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fff7ed;strokeColor=#f97316;strokeWidth=2;" value="更新箱状态与逐片账流&lt;br&gt;BOX ID↔PCB ID/当前数量" vertex="1">
+          <mxGeometry height="62" width="230" x="3076.4287109375005" y="4938.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-546" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f5f3ff;strokeColor=#7c3aed;strokeWidth=2;" value="MES逐片确认&lt;br&gt;防重/账流/数量更新" vertex="1">
+          <mxGeometry height="62" width="235" x="2261.4287109375005" y="4962.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-548" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-527" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#16a34a;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-537" value="YES">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-549" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-537" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#2563eb;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-538" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3450" y="4793.43" />
+              <mxPoint x="3450" y="4690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-550" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-537" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#2563eb;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-539" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3480" y="4793.43" />
+              <mxPoint x="3480" y="4660" />
+              <mxPoint x="4211.43" y="4660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-551" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-538" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#2563eb;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-541" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-552" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-539" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#2563eb;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-541" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4211.43" y="4770" />
+              <mxPoint x="3800" y="4770" />
+              <mxPoint x="3800" y="4816.43" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-553" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-541" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#2563eb;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-542" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-554" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-542" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#2563eb;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-543" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-555" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-543" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#2563eb;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-544" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-556" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-544" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#f97316;endArrow=block;endFill=1;dashed=1;dashPattern=8 5;" target="bVvTw0cpX0oWkARZSMpk-545" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-557" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-545" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#f97316;endArrow=block;endFill=1;dashed=1;dashPattern=8 5;" target="bVvTw0cpX0oWkARZSMpk-546" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-558" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-546" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#f97316;endArrow=block;endFill=1;dashed=1;dashPattern=8 5;" target="bVvTw0cpX0oWkARZSMpk-547" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3191.43" y="5020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-559" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-547" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#dc2626;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="bVvTw0cpX0oWkARZSMpk-541" value="NO：继续逐片合箱">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-560" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#eff6ff;strokeColor=#2563eb;strokeWidth=2;" value="退出A/B&lt;br&gt;目标满箱 或 源箱空箱" vertex="1">
+          <mxGeometry height="62" width="245" x="3981.4287109375005" y="5087.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-561" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fff7ed;strokeColor=#f97316;strokeWidth=2;" value="任一箱退出后&lt;br&gt;上位机向MES补叫1箱" vertex="1">
+          <mxGeometry height="62" width="230" x="3076.4287109375005" y="5193.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-562" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f5f3ff;strokeColor=#7c3aed;strokeWidth=2;" value="MES返回下一箱&lt;br&gt;或“合箱完成”" vertex="1">
+          <mxGeometry height="62" width="235" x="2261.4287109375005" y="5087.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-563" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fffbeb;strokeColor=#f59e0b;strokeWidth=2;" value="MES返回合箱完成？&lt;br&gt;（整批任务结束信号）" vertex="1">
+          <mxGeometry height="82" width="190" x="3096.4287109375005" y="5337.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-564" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f5f3ff;strokeColor=#7c3aed;strokeWidth=2;" value="NO：MCS调度AGV&lt;br&gt;下一箱经接料口/C位&lt;br&gt;补入空出的A/B位" vertex="1">
+          <mxGeometry height="78" width="230" x="2661.4287109375005" y="5167.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-565" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fff7ed;strokeColor=#f97316;strokeWidth=2;" value="YES：停止申请新箱&lt;br&gt;清理A/B/C剩余箱" vertex="1">
+          <mxGeometry height="62" width="230" x="3076.4287109375005" y="5437.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-566" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-547" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#16a34a;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-560" value="YES">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3310" y="5096.43" />
+              <mxPoint x="3310" y="5140" />
+              <mxPoint x="3633.86" y="5140" />
+              <mxPoint x="3633.86" y="5118.43" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-567" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-560" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#f97316;endArrow=block;endFill=1;dashed=1;dashPattern=8 5;" target="bVvTw0cpX0oWkARZSMpk-561" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4103.86" y="5170" />
+              <mxPoint x="3191.43" y="5170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-568" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-561" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#f97316;endArrow=block;endFill=1;dashed=1;dashPattern=8 5;" target="bVvTw0cpX0oWkARZSMpk-562" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3040" y="5224.43" />
+              <mxPoint x="3040" y="5118.43" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-569" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-562" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#f97316;endArrow=block;endFill=1;dashed=1;dashPattern=8 5;" target="bVvTw0cpX0oWkARZSMpk-563" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2378.86" y="5270" />
+              <mxPoint x="3191.43" y="5270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-570" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-563" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#dc2626;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-564" value="NO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-571" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-564" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#7c3aed;endArrow=block;endFill=1;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="bVvTw0cpX0oWkARZSMpk-520" value="补箱循环">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-572" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-563" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#16a34a;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-565" value="YES">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-573" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fffbeb;strokeColor=#f59e0b;strokeWidth=2;" value="退出/剩余箱状态？&lt;br&gt;满箱 / 空箱 / 散箱" vertex="1">
+          <mxGeometry height="88" width="190" x="3096.4287109375005" y="5521.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-574" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#eff6ff;strokeColor=#2563eb;strokeWidth=2;" value="满箱 → 称重工位&lt;br&gt;上传重量并请求MES Check" vertex="1">
+          <mxGeometry height="62" width="245" x="3981.4287109375005" y="5347.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-575" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fffbeb;strokeColor=#f59e0b;strokeWidth=2;" value="重量合格？&lt;br&gt;MES判定" vertex="1">
+          <mxGeometry height="78" width="190" x="4006.4287109375005" y="5437.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-576" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f0fdf4;strokeColor=#16a34a;strokeWidth=2;" value="码垛至满箱托盘&lt;br&gt;重量OK" vertex="1">
+          <mxGeometry height="58" width="190" x="3896.4287109375005" y="5532.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-577" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fef2f2;strokeColor=#dc2626;strokeWidth=2;" value="码垛至异常托盘&lt;br&gt;重量NG/账流锁定" vertex="1">
+          <mxGeometry height="58" width="190" x="4116.4287109375" y="5532.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-578" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#eff6ff;strokeColor=#2563eb;strokeWidth=2;" value="空箱经过称重工位&lt;br&gt;不做满箱重量判定" vertex="1">
+          <mxGeometry height="62" width="230" x="3526.4287109375005" y="5347.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-579" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f0fdf4;strokeColor=#16a34a;strokeWidth=2;" value="码垛至空箱托盘&lt;br&gt;独立堆垛" vertex="1">
+          <mxGeometry height="58" width="230" x="3526.4287109375005" y="5459.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-580" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#eff6ff;strokeColor=#2563eb;strokeWidth=2;" value="散箱：仍有料但未满&lt;br&gt;保留完整账流" vertex="1">
+          <mxGeometry height="62" width="230" x="2661.4287109375005" y="5347.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-581" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f0fdf4;strokeColor=#16a34a;strokeWidth=2;" value="MCS调度AGV/CTU&lt;br&gt;回原料架/库位" vertex="1">
+          <mxGeometry height="58" width="230" x="2661.4287109375005" y="5532.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-582" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f5f3ff;strokeColor=#7c3aed;strokeWidth=2;" value="MES更新库存与位置&lt;br&gt;散箱回库完成" vertex="1">
+          <mxGeometry height="58" width="235" x="2261.4287109375005" y="5532.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-583" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-565" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#16a34a;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-573" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-584" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-573" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#2563eb;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-574" value="满箱">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3880" y="5565.43" />
+              <mxPoint x="3880" y="5378.43" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-585" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-573" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#2563eb;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-578" value="空箱">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3450" y="5565.43" />
+              <mxPoint x="3450" y="5378.43" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-586" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-573" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#7c3aed;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-580" value="散箱">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3090" y="5565.43" />
+              <mxPoint x="3090" y="5510" />
+              <mxPoint x="2810" y="5510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-587" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-574" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#2563eb;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-575" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-588" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-575" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#16a34a;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-576" value="YES">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4101.4" y="5520.03" />
+              <mxPoint x="3991.4" y="5520.03" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-589" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-575" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#dc2626;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-577" value="NO">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4101.4" y="5520.03" />
+              <mxPoint x="4211.4" y="5520.03" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-590" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-578" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#2563eb;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-579" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-591" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-580" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#7c3aed;endArrow=block;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2776.43" y="5532.43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-592" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-581" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#7c3aed;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-582" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-593" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f5f3ff;strokeColor=#7c3aed;strokeWidth=2;" value="设备上报 Port Ready / 托盘类型 / 数量；客户MCS调度AGV取走；设备执行到位与完成握手" vertex="1">
+          <mxGeometry height="48" width="1770" x="2576.4287109375005" y="5617.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-594" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-576" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#7c3aed;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-593" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3991.4" y="5610.4" />
+              <mxPoint x="3461.4" y="5610.4" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-595" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-577" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#7c3aed;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-593" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4211.4" y="5597.4" />
+              <mxPoint x="3461.4" y="5597.4" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-596" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-579" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#7c3aed;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-593" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3641.43" y="5580" />
+              <mxPoint x="3461.43" y="5580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-597" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fef2f2;strokeColor=#dc2626;strokeWidth=2;" value="异常总线：读码失败｜MES超时/断线｜产品不一致｜视觉NG｜破片/无码/重码｜机器人/真空异常｜称重NG｜安全门/光栅/急停" vertex="1">
+          <mxGeometry height="50" width="2160" x="2186.4287109375005" y="5692.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-598" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fef2f2;strokeColor=#dc2626;strokeWidth=2;" value="设备保持安全状态 → 声光报警/GOT指引 → 权限确认 → 人工处理 → 条件复核 → 从中断点恢复（安全回路不可By Pass）" vertex="1">
+          <mxGeometry height="50" width="2160" x="2186.4287109375005" y="5762.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-599" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f5f3ff;strokeColor=#7c3aed;strokeWidth=2;" value="上位机追溯：当前产品｜Recipe版本｜A/B/C箱状态｜BOX/PCB逐片账流｜MES请求/应答｜称重与托盘去向｜报警/操作/恢复日志｜MCBF/MTTR" vertex="1">
+          <mxGeometry height="50" width="2160" x="2186.4287109375005" y="5832.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-600" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-597" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#dc2626;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-598" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-601" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-598" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#dc2626;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-599" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-602" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Segoe UI;fontSize=14;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;" value="① 生产启动与首次叫料（首次请求两箱）" vertex="1">
+          <mxGeometry height="34" width="2160" x="2186.4287109375005" y="3942.4286411830362" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-603" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Segoe UI;fontSize=14;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;" value="② AGV送料、接料、扫码及MES二次核验" vertex="1">
+          <mxGeometry height="34" width="2160" x="2186.4287109375005" y="4242.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-604" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Segoe UI;fontSize=14;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;" value="③ A/B/C 合箱循环（少量箱拆 → 多量箱码放）" vertex="1">
+          <mxGeometry height="34" width="2160" x="2186.4287109375005" y="4612.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-605" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Segoe UI;fontSize=14;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;" value="④ 箱退出、自动补箱、MES任务完成" vertex="1">
+          <mxGeometry height="34" width="2160" x="2186.4287109375005" y="5032.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-606" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Segoe UI;fontSize=14;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;" value="⑤ 满箱 / 称重异常 / 空箱 / 散箱最终分流" vertex="1">
+          <mxGeometry height="34" width="2160" x="2186.4287109375005" y="5292.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-528" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-514" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#7c3aed;endArrow=block;endFill=1;" target="bVvTw0cpX0oWkARZSMpk-520" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-547" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fffbeb;strokeColor=#f59e0b;strokeWidth=2;" value="目标满箱或源箱空？" vertex="1">
+          <mxGeometry height="78" width="190" x="3096.4287109375005" y="5080.428641183036" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
