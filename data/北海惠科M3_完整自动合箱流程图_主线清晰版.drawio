@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Codex">
   <diagram id="hkc-main-spine" name="主线清晰版">
-    <mxGraphModel dx="5076" dy="-1032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3308" math="0" shadow="0">
+    <mxGraphModel dx="2115" dy="-2360" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3308" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -208,17 +208,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bVvTw0cpX0oWkARZSMpk-556" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-544" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#f97316;endArrow=block;endFill=1;dashed=1;dashPattern=8 5;" target="bVvTw0cpX0oWkARZSMpk-545" value="">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4103.9" y="5030" />
+              <mxPoint x="3510" y="5030" />
+              <mxPoint x="3510" y="4969.4" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="bVvTw0cpX0oWkARZSMpk-557" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-545" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#f97316;endArrow=block;endFill=1;dashed=1;dashPattern=8 5;" target="bVvTw0cpX0oWkARZSMpk-546" value="">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bVvTw0cpX0oWkARZSMpk-558" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-546" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#f97316;endArrow=block;endFill=1;dashed=1;dashPattern=8 5;" target="bVvTw0cpX0oWkARZSMpk-547" value="">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="3191.43" y="5020" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="bVvTw0cpX0oWkARZSMpk-559" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-547" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#dc2626;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="bVvTw0cpX0oWkARZSMpk-541" value="NO：继续逐片合箱">
           <mxGeometry relative="1" as="geometry" />
@@ -434,6 +433,13 @@
         </mxCell>
         <mxCell id="bVvTw0cpX0oWkARZSMpk-547" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fffbeb;strokeColor=#f59e0b;strokeWidth=2;" value="目标满箱或源箱空？" vertex="1">
           <mxGeometry height="78" width="190" x="3096.4287109375005" y="5080.428641183036" as="geometry" />
+        </mxCell>
+        <mxCell id="bVvTw0cpX0oWkARZSMpk-558" edge="1" parent="1" source="bVvTw0cpX0oWkARZSMpk-546" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#f97316;endArrow=block;endFill=1;dashed=1;dashPattern=8 5;" target="bVvTw0cpX0oWkARZSMpk-547" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3191.43" y="5020" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
